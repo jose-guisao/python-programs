@@ -1,0 +1,29 @@
+for table in range(1,len(driver.find_elements_by_xpath("//*[@id='table-1']/table"))+1):
+    table_xpath = "//*[@id='table-1']/table["+str(table)+"]"
+    print(table_xpath)
+    row_xpath = table_xpath + "/tbody/tr[" + str(table) + "]"
+    col_xpath = row_xpath + "/td"
+    if len(driver.find_elements_by_xpath(cow_xpath)) == 1:
+        continue
+    print(len(driver.find_elements_by_xpath(col_xpath)))
+    for col in range(1, len(driver.find_elements_by_xpath(col_xpath))):
+        col_xpath = col_xpath1  + "[" + str(col) + "]"
+        print(col_xpath)
+
+## imprime la cantidad de rows y columnas por tabla
+for table in range(1,len(driver.find_elements_by_xpath("//*[@id='table-1']/table"))+1):
+	table_xpath = "//*[@id='table-1']/table["+str(table)+"]"
+	row_xpath = table_xpath + "/tbody/tr"
+	col_xpath = row_xpath + "/td" ### retorna el total de celdas por tabla
+	print("table no.: ",table,len(driver.find_elements_by_xpath(row_xpath)),"",len(driver.find_elements_by_xpath(col_xpath)))
+
+for table in range(1,len(driver.find_elements_by_xpath("//*[@id='table-1']/table"))+1):
+	table_xpath = "//*[@id='table-1']/table["+str(table)+"]"
+	row_xpath = table_xpath + "/tbody/tr"
+	col_xpath = row_xpath + "[1]/td" ###  retorna la cantidad de columnas por tabla
+	print("table no.: ",table,len(driver.find_elements_by_xpath(row_xpath)),"",len(driver.find_elements_by_xpath(col_xpath)))
+##//*[@id="table-1"]/table[4]/tbody/tr[1]/td[1]
+
+## https://medium.com/@winston.smith.spb/python-selenium-speed-scraping-45bda525e42
+## para buscar el total de filas en el container [table-1] , incluye los headers
+driver.find_element_by_xpath("//*[@id='table-1']").find_elements_by_tag_name('tr')

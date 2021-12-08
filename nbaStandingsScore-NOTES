@@ -1,0 +1,33 @@
+XPATH FOR container that includes the two conferences (east and west)
+
+//*[@id="block-league-content"]/standings/section[2]
+//*[@id="block-league-content"]
+
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/h2
+
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div/table
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div/table/thead
+
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div
+//*[@id="block-league-content"]/standings/section[2]
+/nba-table[1]/div/div/table/thead/tr/th[1]
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div/table/tbody
+//*[@id="block-league-content"]/standings/section[2]/nba-table[2]
+
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div/table/tbody/tr[8]/td[5]/span[2]
+//*[@id="block-league-content"]/standings/section[2]
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div/table
+
+
+NBA-STANDINGS
+
+USING Chrome XPATH-HELPER
+//*[@class='conference east']/tbody/tr[1]/td[5] ==> "Conference Record 40  - and 12"
+
+//*[@class='conference east']/thead/tr[1]/th[2] ==> "W Sort by Wins"
+
+USING INSPECT CODE (COPY XPATH)
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div/table/tbody/tr[1]/td[5]
+
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div/table/tbody/tr[1]/td[5]/span[1]

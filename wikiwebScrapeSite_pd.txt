@@ -1,0 +1,64 @@
+                 Country
+0                 Russia
+1        European Russia
+2                   None
+3                  China
+4              Hong Kong
+5                  Macau
+6                  India
+7             Kazakhstan
+8           Saudi Arabia
+9                   Iran
+10              Mongolia
+11             Indonesia
+12              Pakistan
+13                Turkey
+14               Myanmar
+15           Afghanistan
+16                 Yemen
+17              Thailand
+18          Turkmenistan
+19            Uzbekistan
+20                  Iraq
+21                 Japan
+22               Vietnam
+23              Malaysia
+24                  Oman
+25           Philippines
+26                  Laos
+27            Kyrgyzstan
+28                 Syria
+29         Golan Heights
+..                   ...
+35           South Korea
+36                Jordan
+37            Azerbaijan
+38              Caucasus
+39                Europe
+40                  Asia
+41  United Arab Emirates
+42     Georgia (country)
+43              Caucasus
+44                Europe
+45                  Asia
+46             Sri Lanka
+47                Bhutan
+48                Taiwan
+49               Armenia
+50              Caucasus
+51                Europe
+52                  Asia
+53                Israel
+54                Kuwait
+55            East Timor
+56                 Qatar
+57               Lebanon
+58                Cyprus
+59       Northern Cyprus
+60    State of Palestine
+61                Brunei
+62               Bahrain
+63             Singapore
+64              Maldives
+
+[65 rows x 1 columns]

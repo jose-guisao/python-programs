@@ -1,0 +1,83 @@
+tables = bs_obj.findAll('table', attrs={'class':'sortable'}) # todas las tablas
+for i in range(len(tables)):
+	table_rows = tables[i].findAll('tr')
+    for tr in table_rows:
+        td = tr.findAll('td')
+        row = [tr.text for tr in td]
+        print(row)  
+
+l = []
+for tr in table_rows:
+    td = tr.find_all('td')
+    row = [tr.text for tr in td]
+    l.append(row)
+pd.DataFrame(l, columns=["A", "B", ...])
+
+#row = [tr.text.strip() for tr in td if tr.text.strip()]
+#Race/Topic", "Poll", "Results", "Spread"
+==========================================================
+https://www.pythoncentral.io/introduction-to-sqlite-in-python/
+https://likegeeks.com/python-sqlite3-tutorial/
+http://www.sqlitetutorial.net/sqlite-python/create-tables/
+
+# Create a database in RAM
+db = sqlite3.connect(':memory:')
+# Creates or opens a file called mydb with a SQLite3 DB
+db = sqlite3.connect('pollsDataBase.db')
+	
+db.close()
+# Get a cursor object
+cursor = db.cursor()
+cursor.execute('''
+    CREATE TABLE polls(id INTEGER PRIMARY KEY, Date TEXT, Race_Topic TEXT,Poll TEXT, Results TEXT, Spread TEXT)
+''')
+db.commit()
+
+=======
+
+def sql_fetch(db):
+ 
+    cursorObj = db.cursor()
+ 
+    cursorObj.execute('SELECT name from sqlite_master where type= "table"')
+ 
+    print(cursorObj.fetchall())
+ 
+sql_fetch(db)
+
+=============================
+#"insert in table"
+cursorObj.execute("INSERT INTO employees VALUES(1, 'John', 700, 'HR', 'Manager', '2017-01-04')")
+ 
+db.commit()
+
+====================
+convert list to string 
+myList = ['a','b','c','d']
+myString = ",".join(myList )
+myString = "' '".join(row)
+myList = ','.join(map(str, myList))  # ===> si la lista contiene numeros
+
+
+==========================
+import sqlite3
+ 
+db = sqlite3.connect('mydatabase.db')
+ 
+def sql_insert(db, entities):
+ 
+    cursorObj = db.cursor()
+    
+    cursorObj.execute('INSERT INTO employees(id, Date, Race_Topic, Poll, Results, Spread) VALUES(?, ?, ?, ?, ?)', values)
+    
+    db.commit()
+ 
+entities = (2, 'Andrew', 800, 'IT', 'Tech', '2018-02-06')
+ 
+sql_insert(db, entities)
+
+==============
+#convert list to tuple
+l = [4,5,6]
+tuple(l)
+(4, 5, 6)

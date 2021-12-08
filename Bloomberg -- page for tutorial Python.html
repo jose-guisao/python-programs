@@ -1,0 +1,105 @@
+Bloomberg -- page for tutorial Python
+<section class="snapshotOverview__d5769afc  up__a7674eca  ">
+<section class="snapshotSummary__16511a01">
+    <section class="company__c1979f17">
+            <span class="companyId__87e50d5a">SPX:IND</span>
+            <span class="exchange__c62926ba"></span>
+            <div>
+                <h1 class="companyName__99a4824b">S&amp;P 500 Index</h1>
+            </div>
+    </section>
+    <section class="price__c3a38e1d">
+        <section>
+            <div class="overviewRow__0956421f">
+                <span class="priceText__1853e8a5">2,783.30</span>
+                <span class="currency__defc7184">USD</span>
+            </div>
+            <div class="overviewRow__0956421f">
+                <span class="changeAbsolute__395487f7 positive__66b32664">+40.23</span>
+                <span class="changePercent__2d7dc0d2 positive__66b32664">+1.47%</span>
+                <span class="triangle__abc02a0b up__ada1f6eb null"></span>
+            </div>
+        </section>
+    </section>
+</section>
+         <aside class="watchlist__644505a0">
+             <div class="buttons__723c5110">
+                 <button class="buttonAdd__8a5ba01b">
+                     <span>Add to Watchlist</span>
+                 </button>
+             </div>
+             <div class="marketOpen__ca0117a5 closed__684f0b90">
+                 <span>Market Closed</span>
+             </div>
+             <div class="time__cbd9bff9">
+                 <span>As of 03/11/2019 EDT</span>
+             </div>
+         </aside>
+<div class="details__c52efd3d" data-show="true">
+<section class="snapshotDetails__5653d318">
+        <section class="dataBox openprice numeric">
+            <header class="title__49417cb9">
+                <span>Open</span>
+            </header>
+            <div class="value__b93f12ea">2,747.61</div>
+        </section>
+        <section class="dataBox previousclosingpriceonetradingdayago numeric">
+            <header class="title__49417cb9">
+                <span>Prev Close</span>
+            </header>
+            <div class="value__b93f12ea">2,743.07</div>
+        </section>
+        <section class="dataBox totalreturn1year numeric">
+            <header class="title__49417cb9">
+                <span>1 Year Return</span>
+            </header>
+        <div class="value__b93f12ea">1.88%</div>
+        </section>
+        <section class="dataBox totalreturnytd numeric">
+            <header class="title__49417cb9">
+                <span>YTD Return</span>
+            </header>
+            <div class="value__b93f12ea">11.03%</div>
+        </section>
+    <section class="dataBox rangeoneday">
+            <header class="title__eb826814">
+                <span>Day Range</span>
+            </header>
+            <div>
+                <div class="text">
+                    <span class="textLeft">2,747.61</span>-
+                    <span class="textRight">2,784.00</span>
+                </div>
+                <svg width="100" height="20" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0" y1="19" x2="100" y2="19" class="lane__2781b446">
+                    </line>
+                    <circle cx="93.26875515251487" cy="14" r="5">
+                    </circle>
+                </svg>
+            </div
+    </section>
+<section class="dataBox range52weeks">
+            <header class="title__eb826814">
+                <span>52 Week Range</span>
+            </header>
+            <div>
+                <div class="text">
+                    <span class="textLeft">2,346.58</span>-
+                    <span class="textRight">2,940.91</span>
+                </div>
+            <svg width="100" height="20" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="19" x2="100" y2="19" class="lane__2781b446">
+                </line>
+                <circle cx="71.13295643834239" cy="14" r="5"></circle>
+            </svg>
+            </div>
+</section>
+</section>
+</div>
+</section>
+==========================
+regex = re.compile(r'Name\B')
+sec_name = soup.findAll('div', attrs={'class': regex})
+
+regex = re.compile(r'Price\B')
+sec_name_price = soup.findAll('div', attrs={'class': regex})

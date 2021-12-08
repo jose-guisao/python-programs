@@ -1,0 +1,42 @@
+# import urllib.request
+from bs4 import BeautifulSoup as BSoup
+from urllib.request import Request, urlopen
+
+url = 'http://readysethealth.com/20-celebrities-you-didnt-know-were-lgbtq/2/'
+
+req =  Request(url,headers={'User-Agent': 'Mozilla/5.0'})
+webpage = urlopen(req).read()
+bs_obj = BSoup(webpage, 'html.parser')
+
+images = bs_obj.findAll('img')
+i=0
+# for image in images:
+	# i = i + 1
+	# print(i,image['src'])
+print(len(images))
+
+
+# usar selenium page_source into BS4
+# html = driver.page_source.encode('utf-8')
+# bs_obj = BSoup(html, "lxml")
+# for a in bs_obj.find_all(re.compile('([-\w]+\.(?:jpg|jpeg|png))') ):#'a', href=True):
+    # print "Found the URL:", a #['href']
+
+# import re
+# url2 = requests.get("https://8ch.net/a/res/869528.html")
+# bs_obj = BSoup(url.text,"html.parser")
+# for a in bs_obj.find_all("img" , src=True):
+    # if re.findall(r".+(?=jpg|png|jpeg)",a['href']): 
+    # # find out if the url contain jpg or png or jpeg , if not return a empty list. empty list is False
+        # print(a['href'])
+
+#================================================================================   
+# from urllib.request import urlopen
+# from bs4 import BeautifulSoup
+# import re
+
+# html = urlopen('https://en.wikipedia.org/wiki/Peter_Jeffrey_(RAAF_officer)')
+# bs = BeautifulSoup(html, 'html.parser')
+# images = bs.find_all('img', {'src':re.compile('.jpg')})
+# for image in images: 
+    # print(image['src']+'\n')

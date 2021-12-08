@@ -1,0 +1,19 @@
+import urllib.request
+import urllib.request
+from bs4 import BeautifulSoup as BSoup
+from urllib.request import Request, urlopen
+
+url1 = 'http://readysethealth.com/20-celebrities-you-didnt-know-were-lgbtq/2/'
+url = 'https://www.buzzfeed.com/xfinity/literally-just-gifs-of-cats-tbh'
+bs_obj = BSoup(driver.page_source, 'html.parser')from bs4 import BeautifulSoup as BSoup
+response = urllib.request.urlopen(url)
+req =  Request(url,headers={'User-Agent': 'Mozilla/5.0'})
+webpage = urlopen(req).read()
+bs_obj = BSoup(webpage, 'html.parser')
+
+images = bs_obj.findAll('img')
+i=0
+# for image in images:
+	# i = i + 1
+	# print(i,image['src'])
+print(len(images))

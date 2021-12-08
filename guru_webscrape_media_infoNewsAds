@@ -1,0 +1,90 @@
+#Jose Guisao 6/2/19
+#http://readysethealth.com/the-most-incredible-celebrity-weight-loss-transformations-ever/3/
+#https://medium.com/analytics-vidhya/web-scraping-wiki-tables-using-beautifulsoup-and-python-6b9ea26d8722
+#Links de referencia
+#Web Scraping Wikipedia Tables using BeautifulSoup and Python
+#https://learndatasci.com/tutorials/ultimate-guide-web-scraping-w-python-requests-and-beautifulsoup/
+#https://www.guru99.com/handling-dynamic-selenium-webdriver.html#1 
+#Proposito es browse las paginas de anuncios y sacar la imagen y el texto
+#de cada una
+
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+import urllib.request
+from selenium import webdriver
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+import os
+import time
+import datetime
+
+
+chromedriver = "C:/Users/jguis/Downloads/chromedriver/chromedriver.exe"
+desired_capabilities=DesiredCapabilities.CHROME
+os.environ["webdriver.chrome.driver"] = chromedriver
+driver = webdriver.Chrome(chromedriver,desired_capabilities=desired_capabilities)
+url = 'http://readysethealth.com/the-most-incredible-celebrity-weight-loss-transformations-ever/'
+url2 = 'http://demo.guru99.com/test/web-table-element.php'
+url3 = 'https://money.rediff.com/gainers/bsc/daily/groupa?'
+
+driver.get(url2)
+
+pageTitle = driver.title
+print(pageTitle)
+
+rows = driver.find_elements_by_xpath("//*[@id='leftcontainer']/table/tbody/tr/td[1]")
+cols = driver.find_elements_by_xpath("//*[@id='leftcontainer']/table/tbody/tr[1]/td")
+print("No. of Rows are: ",len(rows))
+print("No. of Cols are: ",len(cols))
+## Testing
+now = datetime.datetime.now()
+
+print(now.ctime())
+##if os.path.exists("DailyGainerData.txt"):
+##    os.remove("DailyGainerData.txt")
+##else:
+##    print("Data File does not exist")
+f=open('DailyGainerData.txt','a')
+f.write(pageTitle+str("\n"))
+for co in range(1,len(rows)+1):
+    row_data = ""
+    for i in range(1,len(cols)+1):  
+        cell_data = driver.find_element_by_xpath("//*[@id='leftcontainer']/table/tbody/tr[" + str(co) + "]/td[" + str(i) + "]").text
+        row_data = row_data + '{:25}'.format(cell_data)
+    wr_data = '{:>2}'.format(co) + " " + row_data + "\n"
+    f.write(wr_data)
+    #print('{:>2}'.format(co),"",row_data)
+
+print("End")
+now = datetime.datetime.now()
+print(now.ctime())
+f.close()
+#'{:>10}'.format
+##driver.quit()
+
+##soup = BeautifulSoup(website_url,'lxml')
+#print(soup.prettify())
+###Mytable = soup.find('div',{'class':'entry-content'})
+##links =  Mytable.findAll('a')
+##print(links)
+
+##
+##Countries = []
+##for link in links:
+##    Countries.append(link.get('title'))
+###print(Countries)    
+##
+##df = pd.DataFrame()
+##df['Country'] = Countries
+##
+##
+##print('saving file ... ')
+##with open('wikiwebScrapeSite.html','w',encoding="utf-8") as f:
+##    f.write(str(soup.prettify()))
+##f.close()
+##with open('wikiwebScrapeSite_lst.txt','w') as f:
+##    f.write(str(Countries))
+##f.close()
+##with open('wikiwebScrapeSite_pd.txt','w') as f:
+##    f.write(str(df))
+##f.close()

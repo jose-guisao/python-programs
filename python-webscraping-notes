@@ -1,0 +1,112 @@
+//*[@id="leftcontainer"]/table/thead/tr/th[1]
+//*[@id="leftcontainer"]/table/tbody/tr[3]/td[2]
+//*[@id="leftcontainer"]/table/tbody/tr[1]/td[1]/a
+//*[@id="leftcontainer"]/table/tbody/tr[17]/td[4]
+//*[@id="leftcontainer"]/table/tbody/tr[13]/td[5]/font
+http://money.rediff.com/gainers/bsc/daily/groupa?
+
+//*[@id="leftcontainer"]/table/tbody/tr[18]/td[4]
+//*[@id="leftcontainer"]/table/tbody/tr[12]/td[3]
+
+//*[@id="leftcontainer"]/table/tbody/tr[1]/td[3]
+//*[@id="leftcontainer"]/table/tbody/tr[26]
+
+//*[@id="table-1"]/table[2]/tbody/tr[1]/td[1]/a
+//*[@id="table-1"]/table[1]/tbody/tr/td/b
+//*[@id="table-1"]/table[1]/tbody/tr
+//*[@id="table-1"]/table[1]/tbody/tr/td
+
+Poll Date:
+//*[@id="table-1"]/table[1]/tbody/tr/td/b
+//*[@id="table-1"]/table[1]/tbody/tr
+
+
+"//*[@id='table-1']/table[(table)]")+1))
+
+
+
+import random as RND
+gen_row = lambda: [ RND.randint(10, 99) for c in range(3) ]
+# 'data' is a nested list comprised of five rows and three columns
+data = [gen_row() for c in range(5)]
+
+# create some column headers
+col_headers = ["col{}".format(i) for i in range(1, 4)]
+
+# print the column headers first
+print("{:^8} {:^8} {:^8}".format(*col_headers)
+
+# now print the rows
+for row in data
+  aligned_row = "{:^8} {:^8} {:^8}".format(*row)
+  print(aligned_row)
+
+=======================
+for table in range(1,len(driver.find_elements_by_xpath("//*[@id='table-1']/table"))+1):
+    rows = len(driver.find_elements_by_xpath("//*[@id='table-1']/table[1]/tbody/tr"))
+    for tr in range(1,len(driver.find_elements_by_xpath("//*[@id='table-1']/table[" + str(table) + "]/tbody/tr")+1)):
+        for td in range(1,len(driver.find_elements_by_xpath("//*[@id='table-1']/table" + "[" + str(table) + "]/tbody" + "/tr[" + str(tr) + "]"))):
+            for cell_data in range(1,len(driver.find_elements_by_xpath("//*[@id='table-1']/table" + "[" + str(table) + "]tbody" + "/tr[" + str(tr) + "]" + "/[" + str(td) + "]"))):
+                cell_dat = driver.find_element_by_xpath("//*[@id='table-1']/table" + "[" + str(table) + "]tbody" + "/tr[" + str(tr) + "]" + "/[" + str(td) + "]").text
+                row_data = row_data + '{:15}'.format(cell_dat)
+            print('{:>2}'.format(table)," ",row_data)
+#
+
+for table in range(1,len(driver.find_elements_by_xpath("//*[@id='table-1']/table"))+1):
+    rows_xpath = "//*[@id='table-1']/table[" + str(table) + "]/tbody/tr" ## ==> "//*[@id='table-1']/table[1]/tbody/tr"
+    rows_len = len(driver.find_elements_by_xpath(rows_xpath))
+    for tr in range(1,len(driver.find_elements_by_xpath(rows_xpath))+1):
+        cols_xpath = rows_xpath + "[" + str(tr) + "]/td"
+
+#
+#post-14477 > div > div.entry-content
+#post-14477 > div > div.vce-link-pages > a
+//*[@id="post-14477"]/div/div[4]/a
+//*[@id="primary"]
+//*[@id="post-14477"]/div/div[1]
+//*[@id="post-14477"]/div/div[1]
+//*[@id="post-14477"]/div/div[1]
+//*[@id="post-14477"]/div/div[4]/a
+//*[@id="post-14477"]/div/div[4]/a
+//*[@id="post-14477"]/div/div[1]/p[1]
+//*[@id="post-14477"]/div/div[1]/p[2]
+//*[@id="post-14477"]/div/div[1]/p[3]
+
+//*[@id="block-league-content"]/standings/section[2]/nba-table[1]/div/div/table/tbody/tr[1]
+
+text1 = driver.find_elements_by_xpath("//*[@id='post-14477']/div/div[1]/p") # Texto de la imagen
+
+//*[@id="attachment_14478"]/img
+//*[@id="post-14477"]/div/div[1]/h3
+
+//*[@id="primary"]
+
+#attachment_14478 > img
+
+with open(IMGFOLDER + imgfilename, 'wb') as f:
+            f.write(self.readimg(imgurl))
+        self.LASTIMG = IMGFOLDER + imgfilename
+
+#===========================================================
+import urllib.request
+with urllib.request.urlopen(url) as response:
+
+req = Request('http://www.cmegroup.com/trading/products/#sortField=oi&sortAsc=false&venues=3&page=1&cleared=1&group=1', headers={'User-Agent': 'Mozilla/5.0'})
+webpage = urlopen(req).read()
+
+url = 'http://readysethealth.com/20-celebrities-you-didnt-know-were-lgbtq/2/'
+req =  Request(url,headers={'User-Agent': 'Mozilla/5.0'})
+webpage = urlopen(req).read()
+
+image_file = urllib.request.urlretrieve(''.join(data),'file002.jpg')			
+
+#===========================================================================
+
+//*[@id="tps_nav_lower_3975"]/div[1]/a
+//*[@id="tps_slideContainer_3975"]/div/p/img
+//*[@id="tps_slideContainer_3975"]/div/p/img
+
+<img src="https://twt-thumbs.washtimes.com/media/image/2018/09/04/20180905hunter_s878x688.jpg?54808007a5c3e57d0573348b4227b9ab87f8b84d" width="878" height="688" alt="Illustration by Alexander Hunter for The Washington Times (published September 4, 2018)
+" title="Illustration by Alexander Hunter for The Washington Times (published September 4, 2018)
+">
+

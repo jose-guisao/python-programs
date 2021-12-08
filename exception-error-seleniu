@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "C:\Users\jguis\OneDrive\Documents\python-programs\getURLfromWebSite.py", line 54, in <module>
+    next_pag.click()
+  File "C:\Users\jguis\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\jguis\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\jguis\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jguis\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href="http://readysethealth.com/20-celebrities-you-didnt-know-were-lgbtq/15/">...</a> is not clickable at point (526, 997). Other element would receive the click: <div id="revexitmask" class="revexitmaskwrap modal-hd" style="background-color: rgba(0, 0, 0, 0.75); height: 100%; position: fixed; overflow: hidden;" data-orientation="landscape">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64)
+  
+  
+  Traceback (most recent call last):
+  File "C:\Users\jguis\OneDrive\Documents\python-programs\getURLfromWebSite.py", line 55, in <module>
+    next_pag.click()
+  File "C:\Users\jguis\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\jguis\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\jguis\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jguis\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href="http://readysethealth.com/20-celebrities-you-didnt-know-were-lgbtq/10/">...</a> is not clickable at point (526, 997). Other element would receive the click: <div id="revexitmask" class="revexitmaskwrap modal-hd" style="background-color: rgba(0, 0, 0, 0.75); height: 100%; position: fixed; overflow: hidden;" data-orientation="landscape">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64)
+

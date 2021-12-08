@@ -1,0 +1,110 @@
+http://lightandcharm.com/the-most-remarkable-oscars-outfits-ever/?utm_source=taboola&utm_term=disqus-widget-cnsnews_1055390&utm_content=211658555_http%3A%2F%2Fcdn.taboola.com%2Flibtrc%2Fstatic%2Fthumbnails%2Fc40d432ccab4a55cb6b2cc8326f45a0a.png_The+Most+Unforgettable+Oscars+Outfits+Of+All+Time_Desktop_2019-06-09+02%3A43%3A43&utm_medium=referral&utm_campaign=OscarsOutfits-All-DTM-LNC-TB
+
+Title
+//*[@id="post-6847"]/div[1]/header/h1
+
+Text before picture
+//*[@id="tps_slideContainer_6847"]/div/p[1]
+
+Name Artist
+//*[@id="tps_slideContainer_6847"]/div/h2
+
+Image/photo
+//*[@id="tps_slideContainer_6847"]/div/figure/img
+
+Text after picture
+//*[@id="tps_slideContainer_6847"]/div/p[2]
+
+Next button/arrow
+//*[@id="post-6847"]/div[3]/div[4]/div/div[1]/a[2]/span[2]/span
+
+Prev button/arrow
+//*[@id="post-6847"]/div[3]/div[4]/div/div[1]/a[1]/span[2]/span
+
+Number of Picture
+//*[@id="post-6847"]/div[3]/div[4]/div/div[1]/span
+
+
+================================================================================
+How to Write Effective XPath Selenium Selectors – All Tactics Explained
+https://www.swtestacademy.com/xpath-selenium/#xpath-contains
+================================================================================
+
+Con Xpath-Helper
+
+//article/div[1]/header/h1
+
+//article/div[3]//div/figure/img ==> photo
+
+
+/html/body/div[1]/div[1]/div[1]/div[1]/a/img
+
+//*[@id="tps_slideContainer_6847"]/div/p[1]
+================================================================================
+
+/html/body/div[1]/div/div[2]/div/main/article/div[1]/p[1]
+/html/body/div[1]/div/div[2]/div/main/article/div[1]/p[3]/img
+
+================================================================================
+http://readysethealth.com/unreal-photos-korea/3/
+
+//*[@id='post-14969']/div/div/h3 == > A Glance Of China And North Korea At Once
+//*[@id='post-14969']/div/div/p[1]/img ==> foto
+//*[@id="post-14969"]/div/div[1]/p[2] ==> This shot puts into perspective the stark differences between the wealth ....
+//*[@id="post-14969"]/div/div/a ==> next page
+
+================================================================================
+How do I download images with an https URL in Python 3?
+
+https://stackoverflow.com/questions/43462896/how-do-i-download-images-with-an-https-url-in-python-3
+
+How to save an image locally using Python whose URL address I already know?
+https://stackoverflow.com/questions/8286352/how-to-save-an-image-locally-using-python-whose-url-address-i-already-know
+
+================================================================================
+http://dodaysdo.com/25-mejores-fotos-de-burning-man-el-festival-mas-loco-del-mundo.html
+
+//*[@id='one']//*/header/h1 ==> 25 mejores fotos de burning man: el festival más loco del mundo
+//*[@id='one']//*/img ==> image
+//*[@id='one']//*/li ==> SIGUIENTE ►
+//*[@id='one']//*/li[1] ==> ATRAS
+//*[@id='one']//*/li[1] ==> SIGUIENTE
+
+//*[@id="post-854"]/div/div[3]/a
+//*[@id="post-14969"]/div/div[3]/a
+//*[@id="post-14753"]/div/div[3]/a
+================================================================================
+
+http://readysethealth.com/these-celebrity-kids-will-make-you-do-a-double-take/6/
+
+//*[@id="post-14723"]/div/div[3]/a
+//*[@id="revexitcloseme"] ==> to close popup window
+driver.find_element_by_xpath("//*[@id='revexitcloseme']").click() #=======> close popup
+
+error handling
+raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+
+================================================================================
+
+http://readysethealth.com/20-celebrities-you-didnt-know-were-lgbtq/
+//*[@id="post-15013"]/div/div[1]/h3 ==> name
+<h3 class="xh-highlight">Kristen Stewart</h3>
+//*[@id="post-15013"]/div/div[1]/p[1]/a/img
+//*[@id="post-15013"]/div/div[3]/a ==> next page
+/html/head/meta[5] ==> verficarlo que tiene de texto
+//*[@id="post-15013"]/div/div[3]/a ==> next post click() to go to next post
+//*[@id="post-854"]/div/header/h1 ==> title of next post (extract next post id)
+
+/html/head/title ==> 20 Celebrities You Didn't Know Were LGBTQ+ - Page 2 of 22 - Ready Set Health
+==> extract from title the no. of pages and use in range(len(bla bla))
+//*[@id="post-854"]/div/div[3]/a ==> next page
+SELECT * from img_links where link LIKE '%.jpg'; ==> para seleccionar solo las images
+
+
+driver.find_element_by_xpath('//@title').get_attribute("title")
+
+driver.find_element_by_xpath("//*[text()='next page']").click()
+
+
+driver.title ===> These Celebrity Kids Look Just Like Their Parents At The Same Age - Page 8 of 28 - Ready Set Health
