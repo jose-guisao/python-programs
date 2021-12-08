@@ -1,11 +1,12 @@
 import urllib.request
-import urllib.request
+# import urllib.request
 from bs4 import BeautifulSoup as BSoup
 from urllib.request import Request, urlopen
-
+chromedriver = "C:/Users/admin/Downloads/chromedriver/chromedriver.exe"
+driver = webdriver.Chrome(chromedriver)
 url = 'http://readysethealth.com/20-celebrities-you-didnt-know-were-lgbtq/2/'
 
-bs_obj = BSoup(driver.page_source, 'html.parser')from bs4 import BeautifulSoup as BSoup
+bs_obj = BSoup(driver.page_source, 'html.parser')
 response = urllib.request.urlopen(url)
 req =  Request(url,headers={'User-Agent': 'Mozilla/5.0'})
 webpage = urlopen(req).read()
