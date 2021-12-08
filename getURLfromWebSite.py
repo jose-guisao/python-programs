@@ -10,6 +10,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import ElementNotVisibleException
 import sqlite3
 import re
+chromedriver = "C:/Users/admin/Downloads/chromedriver/chromedriver.exe"
+driver = webdriver.Chrome(chromedriver)
 
 db = sqlite3.connect('ImagesLinksDataBase.db')
 cursor = db.cursor()
