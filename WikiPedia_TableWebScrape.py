@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 
 website_url = requests.get('https://en.wikipedia.org/wiki/List_of_Asian_countries_by_area').text
-soup = BeautifulSoup(website_url,'lxml')
+soup = BeautifulSoup(website_url,'html')
 #print(soup.prettify())
 Mytable = soup.find('table',{'class':'wikitable sortable'})
 links =  Mytable.findAll('a')
