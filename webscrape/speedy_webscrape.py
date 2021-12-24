@@ -3,9 +3,7 @@
 
 from datetime import datetime
 from selenium import webdriver
-chromedriver = "H:/Downloads2/chromedriver/chromedriver.exe"
-
-
+chromedriver = 'E:\Downloads2\chromedriver\chromedriver.exe'
 def get_states():
     url = 'https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States'
     driver = webdriver.Chrome(chromedriver)

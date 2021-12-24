@@ -28,7 +28,7 @@ def get_item_list_tags():
           doc = BeautifulSoup(page_contents, "html.parser")
           for item in doc.find_all("div", {'class': "organic-gallery-offer-outter J-offer-wrapper"}):
                 item_list_tags.append(item)
-          sleep(randint(2,10))
+          sleep(randint(1,10))
           print('Downloading page number', page)  
     return item_list_tags
 item_list_tag = get_item_list_tags()
