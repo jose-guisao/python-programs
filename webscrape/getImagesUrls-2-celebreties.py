@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup as BSoup
 from urllib.request import Request, urlopen
 from selenium import webdriver
 import re
-chromedriver = "C:/Users/admin/Downloads/chromedriver/chromedriver.exe"
+chromedriver = 'E:\Downloads2\chromedriver\chromedriver.exe'
 driver = webdriver.Chrome(chromedriver)
 url = 'https://stacker.com/stories/1173/celebrities-you-didnt-know-were-lgbtq'
 url1 = 'https://tenor.com/search/cat-gifs' # cats gifs
