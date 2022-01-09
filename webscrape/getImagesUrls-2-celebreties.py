@@ -1,20 +1,17 @@
 #/usr/bin/python3
-import urllib.request
-# import urllib.request
+import requests
 from bs4 import BeautifulSoup as BSoup
-from urllib.request import Request, urlopen
 from selenium import webdriver
 import re
-chromedriver = 'E:\Downloads2\chromedriver\chromedriver.exe'
+
+chromedriver = 'C:/Users/admin/OneDrive/chromedriver/chromedriver.exe'
 driver = webdriver.Chrome(chromedriver)
 url = 'https://stacker.com/stories/1173/celebrities-you-didnt-know-were-lgbtq'
 url1 = 'https://tenor.com/search/cat-gifs' # cats gifs
 url2  = 'https://tenor.com/search/dog-gifs' # dogs gifs
 bs_obj = BSoup(driver.page_source, 'html.parser')
-response = urllib.request.urlopen(url)
-req =  Request(url,headers={'User-Agent': 'Mozilla/5.0'})
-webpage = urlopen(req).read()
-bs_obj = BSoup(webpage, 'html.parser')
+response = requests.get(url)
+bs_obj = BSoup(response.text, 'html.parser')
 driver.close()
 images = bs_obj.findAll('img')
 i=0
