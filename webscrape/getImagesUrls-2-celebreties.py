@@ -6,12 +6,13 @@ import re
 
 chromedriver = 'C:/Users/admin/OneDrive/chromedriver/chromedriver.exe'
 driver = webdriver.Chrome(chromedriver)
-url = 'https://stacker.com/stories/1173/celebrities-you-didnt-know-were-lgbtq'
+url  = 'https://stacker.com/stories/1173/celebrities-you-didnt-know-were-lgbtq'
 url3 = 'https://kiwireport.com/celebrity-children-who-look-just-like-their-parents-did-at-the-same-age'
+url4 = 'https://herbeauty.co/en/foodtravel/best-places-to-travel-in-2021'
 url1 = 'https://tenor.com/search/cat-gifs' # cats gifs
-url2  = 'https://tenor.com/search/dog-gifs' # dogs gifs
+url2 = 'https://tenor.com/search/dog-gifs' # dogs gifs
 bs_obj = BSoup(driver.page_source, 'html.parser')
-response = requests.get(url3)
+response = requests.get(url4)
 bs_obj = BSoup(response.text, 'html.parser')
 driver.close()
 images = bs_obj.findAll('img')
