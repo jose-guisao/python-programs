@@ -6,7 +6,7 @@ import pandas as pd
 
 #path = 'chromedriver'
 #driver = webdriver.Chrome(path)
-driver = webdriver.Chrome(executable_path=r'C:/Users/jguisao/Downloads/chromedriver_win32/chromedriver.exe')
+driver = webdriver.Chrome(executable_path=r'C:/Users/admin/OneDrive/chromedriver/chromedriver.exe')
 
 url = 'https://www.mlb.com/standings'
 

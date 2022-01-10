@@ -19,7 +19,7 @@ import time
 import datetime
 
 
-chromedriver = "C:/Users/jguis/Downloads/chromedriver/chromedriver.exe"
+chromedriver = "C:/Users/admin/OneDrive/chromedriver/chromedriver.exe"
 desired_capabilities=DesiredCapabilities.CHROME
 os.environ["webdriver.chrome.driver"] = chromedriver
 driver = webdriver.Chrome(chromedriver,desired_capabilities=desired_capabilities)
