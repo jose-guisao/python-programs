@@ -9,10 +9,11 @@ driver = webdriver.Chrome(chromedriver)
 url  = 'https://stacker.com/stories/1173/celebrities-you-didnt-know-were-lgbtq'
 url3 = 'https://kiwireport.com/celebrity-children-who-look-just-like-their-parents-did-at-the-same-age'
 url4 = 'https://herbeauty.co/en/foodtravel/best-places-to-travel-in-2021'
+url5 = 'https://investingfuel.com/entertainment/27-stars-from-the-90s-where-are-they-now/29?utm_source=if_end&utm_campaign=gft_1&utm_medium=cpc&utm_term='
 url1 = 'https://tenor.com/search/cat-gifs' # cats gifs
 url2 = 'https://tenor.com/search/dog-gifs' # dogs gifs
 bs_obj = BSoup(driver.page_source, 'html.parser')
-response = requests.get(url4)
+response = requests.get(url5)
 bs_obj = BSoup(response.text, 'html.parser')
 driver.close()
 images = bs_obj.findAll('img')
