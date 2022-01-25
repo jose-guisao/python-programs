@@ -1,4 +1,5 @@
 #/usr/bin/python3
+#import itertools ## https://www.geeksforgeeks.org/python-iterate-multiple-lists-simultaneously/
 import requests, re, time
 from email import header
 from bs4 import BeautifulSoup as BSoup
@@ -27,7 +28,7 @@ bs_obj = BSoup(driver.page_source, 'html.parser')
 #     "Content-Type": "application/x-www-form-urlencoded"
 # }
 
-## Trate de usar request para cargar la pagina, da error si no uso
+## 💥Trate de usar request para cargar la pagina, da error si no uso
 ## la option de headers.
 
 # response = requests.get(url6, headers=headers)
@@ -58,25 +59,35 @@ f = open(''.join(fname), "w")
 # f.write(bs_obj.prettify())
 
 code_and_name_to_save = '\n'
-i = 0
-for code in gradient_code:
-    i += 1
-    code_and_name_to_save = code_and_name_to_save + code.text + '\n'
-    # f.write(code.text + '\n')
-    # print(i, " ", code.text)
+
 j = 0
-f.write(code_and_name_to_save)
+i = 0
 for name in gradient_name:
     j += 1
     code_and_name_to_save = code_and_name_to_save + name.text
-    # print(code_to_savename.text)
+
+for code in gradient_code:
+    i += 1
+    code_and_name_to_save = code_and_name_to_save + code.text + '\n'
+
+# i = 0
+# for code in gradient_code:
+#     i += 1
+#     code_and_name_to_save = code_and_name_to_save + str(
+#         i) + " " + code.text + '\n'
+#     print(code)
+# f.write(code.text + '\n')
+# print(i, " ", code.text)
+
+# save text to file
 f.write(code_and_name_to_save)
+
 print(len(gradient_code))
 print(len(gradient_name))
 #cerrar file
 f.close()
 
-### Verificar que hace esta parte del codigo (jeje no me acuerdo para que la puse 😊)
+###😟😧😎 Verificar que hace esta parte del codigo (jeje no me acuerdo para que lo puse 😊)
 f = open(''.join(fname), 'r')
 lines = f.readlines()
 
