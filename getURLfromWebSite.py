@@ -10,7 +10,9 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import ElementNotVisibleException
 import sqlite3
 import re
-chromedriver = "C:/Users/admin/Downloads/chromedriver/chromedriver.exe"
+##chromedriver = "C:/Users/admin/Downloads/chromedriver/chromedriver.exe"
+chromedriver = 'C:/Users/admin/OneDrive/chromedriver/chromedriver.exe'
+
 driver = webdriver.Chrome(chromedriver)
 
 db = sqlite3.connect('ImagesLinksDataBase.db')
@@ -25,10 +27,9 @@ db.commit()
 options = webdriver.ChromeOptions()
 options.add_argument("--disable-notifications")
 # chromedriver = "C:/Users/jguis/Downloads/chromedriver/chromedriver.exe"
-chromedriver = "C:/Users/jguis/Downloads/chromedriver/chromedriver.exe"
-
+##chromedriver = 'C:/Users/admin/OneDrive/chromedriver/chromedriver.exe'
 driver = webdriver.Chrome(chromedriver,options=options)
-url = 'http://readysethealth.com/20-celebrities-you-didnt-know-were-lgbtq/'
+url = 'https://stacker.com/stories/1173/50-celebrities-you-might-not-know-are-lgtbq'
 driver.get(url)
 # req =  Request(url,headers={'User-Agent': 'Mozilla/5.0'})
 # webpage = urlopen(req).read()
@@ -36,12 +37,13 @@ bs_obj = BSoup(driver.page_source, 'html.parser')
 
 images = bs_obj.findAll('img')
 i=0
-# for image in images:
-# i = i + 1
-# print(i,image['src'])
-##print(len(images))
-##driver.close()
-##driver.quit()
+for image in images:
+  i = i + 1
+  print(i,image['src'])
+
+print(len(images))
+driver.close()
+driver.quit()
 
 '''
 //*[@id="post-15013"]/div/div[3]/a
@@ -51,28 +53,28 @@ for i in  elements:
 '''
 photos=[]
 names=[]
-for i in range(1,5):
+##for i in range(1,5):
 ##    time.sleep(3)
-# Move to next page
-# Search for images links
+## Move to next page
+## Search for images links
     try:
-        next_pag = driver.find_element_by_xpath("//*/div/div[3]/a")
-        # next_pag = driver.find_element_by_xpath("//*[contains(text(), 'next page')]")
-        next_pag.click()
+##        next_pag = driver.find_element_by_xpath("//*/div/div[3]/a")
+##        # next_pag = driver.find_element_by_xpath("//*[contains(text(), 'next page')]")
+##        next_pag.click()
         bs_obj = BSoup(driver.page_source, 'html.parser')
     except (ElementNotVisibleException, ElementClickInterceptedException) as exception:
-        print("Element is no visible Message: element not interactable")
-        popup_close = driver.find_element_by_xpath("//*[@id='revexitcloseme']")
-        popup_close.click()
-    name = bs_obj.find('h3').text
-    names.append(name)
-    time.sleep(5)
-##    imgs_links = bs_obj.findAll('img')
-    imgs_links = bs_obj.find_all('img', {'src':re.compile('.jpg')})
-    imgs = driver.find_elements_by_xpath("//img[@src]")
-    print(i,name)
-    for img in imgs_links:
-        photos.append(img["src"])
+##        print("Element is no visible Message: element not interactable")
+##        popup_close = driver.find_element_by_xpath("//*[@id='revexitcloseme']")
+##        popup_close.click()
+##    name = bs_obj.find('h3').text
+##    names.append(name)
+##    time.sleep(5)
+####    imgs_links = bs_obj.findAll('img')
+##    imgs_links = bs_obj.find_all('img', {'src':re.compile('.jpg')})
+##    imgs = driver.find_elements_by_xpath("//img[@src]")
+##    print(i,name)
+##    for img in imgs_links:
+##        photos.append(img["src"])
 print("End first part...")
 content=""
 
