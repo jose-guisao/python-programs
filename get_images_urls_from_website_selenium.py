@@ -61,7 +61,8 @@ def web_scrape(url):
         # print(name.text)
         names.append(name.text)
 
-    for content in container_pics.findAll('p'):
+    for content in container_pics.select('div.ct-slideshow__slide__text-container'):
+    #for content in container_pics.findAll('p'):
         # print(content.text)
         contents.append(content.text)
 
@@ -98,7 +99,7 @@ urls = [
     'https://stacker.com/stories/145/top-100-country-songs-all-time',
     'https://stacker.com/stories/980/100-best-tv-shows-all-time']
 
-
+urls0 = ['https://stacker.com/stories/3346/50-best-space-movies-all-time']
 for url in range(0, len(urls)):
     print(url, urls[url])
     web_scrape(urls[url])
