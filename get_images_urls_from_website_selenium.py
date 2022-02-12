@@ -3,19 +3,10 @@
 # https://beautiful-soup-4.readthedocs.io/en/latest/index.html?highlight=findNextSiblings#searching-the-tree
 
 from bs4 import BeautifulSoup as BSoup
-##from urllib.request import Request, urlopen
 from selenium import webdriver
-import requests
-import datetime
-import sqlite3
-import re
-import time
+import requests, datetime, sqlite3, re, time
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import ElementNotVisibleException
-
-##chromedriver = 'C:/Users/admin/OneDrive/chromedriver/chromedriver.exe'
-##driver = webdriver.Chrome(chromedriver)
-# driver.get(url)
 
 
 def download_file(url):
@@ -53,7 +44,7 @@ def web_scrape(url):
         print(str(pic['src'])+'\n')
         photos.append(pic['src'])
         time.sleep(1)
-        #   download_file(pic['src']) # download file and save it
+##        download_file(pic['src']) # download file and save it
         print('call download file . . . .')
     f.close()
 
@@ -83,11 +74,9 @@ def web_scrape(url):
     print("End second part ... saving database")
     db.commit()
     db.close()
-    # driver.close()
-    # driver.quit()
 
 
-urls = [
+urlsx = [
     'https://stacker.com/stories/1134/50-best-movies-60s',
     'https://stacker.com/stories/1173/50-celebrities-you-might-not-know-are-lgtbq',
     'https://stacker.com/stories/959/50-best-college-movies',
@@ -99,6 +88,7 @@ urls = [
     'https://stacker.com/stories/145/top-100-country-songs-all-time',
     'https://stacker.com/stories/980/100-best-tv-shows-all-time']
 
+urls = ['https://stacker.com/stories/1812/100-best-films-21st-century-according-critics']
 urls0 = ['https://stacker.com/stories/3346/50-best-space-movies-all-time']
 for url in range(0, len(urls)):
     print(url, urls[url])
