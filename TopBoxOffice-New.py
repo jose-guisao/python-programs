@@ -1,15 +1,20 @@
 # TopBoxOffice-New.py
 from datetime import datetime
 from selenium import webdriver
-chromedriver = "H:/Downloads2/chromedriver/chromedriver.exe"
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.service import Service
+
+s = Service("C:/Users/admin/OneDrive/chromedriver/chromedriver.exe")
+driver = webdriver.Chrome(service=s)
 
 
 def get_movies():
     url = 'https://www.rottentomatoes.com/browse/in-theaters/'
-    driver = webdriver.Chrome(chromedriver)
+    driver = webdriver.Chrome(service=s)
     driver.get(url)
 
-    movies = driver.find_elements_by_css_selector('div.mb-movie')
+    movies = driver.find_element(By.CLASS_NAME, 'div.mb-movie')
     # .mb-movies
 # content-column > div:nth-child(5) > div.mb-movies
     # movies = driver.find_elements_by_xpath('//div[@class="mb-movies"]')
