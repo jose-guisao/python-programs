@@ -1,0 +1,1 @@
+docker run --name mysql-test -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
