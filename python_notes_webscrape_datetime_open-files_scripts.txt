@@ -1,0 +1,180 @@
+from bs4 import BeautifulSoup as BSoup
+f = open("c:/Users/admin/OneDrive/Documents/python-programs/images/townhall-example-page.html", "r")
+content = f.read()
+
+
+for a_anchor in bs_obj.find_all('a'):
+	print(a_anchor)
+	
+for link in bs_obj.find_all('a'):
+	print(link.get('href'))
+	
+a = bs_obj5.findAll('a')
+
+for attrib in range(0,len(a)):
+	print(a[attrib].attrs)
+
+======================================================================================================
+from bs4 import BeautifulSoup as BSoup
+import requests, datetime
+url = 'https://triponmag.com/23-the-most-beautiful-beaches-in-the-world/'
+response = requests.get(url)
+
+## para crear files con nombre que contengan fecha y hora 
+fname_stamp = datetime.datetime.now().strftime("_%d%b%Y-%H%M") 
+fname = bs_obj.title
+# # removing special characters from a list of items in python
+fname = ([re.sub('[^a-zA-Z]+', '', _) for _ in fname]) # only remove spaces
+fname = ([re.sub('[^a-zA-Z0-9]+', '', _) for _ in fname])
+cleanStringFname = re.sub('\W+','',fname.text) # tambien elimina special characters 
+
+print(fname, fname_stamp)
+f = open("c:/Users/admin/OneDrive/Documents/python-programs/images/" + ''.join(fname)+fname_stamp, "w")
+#db_name = "c:/Users/admin/OneDrive/Documents/python-programs/images/" +''.join(fname) + '.db'
+
+for i in range(1,24):
+	print(url+str(i)+'/')
+
+
+======================================================================================================
+from bs4 import BeautifulSoup as BSoup
+
+f = open("c:/Users/admin/OneDrive/Documents/python-programs/images/oftheMostBeautifulBeachesintheWorldTripOnMag_30Jan2022-2333", "r")
+
+f.read()
+
+bs_obj = BSoup(f.read(),'html.parser')
+db_name = "c:/Users/admin/OneDrive/Documents/python-programs/images/oftheMostBeautifulBeachesintheWorldTripOnMag_30Jan2022-2333" + '.db'
+names  = []
+links  = []
+p_txts = []
+
+# Selector tps_slideContainer_217 select container with h2,img/src,and p tags  
+j = 0
+for i in bs_obj_all.select('#tps_slideContainer_217 > div'):
+  name = i.h2.text
+  names.append(name)
+  image = i.figure.img['src']
+  links.append(image)
+  text = i.p
+  p_txts.append(text)
+  print(j,name)
+  j += 1
+
+db = sqlite3.connect(db_name)
+cursor = db.cursor()
+cursor.executescript('drop table if exists imgs_links;')
+cursor.execute('''
+    CREATE TABLE imgs_links(id INTEGER PRIMARY KEY, link TEXT, name TEXT, content TEXT)
+''')
+db.commit()
+
+for i in range(0, len(links)):
+    cursor.execute('''INSERT INTO imgs_links (id, link, name, content) VALUES (?,?,?,?)''',(i+1, links[i], names[i], p_txts[i]))
+print("End second part ... saving database")
+db.commit()
+db.close()
+f.close()
+
+
+======================================================================================================
+url3 = 'https://www.cagle.com/cartoonists/'
+url2 = 'https://www.cagle.com/author/'
+
+#lista de cartoonist
+
+cartoonist_index3_lst = [x.text for x in cartoonist_index3[0].findAll('a')]
+cartoonist_index2_lst = [x.text for x in cartoonist_index2[0].findAll('a')]
+
+#remove blank spaces from list
+cartoonist_index3_lst = [x for x in cartoonist_index3_lst if x.strip()]
+cartoonist_index2_lst = [x for x in cartoonist_index2_lst if x.strip()]
+
+r = [x.rstrip() for x in sorted(cartoonist_index2_lst + cartoonist_index3_lst)]
+
+r_urls = [x.replace('.','') for x in r]
+
+
+=====
+#contar los numeros randoms en una lista
+
+my_list = [randint(20,30) for x in range(20,30)]
+my_list.sort()
+my_dict = {i:my_list.count(i) for i in my_list}
+
+
+{21: 50, 22: 57, 20: 52, 28: 44, 24: 43, 29: 38, 27: 37, 25: 39, 23: 43, 26: 47, 30: 49}
+{26: 42, 25: 39, 21: 48, 29: 42, 22: 46, 27: 41, 24: 51, 20: 56, 28: 44, 30: 40, 23: 50}
+{20: 40, 29: 52, 26: 44, 25: 51, 30: 47, 28: 48, 23: 41, 27: 48, 22: 53, 24: 38, 21: 37}
+{20: 40, 21: 37, 22: 53, 23: 41, 24: 38, 25: 51, 26: 44, 27: 48, 28: 48, 29: 52, 30: 47}
+{20: 47, 21: 41, 22: 48, 23: 48, 24: 46, 25: 41, 26: 50, 27: 35, 28: 51, 29: 42, 30: 50}
+
+
+def generate_my_list(val1,val2,list_lenght):
+	my_list = [randint(val1,val2), for x in range(1,list_lenght)]
+	my_dict = {i:my_list.count(i) for i in my_list}
+	return my_dict
+	
+def generate_my_list(val1,val2,list_len):
+	my_list = [randint(val1,val2) for x in range(1,list_len)]
+	my_list.sort()
+	my_dict = {i:my_list.count(i) for i in my_list}
+	return my_dict
+	
+======================================================================================================
+import datetime
+from datetime import datetime
+b = input("Enter date: ")
+
+a = datetime.strptime(b,'%Y-%m-%d')
+_.strftime('%a %d %b %Y, %I:%M%p')
+a.strftime('%a %d %b %Y')
+
+d = datetime.now().strftime("%a%d%b%Y-%I%M%p")
+'Sun31Dec2023-0304PM'
+
+======================================================================================================
+open file
+fb = open('ip-arp-lab-as-of-ago-2023.txt','r')
+fb.seek(0) ==> volver al principio del file
+
+for line in fb.readlines():
+	print(line)
+	print(re.split('\s+',line) # split por espacios aunque haya mas de uno # requiere import re
+#!
+#lista = [[i+3*(j-1) for i in range(1,4)] for j in range(1,4)]
+#["ABCDEF"[x] for x in [2,0,1]]
+	
+lns = [print((re.split('\s+',line)[1],re.split('\s+',line)[3])) for line in fb.readlines()]
+
+
+======================================================================================================
+nm.scan(hosts='192.168.1.0/24', arguments='-n -sP -PE -PA21,23,80,3389')
+hosts_list = [(x, nm[x]['status']['state']) for x in nm.all_hosts()]
+for host, status in hosts_list:
+    print('{0}:{1}'.host)
+
+======================================================================================================
+path
+os.getcwd()
+os.listdir()
+os.chdir("dirname-path")
+
+======================================================================================================
+arp = "Internet  40.199.146.182          2   e454.e87e.4b0c  ARPA   Vlan3980"
+a = re.search(r"(.+?) +(.+?) +(.+?) +(.+?) +(.+?) +(.+?)$", arp) # los espacios antes del + son necesarios para el match
+a.group(6)
+'Vlan3980'
+
+a.groups() -- return a tuple
+('Internet', '40.199.146.182', '2', 'e454.e87e.4b0c', 'ARPA', 'Vlan3980')
+
+b = re.findall(r"\d\d\.\d{3}\.[0-9][0-9][0-9]\.[0-9]{1,3}",arp)
+b = re.findall(r"40\.\d{3}\.[0-9][0-9][0-9]\.[0-9]{1,3}",arp)
+['40.199.146.182']
+
+======================================================================================================
+https://stackoverflow.com/questions/6558765/how-do-you-see-the-entire-command-history-in-interactive-python
+How do you see the entire command history in interactive Python?
+import readline
+print(('\n'.join([str(readline.get_history_item(i+1)) for i in range(readline.get_current_history_length())])))

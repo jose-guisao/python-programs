@@ -1,0 +1,1878 @@
+
+SPC02TCa19-DB1#sh log
+Syslog logging: enabled (0 messages dropped, 1977 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 2082701 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 4825 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 2084680 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    File logging: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 2084206 message lines logged
+        Logging to 40.199.61.121  (udp port 514, audit disabled,
+              link up),
+              2082354 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging to 40.199.61.147  (udp port 514, audit disabled,
+              link up),
+              2082357 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging to 40.199.61.82  (udp port 514, audit disabled,
+              link up),
+              2082357 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging to 40.199.61.249  (udp port 514, audit disabled,
+              link up),
+              2082357 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging to 40.199.61.52  (udp port 514, audit disabled,
+              link up),
+              369469 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (102400 bytes):
+ld value: -21.0 dBm.
+Nov 22 09:17:59.233: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:17:59.835: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 09:25:45.746: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:28:00.169: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 22 09:28:00.479: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:28:01.276: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 09:35:46.640: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:38:01.522: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 22 09:38:01.826: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:38:02.562: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 09:48:02.821: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 09:48:03.128: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:48:03.817: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 09:54:23.489: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:55:48.337: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:58:04.227: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 09:58:04.940: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 09:58:05.303: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:04:24.593: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:05:49.369: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:08:05.316: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:08:06.044: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:08:06.344: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:15:50.373: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:18:06.357: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:18:07.253: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:18:07.537: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:25:51.381: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:28:07.234: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:28:08.180: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:28:08.477: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:35:52.312: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:38:08.326: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:38:09.215: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -20.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:38:09.598: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:45:53.108: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:48:09.351: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:48:10.308: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:48:10.584: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:55:54.192: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:58:10.472: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 10:58:11.445: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 10:58:11.793: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:05:55.217: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:08:11.512: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:08:12.434: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:08:12.783: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:15:56.374: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:18:12.420: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:18:13.005: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:18:13.728: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:25:57.239: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:28:13.159: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:28:13.892: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:28:14.632: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:34:30.041: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:35:58.061: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:38:14.311: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:38:15.382: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:38:15.532: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:45:59.182: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:48:15.095: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:48:16.368: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:48:16.701: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:54:31.057: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:55:59.999: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:58:15.962: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 11:58:17.301: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 11:58:17.668: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:04:31.680: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:06:00.903: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:08:16.928: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:08:18.225: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:08:18.409: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:14:32.291: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:18:18.050: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:18:19.155: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:18:19.441: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:26:02.247: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:28:19.116: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:28:19.880: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:28:20.246: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:34:33.119: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:36:03.240: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:38:20.531: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:38:21.157: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:38:21.504: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:46:04.006: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:48:21.750: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:48:22.454: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:48:22.752: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:54:34.295: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:58:22.870: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 12:58:23.918: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 12:58:24.262: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:04:35.093: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:06:05.315: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:08:23.765: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:08:24.820: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:08:25.141: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:14:35.874: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:16:06.331: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:18:24.819: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:18:25.682: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -20.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:18:26.004: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:26:07.520: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:28:25.913: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:28:26.753: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:28:27.142: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:36:08.626: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:38:27.178: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:38:27.924: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:38:28.318: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:48:28.023: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:48:28.851: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:48:29.209: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:56:09.892: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:58:28.863: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 22 13:58:29.790: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 13:58:30.145: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:06:10.859: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:08:29.791: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:08:30.420: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:08:31.238: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:16:11.877: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:18:30.873: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:18:31.716: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:18:32.009: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:26:12.854: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:28:31.642: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:28:32.500: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:28:32.776: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:36:13.677: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:38:32.747: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:38:33.708: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -20.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:38:34.137: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:44:41.476: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:48:33.998: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:48:34.900: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:48:35.186: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:56:15.247: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:58:34.892: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 14:58:35.844: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 14:58:36.105: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:06:16.041: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:08:35.917: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:08:36.736: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:08:37.052: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:16:17.307: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:18:36.800: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:18:37.679: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -20.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:18:37.952: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:26:18.315: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:28:37.798: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:28:38.908: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:28:39.329: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:36:19.056: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:38:38.634: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:38:39.944: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:38:40.219: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:46:19.865: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:48:39.543: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:48:40.936: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:48:41.328: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:54:46.614: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:56:20.694: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:58:40.350: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 15:58:41.528: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 15:58:42.193: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:06:21.677: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:08:41.334: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:08:42.224: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:08:42.861: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:14:47.947: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:16:22.476: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:18:42.331: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:18:42.844: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:18:43.497: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:24:48.641: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:26:23.371: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:28:43.086: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:28:43.730: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:28:44.452: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:36:24.336: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:38:43.855: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:38:44.550: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:38:45.297: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:44:49.629: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:46:25.355: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:48:44.864: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:48:45.402: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:48:46.204: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:56:26.453: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:58:45.916: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 22 16:58:46.135: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 16:58:46.903: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:06:27.495: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:08:47.011: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:08:47.351: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:08:47.942: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:14:51.163: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:16:28.362: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:18:48.482: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:18:49.054: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:18:49.242: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:26:29.533: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:28:49.294: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:28:50.309: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:28:50.504: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:36:30.509: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:38:50.375: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:38:51.249: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:38:51.554: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:46:31.643: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:48:51.340: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:48:52.322: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:48:52.592: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:54:53.517: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:56:32.586: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:58:52.645: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 17:58:53.698: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 17:58:53.983: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:06:33.467: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:08:53.592: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:08:54.122: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:08:54.726: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:16:34.461: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:18:54.514: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:18:55.361: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:18:55.723: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:24:55.870: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:26:35.812: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:28:55.324: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:28:56.488: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:28:56.769: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:34:56.466: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:36:36.681: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:38:56.381: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:38:57.388: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:38:57.731: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:44:57.427: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:46:37.727: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:48:57.321: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:48:58.025: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:48:58.804: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:54:58.197: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:56:38.601: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:58:58.099: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 18:58:58.636: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 18:58:59.573: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:04:58.785: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:06:39.694: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:08:59.479: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:08:59.670: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:09:00.333: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:14:59.392: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:16:40.850: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:19:00.986: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:19:01.574: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:19:01.815: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:26:42.129: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:29:02.249: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:29:02.893: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:29:03.118: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:36:43.270: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:39:03.013: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:39:03.901: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:39:04.172: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:46:44.304: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:49:04.133: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:49:05.014: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:49:05.261: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:56:45.621: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:59:04.852: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 19:59:05.767: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 19:59:06.138: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:06:46.493: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:09:06.100: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:09:06.972: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:09:07.285: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:16:47.389: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:19:07.019: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:19:07.853: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.9 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:19:08.198: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:26:48.610: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:29:07.889: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:29:08.775: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:29:09.004: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:36:49.438: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:39:09.195: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:39:10.076: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:39:10.425: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:45:04.900: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:46:50.722: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:49:10.253: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:49:11.084: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:49:11.403: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:55:05.716: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:56:51.853: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:59:11.323: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 20:59:12.071: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 20:59:12.442: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:06:52.782: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:09:12.344: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:09:13.119: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:09:13.415: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:15:06.845: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:16:53.755: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:19:13.435: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:19:14.330: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:19:14.721: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:25:07.626: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:26:54.805: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:29:14.261: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:29:15.250: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:29:15.599: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:35:08.312: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:36:55.648: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:39:15.367: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:39:16.280: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:39:16.672: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:45:08.977: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:49:16.291: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:49:17.325: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:49:17.689: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:55:09.636: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:56:57.179: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:59:17.070: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 21:59:17.967: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 21:59:18.519: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:05:10.968: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:06:58.290: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:08:46.293: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 22:08:46 AST Wed Nov 22 2023
+Nov 22 22:08:56.809: %SYS-6-LOGOUT: User solarwinds has exited tty session 2(40.199.61.52)
+Nov 22 22:09:18.190: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:09:19.215: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:09:19.505: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:15:11.581: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:16:59.267: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:19:19.205: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:19:20.194: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:19:20.354: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:23:15.996: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 22:23:15 AST Wed Nov 22 2023
+Nov 22 22:25:12.203: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.4 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:25:33.645: %SYS-6-LOGOUT: User solarwinds has exited tty session 2(40.199.61.52)
+Nov 22 22:27:00.115: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:28:07.239: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 22:28:07 AST Wed Nov 22 2023
+Nov 22 22:28:09.348: %SYS-6-LOGOUT: User solarwinds has exited tty session 2(40.199.61.52)
+Nov 22 22:28:09.525: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 22:28:09 AST Wed Nov 22 2023
+Nov 22 22:29:19.994: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:29:20.938: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:29:21.301: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:30:18.974: %SYS-6-LOGOUT: User solarwinds has exited tty session 2(40.199.61.52)
+Nov 22 22:37:01.039: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:39:21.287: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:39:22.172: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:39:22.421: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:48:55.313: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 22:48:55 AST Wed Nov 22 2023
+Nov 22 22:49:22.382: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:49:23.338: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:49:23.721: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:51:00.292: %SYS-6-LOGOUT: User solarwinds has exited tty session 2(40.199.61.52)
+Nov 22 22:57:02.450: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:59:23.567: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 22 22:59:24.358: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 22 22:59:24.658: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:05:13.682: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:07:03.582: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:09:24.423: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:09:25.400: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:09:25.675: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:17:04.863: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:19:25.566: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:19:26.362: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:19:26.717: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:27:05.948: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:29:26.590: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:29:27.375: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:29:27.735: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:37:07.050: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:39:27.739: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:39:28.546: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:39:28.900: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:45:16.944: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:47:07.973: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:49:28.623: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:49:29.611: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:49:29.944: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:57:09.053: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:59:29.698: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 22 23:59:30.693: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -20.0 dBm, Threshold value: -17.0 dBm.
+Nov 22 23:59:30.858: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:05:17.944: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:07:09.972: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:09:30.440: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:09:31.506: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:09:31.849: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:15:18.634: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:17:10.946: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:19:31.249: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:19:32.073: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:19:32.762: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:25:19.792: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:27:11.750: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:29:32.387: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:29:33.483: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:29:33.868: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:35:20.391: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:37:12.681: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:39:33.216: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:39:34.448: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:39:34.808: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:47:13.403: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:49:34.046: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:49:35.386: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:49:35.739: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:55:21.600: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:57:14.338: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:59:35.171: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 00:59:35.910: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 00:59:36.639: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:07:15.524: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:09:36.237: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:09:36.908: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:09:37.451: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:19:37.073: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:19:37.974: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:19:38.360: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:25:23.642: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:27:17.312: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:29:38.239: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:29:39.098: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:29:39.350: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:37:18.485: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:39:39.247: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:39:40.238: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:39:40.554: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:47:19.460: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:49:40.265: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:49:40.697: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:49:41.479: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:55:25.765: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:57:20.223: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:59:41.769: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 01:59:41.942: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 01:59:42.612: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:05:26.541: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:07:21.344: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:09:43.039: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:09:43.346: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:09:44.015: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:15:27.186: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:17:22.455: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:19:44.200: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:19:44.588: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:19:45.348: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:25:27.741: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:27:23.549: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:29:45.589: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:29:45.976: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:29:46.767: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:39:47.085: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:39:47.390: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:39:47.988: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:47:25.306: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:49:48.363: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:49:49.085: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -20.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:49:49.480: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:57:26.376: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:59:49.273: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 02:59:50.184: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 02:59:50.389: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:05:29.900: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:07:27.457: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:09:50.404: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:09:51.250: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:09:51.639: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:17:28.347: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:19:51.506: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:19:52.413: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:19:52.723: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:25:31.681: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:27:29.434: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:29:52.394: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:29:53.288: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:29:53.643: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:37:30.573: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:39:53.282: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:39:53.793: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:39:54.306: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:45:32.871: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:47:31.445: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:49:54.429: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:49:54.792: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:49:55.561: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:59:55.625: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 03:59:55.816: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 03:59:56.384: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:07:32.983: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:09:56.852: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:09:57.475: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:09:57.783: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:17:34.060: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:19:58.196: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:19:58.626: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:19:58.942: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:25:35.350: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:27:34.894: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:29:58.974: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:29:59.906: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:30:00.225: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:35:36.034: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:37:35.957: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:40:00.066: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:40:01.025: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:40:01.223: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:45:37.010: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:47:37.086: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:50:00.942: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:50:01.839: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:50:02.088: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 04:55:37.468: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 04:57:38.147: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:00:01.960: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:00:02.696: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:00:03.049: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:05:38.074: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:07:38.957: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:10:02.924: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:10:03.745: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:10:04.126: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:17:39.894: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:20:03.969: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:20:05.035: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:20:05.380: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:27:40.995: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:30:04.708: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:30:06.023: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:30:06.382: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:37:42.087: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:40:05.657: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:40:06.672: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:40:07.264: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:45:40.157: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:47:43.130: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:50:06.998: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:50:07.732: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:50:08.118: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 05:55:40.727: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 05:57:44.126: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:00:08.196: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:00:09.088: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:00:09.391: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:05:41.402: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:07:45.175: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:10:09.157: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:10:10.072: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:10:10.445: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:15:42.167: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:17:46.027: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:20:10.082: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:20:10.723: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:20:11.513: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:27:46.953: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:30:11.130: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:30:12.193: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:30:12.361: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:37:47.975: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:40:12.087: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:40:12.978: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:40:13.379: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:45:43.416: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:47:49.112: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:50:12.821: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:50:13.576: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -20.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:50:14.315: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 06:55:44.068: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 06:57:50.132: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:00:13.989: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.7 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:00:14.919: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:00:15.199: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:05:44.724: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:07:51.037: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:10:14.791: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:10:15.854: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:10:16.240: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:15:45.706: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:17:52.323: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:20:15.858: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:20:16.369: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:20:16.967: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:27:53.404: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:30:16.782: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:30:17.674: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:30:18.047: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:35:46.599: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:37:54.628: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:40:17.790: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:40:18.670: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:40:19.000: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:45:47.233: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:47:55.596: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:50:18.582: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:50:19.288: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 07:50:20.137: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 07:55:47.921: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:00:19.776: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:00:20.896: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:00:21.248: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:05:48.563: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:07:57.001: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:10:20.615: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:10:21.742: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:10:22.096: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:15:49.186: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:17:58.113: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:20:21.669: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:20:22.301: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -18.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:20:22.919: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:25:49.922: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:30:22.673: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:30:23.401: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:30:23.599: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:35:50.486: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:37:59.556: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:40:24.288: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:40:24.809: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:40:25.149: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:48:00.480: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:50:25.664: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:50:26.175: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:50:26.504: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 08:55:51.502: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 08:58:01.323: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:00:27.004: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:00:27.605: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:00:28.610: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:08:02.352: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:10:28.286: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:10:28.658: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:10:29.749: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:15:52.502: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:18:03.653: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:20:29.745: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:20:30.813: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:20:31.484: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:28:04.498: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:30:31.618: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:30:32.431: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:30:32.751: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:35:53.359: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:38:05.268: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:40:32.742: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:40:33.592: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:40:33.909: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:48:06.162: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:50:33.706: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:50:34.397: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:50:34.720: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 09:55:54.463: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 09:58:06.891: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:00:34.682: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:00:35.485: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:00:35.717: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:08:07.809: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:10:35.547: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:10:36.368: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:10:36.727: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:18:08.852: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:20:36.356: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.0 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:20:37.311: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.6 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:20:37.583: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:28:09.976: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:30:37.225: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:30:38.191: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:30:38.420: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:35:56.934: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:38:11.118: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:40:37.947: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:40:39.127: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:40:39.370: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:48:12.260: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:50:39.010: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:50:39.987: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.4 dBm, Threshold value: -17.0 dBm.
+Nov 23 10:50:40.306: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 10:55:58.539: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:00:39.844: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:00:40.936: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:00:41.278: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.3 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:08:13.964: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:10:40.721: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:10:41.849: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:10:42.246: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.6 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:18:15.111: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.2 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:20:41.755: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:20:42.688: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:20:43.047: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:26:00.589: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/6: Rx power low warning; Operating value: -17.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:28:16.047: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.0 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:30:42.658: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.2 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:30:43.591: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.3 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:30:43.982: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:38:16.965: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:40:43.764: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:40:44.531: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:40:44.898: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:48:18.073: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.7 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:50:44.832: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:50:45.738: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 11:50:46.101: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.8 dBm, Threshold value: -21.0 dBm.
+Nov 23 11:58:18.902: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 12:00:45.972: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 12:00:46.875: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 12:00:47.058: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.7 dBm, Threshold value: -21.0 dBm.
+Nov 23 12:02:02.457: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: v4x7209] [Source: 10.129.145.135] [localport: 22] at 12:02:02 AST Thu Nov 23 2023
+Nov 23 12:08:19.890: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -17.9 dBm, Threshold value: -17.0 dBm.
+Nov 23 12:10:47.138: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 12:10:48.129: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.1 dBm, Threshold value: -17.0 dBm.
+Nov 23 12:10:48.507: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.1 dBm, Threshold value: -21.0 dBm.
+Nov 23 12:18:20.887: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/21: Rx power low warning; Operating value: -18.5 dBm, Threshold value: -17.0 dBm.
+Nov 23 12:20:48.178: %SFF8472-3-THRESHOLD_VIOLATION: Te1/1/0/8: Rx power low alarm; Operating value: -24.4 dBm, Threshold value: -21.0 dBm.
+Nov 23 12:20:49.104: %SFF8472-3-THRESHOLD_VIOLATION: Te1/2/0/2: Rx power low warning; Operating value: -19.8 dBm, Threshold value: -17.0 dBm.
+Nov 23 12:20:49.457: %SFF8472-3-THRESHOLD_VIOLATION: Te2/2/0/15: Rx power low alarm; Operating value: -23.5 dBm, Threshold value: -21.0 dBm.
+Nov 23 12:22:49.755: %SYS-6-LOGOUT: User v4x7209 has exited tty session 2(10.129.145.135)
+Nov 23 12:23:23.603: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: v4x7209] [Source: 10.129.145.135] [localport: 22] at 12:23:23 AST Thu Nov 23 2023
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#sh int statu
+SPC02TCa19-DB1#sh int status sw
+SPC02TCa19-DB1#sh int status
+
+Port           Name               Status       Vlan       Duplex  Speed Type
+Te1/1/0/1      SPC01TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/2      SPC02TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/3      SPC02TCb19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/4      SPC06TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/5      SPC08TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/6      SPC09TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/7      SPC11TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/8      SPC12TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/9      SPC13TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/10     SPC14TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/11     Building-PC11-Busi notconnect   4057         auto   auto 10/100/1000BaseTX SFP
+Te1/1/0/12     SPC15TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/13                        notconnect   1            full   1000 1000BaseSX SFP
+Te1/1/0/14     SPC15TCb19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/15                        notconnect   1            auto   auto unknown
+Te1/1/0/16     SPC15TCc11-AB      connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/17     SPC15TCd19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/18     SPC15TCe19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/19     SPC15TCf19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/20     SPC15TCf19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/21     SPC17TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/22                        notconnect   1            auto   auto unknown
+Te1/1/0/23     SPC05TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/1/0/24     SPC03TCb19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/1      SPC10TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/2      SPC15TCe19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/3      SPC02TSCc19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/4                         notconnect   1            auto   auto unknown
+Te1/2/0/5                         notconnect   1            auto   auto unknown
+Te1/2/0/6      SPC17TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/7      SPC14TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/8      SPC09TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/9      SPC11TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/10     SPC13TCb19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/11     SPC06TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/12     SPC05TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/13     SPC15TCc19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/14     SPC15TCd19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/15     SPC08TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/16     SPC02TCb19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/17                        notconnect   1            auto   auto unknown
+Te1/2/0/18     SPC03TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/19     SPC12TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/20     SPC02TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/21                        notconnect   1            auto   auto unknown
+Te1/2/0/22     SPC01TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/23     SPC02TSCc19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/24     SPC15TCb19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/3/0/1      SVL link           connected    4094         full    10G SFP-10GBase-LR
+Te1/3/0/2      SVL link           connected    4094         full    10G SFP-10GBase-LR
+Te1/3/0/3      DUAL_ACTIVE_LINK   connected    4094         full   1000 1000BaseLX SFP
+Te1/3/0/4                         notconnect   1            auto   auto unknown
+Te1/3/0/5                         notconnect   1            auto   auto unknown
+Te1/3/0/6                         notconnect   1            auto   auto unknown
+Te1/3/0/7                         notconnect   1            full   1000 1000BaseSX SFP
+Te1/3/0/8                         notconnect   1            full   1000 1000BaseSX SFP
+Fo1/3/0/9                         inactive     1            auto   auto unknown
+Fo1/3/0/10                        inactive     1            auto   auto unknown
+Te1/5/0/1      SPC04TCa31-AC      connected    trunk        full   1000 1000BaseSX SFP
+Te1/5/0/2                         notconnect   1            auto   auto unknown
+Te1/5/0/3                         notconnect   1            auto   auto unknown
+Te1/5/0/4                         notconnect   1            auto   auto unknown
+Te1/5/0/5                         notconnect   1            auto   auto unknown
+Te1/5/0/6      WLC_RP             connected    40           full   1000 1000BaseSX SFP
+Te1/5/0/7      CPC02TCa20-DB1     connected    trunk        full    10G SFP-10GBase-LR
+Te1/5/0/8      CPC02TCa20-DB1     connected    trunk        full    10G SFP-10GBase-LR
+Te1/5/0/9                         notconnect   1            auto   auto unknown
+Te1/5/0/10     Elwi               connected    trunk        full    10G SFP-10GBase-LR
+Te1/5/0/11                        notconnect   1            auto   auto unknown
+Te1/5/0/12                        notconnect   1            full    10G unknown
+Te1/5/0/13                        notconnect   1            auto   auto unknown
+Te1/5/0/14                        notconnect   1            auto   auto unknown
+Te1/5/0/15                        notconnect   1            auto   auto unknown
+Te1/5/0/16     SPC15TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/5/0/17     SPC02TCa19-CB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/5/0/18     SPC02TCa19-CB1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/5/0/19                        notconnect   1            auto   auto unknown
+Te1/5/0/20                        notconnect   1            auto   auto unknown
+Te1/5/0/21     SPC02DC15-AB       connected    trunk        full   1000 1000BaseSX SFP
+Te1/5/0/22                        notconnect   1            full   1000 unknown
+Te1/5/0/23     SPC02DC16-AB       connected    trunk        full   1000 1000BaseSX SFP
+Te1/5/0/24                        notconnect   1            full   1000 unknown
+Te2/1/0/1      SPC01TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/2      SPC02TCa19-AB1     connected    trunk        full   1000 1000BaseLX SFP
+Te2/1/0/3      SPC02TCb19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/4      SPC06TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/5      SPC08TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/6      SPC09TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/7      SPC11TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/8      SPC12TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/9      SPC13TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/10     SPC14TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/11                        notconnect   1            auto  a-10G unknown
+Te2/1/0/12     SPC15TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/13                        notconnect   1            auto  a-10G unknown
+Te2/1/0/14     SPC15TCb19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/15                        notconnect   1            auto  a-10G unknown
+Te2/1/0/16     SPC15TCc19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/17     SPC15TCd19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/18     SPC15TCe19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/19     SPC15TCf19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/20     SPC15TCf19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/21     SPC17TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/22                        notconnect   1            auto  a-10G unknown
+Te2/1/0/23     SPC05TCa19-AB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/1/0/24     SPC03TCb19-AB1     connected    trunk        full   1000 1000BaseLX SFP
+Te2/2/0/1      SPC10TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/2      SPC15TCe19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/3      SPC02TSCc19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/4                         notconnect   1            full   1000 unknown
+Te2/2/0/5                         notconnect   1            full   1000 unknown
+Te2/2/0/6      SPC17TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/7      SPC14TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/8      SPC09TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/9      SPC11TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/10     SPC13TCb19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/11     SPC06TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/12     SPC05TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/13     SPC15TCc19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/14     SPC15TCd19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/15     SPC08TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/16     SPC02TCb19-AC1     connected    trunk        full   1000 1000BaseLX SFP
+Te2/2/0/17                        notconnect   1            auto  a-10G unknown
+Te2/2/0/18     SPC03TCa19-AC1     connected    trunk        full   1000 1000BaseLX SFP
+Te2/2/0/19     SPC12TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/20     SPC02TCa19-AC1     connected    trunk        full   1000 1000BaseLX SFP
+Te2/2/0/21                        notconnect   1            auto  a-10G unknown
+Te2/2/0/22     SPC01TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/23     SPC02TSCc19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te2/2/0/24     SPC15TCb19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/3/0/1      SVL link           connected    4094         full    10G SFP-10GBase-LR
+Te2/3/0/2      SVL link           connected    4094         full    10G SFP-10GBase-LR
+Te2/3/0/3      DUAL_ACTIVE_LINK   connected    4094         full   1000 1000BaseLX SFP
+Te2/3/0/4                         notconnect   1            auto  a-10G unknown
+Te2/3/0/5                         notconnect   1            auto  a-10G unknown
+Te2/3/0/6                         notconnect   1            auto  a-10G unknown
+Te2/3/0/7                         notconnect   1            full   1000 1000BaseSX SFP
+Te2/3/0/8                         notconnect   1            full   1000 1000BaseSX SFP
+Fo2/3/0/9                         notconnect   1            auto   auto unknown
+Fo2/3/0/10                        notconnect   1            auto   auto unknown
+Te2/5/0/1      SPC04TCa31-AC      notconnect   1            full   1000 unknown
+Te2/5/0/2                         notconnect   1            auto   auto 10/100/1000BaseTX SFP
+Te2/5/0/3                         notconnect   1            auto  a-10G unknown
+Te2/5/0/4                         notconnect   1            auto  a-10G unknown
+Te2/5/0/5                         notconnect   1            full    10G
+Te2/5/0/6      WLC_RP             connected    40           full   1000 1000BaseSX SFP
+Te2/5/0/7      CPC02TCa20-DB1-HA  connected    trunk        full    10G SFP-10GBase-SR
+Te2/5/0/8      CPC02TCa20-DB1-HA  connected    trunk        full    10G SFP-10GBase-SR
+Te2/5/0/9                         notconnect   1            auto  a-10G unknown
+Te2/5/0/10     Elwi               notconnect   1            auto  a-10G unknown
+Te2/5/0/11                        notconnect   1            auto  a-10G unknown
+Te2/5/0/12                        notconnect   1            auto   auto 10/100/1000BaseTX SFP
+Te2/5/0/13     SPC11TSCA21_Shop_A connected    trunk        full   1000 1000BaseSX SFP
+Te2/5/0/14                        notconnect   1            auto  a-10G unknown
+Te2/5/0/15                        notconnect   1            auto  a-10G unknown
+Te2/5/0/16     SPC15TCa19-AC1     connected    trunk        full   1000 1000BaseLX SFP
+Te2/5/0/17     SPC02TCa19-CB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/5/0/18     SPC02TCa19-CB1     connected    trunk        full   1000 1000BaseSX SFP
+Te2/5/0/19                        notconnect   1            auto  a-10G unknown
+Te2/5/0/20                        notconnect   1            auto  a-10G unknown
+Te2/5/0/21     SPC02DC15-AB       connected    trunk        full   1000 1000BaseSX SFP
+Te2/5/0/22                        notconnect   1            full    10G
+Te2/5/0/23     SPC02DC16-AB       connected    trunk        full   1000 1000BaseSX SFP
+Te2/5/0/24                        notconnect   1            full    10G
+Po5            CPC02TCa20-DB1     connected    trunk      a-full  a-10G N/A
+Po6            CPC02TCa20-DB1-HA  connected    trunk      a-full  a-10G N/A
+Po9            Elwi               connected    trunk      a-full  a-10G N/A
+Po10           SPC02TCa19-CB1     connected    trunk      a-full a-1000 N/A
+Po11           SPC01TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po12           SPC02DC15-AB       connected    trunk      a-full a-1000 N/A
+Po13           SPC02TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po14           SPC02TCb19-AB1     connected    trunk      a-full a-1000 N/A
+Po15           SPC06TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po16           SPC08TSCa19-AB1    connected    trunk      a-full a-1000 N/A
+Po17           SPC09TSCa19-AB1    connected    trunk      a-full a-1000 N/A
+Po18           SPC11TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po19           SPC12TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po20           SPC13TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po21           SPC14TSCa19-AB1    connected    trunk      a-full a-1000 N/A
+Po23           SPC15TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po25           SPC15TCb19-AB1     connected    trunk      a-full a-1000 N/A
+Po27           SPC15TCc19-AB1     connected    trunk      a-full a-1000 N/A
+Po28           SPC15TCd19-AB1     connected    trunk      a-full a-1000 N/A
+Po29           SPC15TCe19-AB1     connected    trunk      a-full a-1000 N/A
+Po30           SPC15TCf19-AB1     connected    trunk      a-full a-1000 N/A
+Po31           SPC15TCf19-AC1     connected    trunk      a-full a-1000 N/A
+Po32           SPC17TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po34           SPC05TCa19-AB1     connected    trunk      a-full a-1000 N/A
+Po35           SPC03TCb19-AB1     connected    trunk      a-full a-1000 N/A
+Po36           SPC10TSCa19-AB1    connected    trunk      a-full a-1000 N/A
+Po37           SPC15TCe19-AC1     connected    trunk      a-full a-1000 N/A
+Po38           SPC02TSCc19-AC1    connected    trunk      a-full a-1000 N/A
+Po41           SPC17TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po42           SPC14TSCa19-AC1    connected    trunk      a-full a-1000 N/A
+Po43           SPC09TSCa19-AC1    connected    trunk      a-full a-1000 N/A
+Po44           SPC11TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po45           SPC13TCb19-AC1     connected    trunk      a-full a-1000 N/A
+Po46           SPC06TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po47           SPC05TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po48           SPC15TCc19-AC1     connected    trunk      a-full a-1000 N/A
+Po49           SPC15TCd19-AC1     connected    trunk      a-full a-1000 N/A
+Po50           SPC08TSCa19-AC1    connected    trunk      a-full a-1000 N/A
+Po51           SPC02TCb19-AC1     connected    trunk      a-full a-1000 N/A
+Po53           SPC03TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po54           SPC12TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po55           SPC02TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po57           SPC01TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po58           SPC02TSCc19-AB1    connected    trunk      a-full a-1000 N/A
+Po59           SPC15TCb19-AC1     connected    trunk      a-full a-1000 N/A
+Po60           SPC15TCa19-AC1     connected    trunk      a-full a-1000 N/A
+Po61           SPC04TCa31-AC      connected    trunk      a-full a-1000 N/A
+SPC02TCa19-DB1#sh int status sw
+SPC02TCa19-DB1#sh int status switch 1 mo
+SPC02TCa19-DB1#sh int status switch 1 module 2 ?
+  |     Output modifiers
+  <cr>  <cr>
+
+SPC02TCa19-DB1#sh int status switch 1 module 2
+
+Port           Name               Status       Vlan       Duplex  Speed Type
+Te1/2/0/1      SPC10TSCa19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/2      SPC15TCe19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/3      SPC02TSCc19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/4                         notconnect   1            auto   auto unknown
+Te1/2/0/5                         notconnect   1            auto   auto unknown
+Te1/2/0/6      SPC17TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/7      SPC14TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/8      SPC09TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/9      SPC11TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/10     SPC13TCb19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/11     SPC06TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/12     SPC05TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/13     SPC15TCc19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/14     SPC15TCd19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/15     SPC08TSCa19-AC1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/16     SPC02TCb19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/17                        notconnect   1            auto   auto unknown
+Te1/2/0/18     SPC03TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/19     SPC12TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/20     SPC02TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/21                        notconnect   1            auto   auto unknown
+Te1/2/0/22     SPC01TCa19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/23     SPC02TSCc19-AB1    connected    trunk        full   1000 1000BaseSX SFP
+Te1/2/0/24     SPC15TCb19-AC1     connected    trunk        full   1000 1000BaseSX SFP
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#sh int
+SPC02TCa19-DB1#sh interfaces tra
+SPC02TCa19-DB1#sh interfaces transceiver sw
+SPC02TCa19-DB1#sh interfaces transceiver switch 1 mod
+SPC02TCa19-DB1#sh interfaces transceiver switch 1 module 2
+If device is externally calibrated, only calibrated values are printed.
+++ : high alarm, +  : high warning, -  : low warning, -- : low alarm.
+NA or N/A: not applicable, Tx: transmit, Rx: receive.
+mA: milliamperes, dBm: decibels (milliwatts).
+
+                                             Optical   Optical
+             Temperature  Voltage  Current   Tx Power  Rx Power
+Port         (Celsius)    (Volts)  (mA)      (dBm)     (dBm)
+---------    -----------  -------  --------  --------  --------
+Te1/2/0/1    31.8       3.29       2.9      -6.1      -9.4
+Te1/2/0/2    32.2       3.30       2.7      -6.2     -19.8
+Te1/2/0/3    31.6       3.29       2.8      -6.2      -6.7
+Te1/2/0/6    32.3       3.29       2.6      -6.2     -17.0
+Te1/2/0/7    33.9       3.28       2.9      -5.7      -7.1
+Te1/2/0/8    34.0       3.29       2.8      -6.0      -8.7
+Te1/2/0/9    34.6       3.28       2.7      -6.4      -6.4
+Te1/2/0/10   33.8       3.30       2.4      -6.3      -8.0
+Te1/2/0/11   34.6       3.29       2.7      -6.7      -7.1
+Te1/2/0/12   34.0       3.28       2.5      -6.2      -8.1
+Te1/2/0/13   33.7       3.28       2.7      -6.5      -8.3
+Te1/2/0/14   33.7       3.28       2.5      -6.6      -8.0
+Te1/2/0/15   33.6       3.30       2.8      -6.3      -9.2
+Te1/2/0/16   32.0       3.29       2.6      -6.4      -7.0
+Te1/2/0/18   31.3       3.29       2.7      -6.1      -6.4
+Te1/2/0/20   30.5       3.29       2.8      -6.2      -6.6
+Te1/2/0/22   29.6       3.28       2.4      -6.7      -8.1
+Te1/2/0/23   30.2       3.29       3.2      -6.0      -7.7
+Te1/2/0/24   29.5       3.29       2.8      -5.8      -8.7
+
+
+SPC02TCa19-DB1#sh interfaces transceiver switch 2 module 2
+If device is externally calibrated, only calibrated values are printed.
+++ : high alarm, +  : high warning, -  : low warning, -- : low alarm.
+NA or N/A: not applicable, Tx: transmit, Rx: receive.
+mA: milliamperes, dBm: decibels (milliwatts).
+
+                                             Optical   Optical
+             Temperature  Voltage  Current   Tx Power  Rx Power
+Port         (Celsius)    (Volts)  (mA)      (dBm)     (dBm)
+---------    -----------  -------  --------  --------  --------
+Te2/2/0/1    35.4       3.30       3.2      -6.4      -9.2
+Te2/2/0/2    35.5       3.29       2.8      -6.3      -6.9
+Te2/2/0/3    34.7       3.27       2.8      -6.2      -7.6
+Te2/2/0/7    37.6       3.29       2.7      -6.7      -8.8
+Te2/2/0/8    37.8       3.29       2.6      -6.4      -9.1
+Te2/2/0/9    38.2       3.28       2.5      -6.6      -8.5
+Te2/2/0/10   38.6       3.29       2.6      -6.6      -6.1
+Te2/2/0/11   38.4       3.28       2.8      -6.4      -9.0
+Te2/2/0/13   37.8       3.28       2.9      -6.3      -6.3
+Te2/2/0/14   37.4       3.30       2.9      -6.6      -7.7
+Te2/2/0/15   37.4       3.28       2.8      -6.0     -23.1
+Te2/2/0/19   35.3       3.28       3.0      -6.2      -8.0
+Te2/2/0/20   31.5       3.29      12.4      -7.1      -7.4
+Te2/2/0/23   33.5       3.29       2.8      -6.6      -7.5
+Te2/2/0/24   33.4       3.27       2.6      -6.3      -6.9
+
+
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#sh eth
+SPC02TCa19-DB1#sh etherc
+SPC02TCa19-DB1#sh etherchannel s
+SPC02TCa19-DB1#sh etherchannel summary
+Flags:  D - down        P - bundled in port-channel
+        I - stand-alone s - suspended
+        H - Hot-standby (LACP only)
+        R - Layer3      S - Layer2
+        U - in use      f - failed to allocate aggregator
+
+        M - not in use, minimum links not met
+        u - unsuitable for bundling
+        w - waiting to be aggregated
+        d - default port
+
+        A - formed by Auto LAG
+
+
+Number of channel-groups in use: 47
+Number of aggregators:           47
+
+Group  Port-channel  Protocol    Ports
+------+-------------+-----------+-----------------------------------------------
+5      Po5(SU)          -          Te1/5/0/7(P)    Te1/5/0/8(P)
+6      Po6(SU)          -          Te2/5/0/7(P)    Te2/5/0/8(P)
+9      Po9(SU)          -          Te1/5/0/10(P)   Te2/5/0/10(D)
+10     Po10(SU)        PAgP        Te1/5/0/17(P)   Te1/5/0/18(P)
+                                   Te2/5/0/17(P)   Te2/5/0/18(P)
+11     Po11(SU)        PAgP        Te1/1/0/1(P)    Te2/1/0/1(P)
+12     Po12(SU)        LACP        Te1/5/0/21(P)   Te1/5/0/23(P)
+                                   Te2/5/0/21(P)   Te2/5/0/23(P)
+13     Po13(SU)        PAgP        Te1/1/0/2(P)    Te2/1/0/2(P)
+14     Po14(SU)        PAgP        Te1/1/0/3(P)    Te2/1/0/3(P)
+15     Po15(SU)        PAgP        Te1/1/0/4(P)    Te2/1/0/4(P)
+16     Po16(SU)        PAgP        Te1/1/0/5(P)    Te2/1/0/5(P)
+17     Po17(SU)        PAgP        Te1/1/0/6(P)    Te2/1/0/6(P)
+18     Po18(SU)        PAgP        Te1/1/0/7(P)    Te2/1/0/7(P)
+19     Po19(SU)        PAgP        Te1/1/0/8(P)    Te2/1/0/8(P)
+20     Po20(SU)        PAgP        Te1/1/0/9(P)    Te2/1/0/9(P)
+21     Po21(SU)        PAgP        Te1/1/0/10(P)   Te2/1/0/10(P)
+23     Po23(SU)        PAgP        Te1/1/0/12(P)   Te2/1/0/12(P)
+25     Po25(SU)        PAgP        Te1/1/0/14(P)   Te2/1/0/14(P)
+27     Po27(SU)        PAgP        Te1/1/0/16(P)   Te2/1/0/16(P)
+28     Po28(SU)        PAgP        Te1/1/0/17(P)   Te2/1/0/17(P)
+29     Po29(SU)        PAgP        Te1/1/0/18(P)   Te2/1/0/18(P)
+30     Po30(SU)        PAgP        Te1/1/0/19(P)   Te2/1/0/19(P)
+31     Po31(SU)        PAgP        Te1/1/0/20(P)   Te2/1/0/20(P)
+32     Po32(SU)        PAgP        Te1/1/0/21(P)   Te2/1/0/21(P)
+34     Po34(SU)        PAgP        Te1/1/0/23(P)   Te2/1/0/23(P)
+35     Po35(SU)        PAgP        Te1/1/0/24(P)   Te2/1/0/24(P)
+36     Po36(SU)        PAgP        Te1/2/0/1(P)    Te2/2/0/1(P)
+37     Po37(SU)        PAgP        Te1/2/0/2(P)    Te2/2/0/2(P)
+38     Po38(SU)        PAgP        Te1/2/0/3(P)    Te2/2/0/3(P)
+41     Po41(SU)        PAgP        Te1/2/0/6(P)    Te2/2/0/6(P)
+42     Po42(SU)        PAgP        Te1/2/0/7(P)    Te2/2/0/7(P)
+43     Po43(SU)        PAgP        Te1/2/0/8(P)    Te2/2/0/8(P)
+44     Po44(SU)        PAgP        Te1/2/0/9(P)    Te2/2/0/9(P)
+45     Po45(SU)        PAgP        Te1/2/0/10(P)   Te2/2/0/10(P)
+46     Po46(SU)        PAgP        Te1/2/0/11(P)   Te2/2/0/11(P)
+47     Po47(SU)        PAgP        Te1/2/0/12(P)   Te2/2/0/12(P)
+48     Po48(SU)        PAgP        Te1/2/0/13(P)   Te2/2/0/13(P)
+49     Po49(SU)        PAgP        Te1/2/0/14(P)   Te2/2/0/14(P)
+50     Po50(SU)        PAgP        Te1/2/0/15(P)   Te2/2/0/15(P)
+51     Po51(SU)        PAgP        Te1/2/0/16(P)   Te2/2/0/16(P)
+53     Po53(SU)        PAgP        Te1/2/0/18(P)   Te2/2/0/18(P)
+54     Po54(SU)        PAgP        Te1/2/0/19(P)   Te2/2/0/19(P)
+55     Po55(SU)        PAgP        Te1/2/0/20(P)   Te2/2/0/20(P)
+57     Po57(SU)        PAgP        Te1/2/0/22(P)   Te2/2/0/22(P)
+58     Po58(SU)        PAgP        Te1/2/0/23(P)   Te2/2/0/23(P)
+59     Po59(SU)        PAgP        Te1/2/0/24(P)   Te2/2/0/24(P)
+60     Po60(SU)        PAgP        Te1/5/0/16(P)   Te2/5/0/16(P)
+61     Po61(SU)        PAgP        Te1/5/0/1(P)    Te2/5/0/1(D)
+
+SPC02TCa19-DB1#sh et
+SPC02TCa19-DB1#sh etc
+SPC02TCa19-DB1#sh et
+SPC02TCa19-DB1#sh eth
+SPC02TCa19-DB1#sh etherc
+SPC02TCa19-DB1#sh etherchannel 10 de
+SPC02TCa19-DB1#sh etherchannel 10 detail
+Group state = L2
+Ports: 4   Maxports = 8
+Port-channels: 1 Max Port-channels = 1
+Protocol:   PAgP
+Minimum Links: 0
+
+
+                Ports in the group:
+                -------------------
+Port: Te1/5/0/17
+------------
+
+Port state    = Up Mstr In-Bndl
+Channel group = 10          Mode = Desirable-NonSl Gcchange = 0
+Port-channel  = Po10        GC   = 0x000A0001      Pseudo port-channel = Po10
+Port index    = 0           Load = 0x00            Protocol =   PAgP
+
+Flags:  S - Device is sending Slow hello.  C - Device is in Consistent state.
+        A - Device is in Auto mode.        P - Device learns on physical port.
+        d - PAgP is down.
+Timers: H - Hello timer is running.        Q - Quit timer is running.
+        S - Switching timer is running.    I - Interface timer is running.
+
+Local information:
+                                    Hello    Partner  PAgP     Learning  Group
+Port          Flags State   Timers  Interval Count   Priority   Method    Ifindex
+Te1/5/0/17     S C  U6/S7   H       30s       1        128        Any       173
+
+Partner's information:
+
+            Partner              Partner          Partner                   Partner Group
+Port        Name                 Device ID        Port        Age  Flags    Cap.
+Te1/5/0/17  SPC02TCa19-CB1.na.am 00b8.b3c2.4d80   Te1/0/17    15s  SC       50001
+
+Age of the port in the current state: 948d:17h:06m:01s
+
+Port: Te1/5/0/18
+------------
+
+Port state    = Up Mstr In-Bndl
+Channel group = 10          Mode = Desirable-NonSl Gcchange = 0
+Port-channel  = Po10        GC   = 0x000A0001      Pseudo port-channel = Po10
+Port index    = 0           Load = 0x00            Protocol =   PAgP
+
+Flags:  S - Device is sending Slow hello.  C - Device is in Consistent state.
+        A - Device is in Auto mode.        P - Device learns on physical port.
+        d - PAgP is down.
+Timers: H - Hello timer is running.        Q - Quit timer is running.
+        S - Switching timer is running.    I - Interface timer is running.
+
+Local information:
+                                    Hello    Partner  PAgP     Learning  Group
+Port          Flags State   Timers  Interval Count   Priority   Method    Ifindex
+Te1/5/0/18     S C  U6/S7   H       30s       1        128        Any       173
+
+Partner's information:
+
+            Partner              Partner          Partner                   Partner Group
+Port        Name                 Device ID        Port        Age  Flags    Cap.
+Te1/5/0/18  SPC02TCa19-CB1.na.am 00b8.b3c2.4d80   Te1/0/18    23s  SC       50001
+
+Age of the port in the current state: 948d:17h:06m:00s
+
+Port: Te2/5/0/17
+------------
+
+Port state    = Up Mstr In-Bndl
+Channel group = 10          Mode = Desirable-NonSl Gcchange = 0
+Port-channel  = Po10        GC   = 0x000A0001      Pseudo port-channel = Po10
+Port index    = 0           Load = 0x00            Protocol =   PAgP
+
+Flags:  S - Device is sending Slow hello.  C - Device is in Consistent state.
+        A - Device is in Auto mode.        P - Device learns on physical port.
+        d - PAgP is down.
+Timers: H - Hello timer is running.        Q - Quit timer is running.
+        S - Switching timer is running.    I - Interface timer is running.
+
+Local information:
+                                    Hello    Partner  PAgP     Learning  Group
+Port          Flags State   Timers  Interval Count   Priority   Method    Ifindex
+Te2/5/0/17     S C  U6/S7   H       30s       1        128        Any       173
+
+Partner's information:
+
+            Partner              Partner          Partner                   Partner Group
+Port        Name                 Device ID        Port        Age  Flags    Cap.
+Te2/5/0/17  SPC02TCa19-CB1.na.am 00b8.b3c2.4d80   Te2/0/18    19s  SC       50001
+
+Age of the port in the current state: 948d:16h:08m:25s
+
+Port: Te2/5/0/18
+------------
+
+Port state    = Up Mstr In-Bndl
+Channel group = 10          Mode = Desirable-NonSl Gcchange = 0
+Port-channel  = Po10        GC   = 0x000A0001      Pseudo port-channel = Po10
+Port index    = 0           Load = 0x00            Protocol =   PAgP
+
+Flags:  S - Device is sending Slow hello.  C - Device is in Consistent state.
+        A - Device is in Auto mode.        P - Device learns on physical port.
+        d - PAgP is down.
+Timers: H - Hello timer is running.        Q - Quit timer is running.
+        S - Switching timer is running.    I - Interface timer is running.
+
+Local information:
+                                    Hello    Partner  PAgP     Learning  Group
+Port          Flags State   Timers  Interval Count   Priority   Method    Ifindex
+Te2/5/0/18     S C  U6/S7   H       30s       1        128        Any       173
+
+Partner's information:
+
+            Partner              Partner          Partner                   Partner Group
+Port        Name                 Device ID        Port        Age  Flags    Cap.
+Te2/5/0/18  SPC02TCa19-CB1.na.am 00b8.b3c2.4d80   Te2/0/17     0s  SC       50001
+
+Age of the port in the current state: 948d:16h:08m:25s
+
+                Port-channels in the group:
+                ---------------------------
+
+Port-channel: Po10
+------------
+
+Age of the Port-channel   = 1070d:17h:04m:28s
+Logical slot/port   = 30/10          Number of ports = 4
+GC                  = 0x000A0001      HotStandBy port = null
+Port state          = Port-channel Ag-Inuse
+Protocol            =   PAgP
+Port security       = Disabled
+
+Ports in the Port-channel:
+
+Index   Load   Port        EC state        No of bits
+------+------+------+------------------+-----------
+  0     00     Te1/5/0/17  Desirable-NonSl    0
+  0     00     Te1/5/0/18  Desirable-NonSl    0
+  0     00     Te2/5/0/17  Desirable-NonSl    0
+  0     00     Te2/5/0/18  Desirable-NonSl    0
+
+Time since last port bundled:    948d:16h:08m:25s    Te2/5/0/17
+Time since last port Un-bundled: 948d:16h:18m:14s    Te2/5/0/18
+
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#sh etherchannel 56 detail
+SPC02TCa19-DB1#sh etherchannel 55 detail
+Group state = L2
+Ports: 2   Maxports = 8
+Port-channels: 1 Max Port-channels = 1
+Protocol:   PAgP
+Minimum Links: 0
+
+
+                Ports in the group:
+                -------------------
+Port: Te1/2/0/20
+------------
+
+Port state    = Up Mstr In-Bndl
+Channel group = 55          Mode = Desirable-NonSl Gcchange = 0
+Port-channel  = Po55        GC   = 0x00370001      Pseudo port-channel = Po55
+Port index    = 0           Load = 0x00            Protocol =   PAgP
+
+Flags:  S - Device is sending Slow hello.  C - Device is in Consistent state.
+        A - Device is in Auto mode.        P - Device learns on physical port.
+        d - PAgP is down.
+Timers: H - Hello timer is running.        Q - Quit timer is running.
+        S - Switching timer is running.    I - Interface timer is running.
+
+Local information:
+                                    Hello    Partner  PAgP     Learning  Group
+Port          Flags State   Timers  Interval Count   Priority   Method    Ifindex
+Te1/2/0/20     S C  U6/S7   H       30s       1        128        Any       218
+
+Partner's information:
+
+            Partner              Partner          Partner                   Partner Group
+Port        Name                 Device ID        Port        Age  Flags    Cap.
+Te1/2/0/20  SPC02TCa19-AC1.na.am 0cd0.f855.e180   Gi1/1/1     24s  SC       10001
+
+Age of the port in the current state: 700d:21h:40m:58s
+
+Port: Te2/2/0/20
+------------
+
+Port state    = Up Mstr In-Bndl
+Channel group = 55          Mode = Desirable-NonSl Gcchange = 0
+Port-channel  = Po55        GC   = 0x00370001      Pseudo port-channel = Po55
+Port index    = 0           Load = 0x00            Protocol =   PAgP
+
+Flags:  S - Device is sending Slow hello.  C - Device is in Consistent state.
+        A - Device is in Auto mode.        P - Device learns on physical port.
+        d - PAgP is down.
+Timers: H - Hello timer is running.        Q - Quit timer is running.
+        S - Switching timer is running.    I - Interface timer is running.
+
+Local information:
+                                    Hello    Partner  PAgP     Learning  Group
+Port          Flags State   Timers  Interval Count   Priority   Method    Ifindex
+Te2/2/0/20     S C  U6/S7   H       30s       1        128        Any       218
+
+Partner's information:
+
+            Partner              Partner          Partner                   Partner Group
+Port        Name                 Device ID        Port        Age  Flags    Cap.
+Te2/2/0/20  SPC02TCa19-AC1.na.am 0cd0.f855.e180   Gi1/1/2     24s  SC       10001
+
+Age of the port in the current state: 700d:21h:40m:58s
+
+                Port-channels in the group:
+                ---------------------------
+
+Port-channel: Po55
+------------
+
+Age of the Port-channel   = 1070d:17h:04m:42s
+Logical slot/port   = 30/55          Number of ports = 2
+GC                  = 0x00370001      HotStandBy port = null
+Port state          = Port-channel Ag-Inuse
+Protocol            =   PAgP
+Port security       = Disabled
+
+Ports in the Port-channel:
+
+Index   Load   Port        EC state        No of bits
+------+------+------+------------------+-----------
+  0     00     Te1/2/0/20  Desirable-NonSl    0
+  0     00     Te2/2/0/20  Desirable-NonSl    0
+
+Time since last port bundled:    700d:21h:40m:58s    Te1/2/0/20
+Time since last port Un-bundled: 700d:21h:46m:38s    Te2/2/0/20
+
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#
+SPC02TCa19-DB1#sh ip osp
+SPC02TCa19-DB1#sh ip ospf
+ Routing Process "ospf 105" with ID 40.199.42.10
+ Start time: 17w3d, Time elapsed: 2y31w
+ Supports only single TOS(TOS0) routes
+ Supports opaque LSA
+ Supports Link-local Signaling (LLS)
+ Supports area transit capability
+ Supports NSSA (compatible with RFC 3101)
+ Supports Database Exchange Summary List Optimization (RFC 5243)
+ Event-log enabled, Maximum number of events: 1000, Mode: cyclic
+ It is an autonomous system boundary router
+ Redistributing External Routes from,
+    static, includes subnets in redistribution
+ Router is not originating router-LSAs with maximum metric
+ Initial SPF schedule delay 50 msecs
+ Minimum hold time between two consecutive SPFs 200 msecs
+ Maximum wait time between two consecutive SPFs 5000 msecs
+ Incremental-SPF disabled
+ Initial LSA throttle delay 50 msecs
+ Minimum hold time for LSA throttle 200 msecs
+ Maximum wait time for LSA throttle 5000 msecs
+ Minimum LSA arrival 100 msecs
+ LSA group pacing timer 240 secs
+ Interface flood pacing timer 33 msecs
+ Retransmission pacing timer 66 msecs
+ EXCHANGE/LOADING adjacency limit: initial 300, process maximum 300
+ Number of external LSA 0. Checksum Sum 0x000000
+ Number of opaque AS LSA 0. Checksum Sum 0x000000
+ Number of DCbitless external and opaque AS LSA 0
+ Number of DoNotAge external and opaque AS LSA 0
+ Number of areas in this router is 1. 0 normal 0 stub 1 nssa
+ Number of areas transit capable is 0
+ External flood list length 0
+ Non-Stop Forwarding enabled, last NSF restart 2y31w    ago (took 20 secs)
+ IETF NSF helper support enabled
+ Cisco NSF helper support enabled
+ Reference bandwidth unit is 100 mbps
+    Area 787
+        Number of interfaces in this area is 44
+        It is a NSSA area
+        Area has no authentication
+        SPF algorithm last executed 1w1d ago
+        SPF algorithm executed 960 times
+        Area ranges are
+        Number of LSA 43. Checksum Sum 0x16C1AB
+        Number of opaque link LSA 0. Checksum Sum 0x000000
+        Number of DCbitless LSA 6
+        Number of indication LSA 0
+        Number of DoNotAge LSA 0
+        Flood list length 0
+ Maintenance Mode ID:     139828973005448
+ Maintenance Mode:        disabled
+ Maintenance Mode Timer:  stopped (0)
+  Graceful Reload FSU Global status : Not Supported (global: Not Supported)
+
+SPC02TCa19-DB1#sh ip rout
+SPC02TCa19-DB1#sh ip route
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, m - OMP
+       n - NAT, Ni - NAT inside, No - NAT outside, Nd - NAT DIA
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       H - NHRP, G - NHRP registered, g - NHRP registration summary
+       o - ODR, P - periodic downloaded static route, l - LISP
+       a - application route
+       + - replicated route, % - next hop override, p - overrides from PfR
+
+Gateway of last resort is 40.199.45.149 to network 0.0.0.0
+
+O*N1  0.0.0.0/0 [110/2] via 40.199.45.149, 1w1d, Vlan4028
+      10.0.0.0/8 is variably subnetted, 11 subnets, 5 masks
+O        10.199.35.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        10.199.39.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        10.199.40.0/25 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        10.199.40.128/25 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+C        10.199.46.0/23 is directly connected, Vlan4079
+L        10.199.47.254/32 is directly connected, Vlan4079
+O        10.199.49.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O        10.199.71.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O        10.199.98.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O N2     10.249.255.0/29 [110/20] via 40.199.45.149, 7w0d, Vlan4028
+O N2     10.249.255.8/29 [110/20] via 40.199.45.149, 7w0d, Vlan4028
+      40.0.0.0/8 is variably subnetted, 207 subnets, 10 masks
+O        40.15.255.8/32 [110/73] via 40.199.45.149, 7w0d, Vlan4028
+O        40.15.255.9/32 [110/73] via 40.199.45.149, 7w0d, Vlan4028
+O        40.15.255.24/32 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.15.255.25/32 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O IA     40.15.255.240/32 [110/141] via 40.199.45.149, 1w1d, Vlan4028
+O IA     40.15.255.241/32 [110/141] via 40.199.45.149, 1w1d, Vlan4028
+O        40.33.10.0/26 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+C        40.33.10.64/26 is directly connected, Vlan3555
+L        40.33.10.126/32 is directly connected, Vlan3555
+C        40.156.45.0/24 is directly connected, Vlan2051
+L        40.156.45.254/32 is directly connected, Vlan2051
+C        40.156.46.0/24 is directly connected, Vlan2052
+L        40.156.46.254/32 is directly connected, Vlan2052
+C        40.156.47.0/24 is directly connected, Vlan2053
+L        40.156.47.254/32 is directly connected, Vlan2053
+C        40.156.48.0/24 is directly connected, Vlan2054
+L        40.156.48.254/32 is directly connected, Vlan2054
+C        40.156.49.0/24 is directly connected, Vlan2056
+L        40.156.49.254/32 is directly connected, Vlan2056
+C        40.156.50.0/24 is directly connected, Vlan2029
+L        40.156.50.254/32 is directly connected, Vlan2029
+C        40.156.51.0/24 is directly connected, Vlan2060
+L        40.156.51.254/32 is directly connected, Vlan2060
+C        40.156.52.0/24 is directly connected, Vlan2057
+L        40.156.52.254/32 is directly connected, Vlan2057
+C        40.156.53.0/24 is directly connected, Vlan2058
+L        40.156.53.254/32 is directly connected, Vlan2058
+C        40.156.54.0/24 is directly connected, Vlan2055
+L        40.156.54.254/32 is directly connected, Vlan2055
+C        40.156.55.0/24 is directly connected, Vlan2059
+L        40.156.55.254/32 is directly connected, Vlan2059
+O        40.156.56.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.156.57.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.156.58.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.156.59.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.156.60.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.156.61.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.156.62.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.156.63.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+C        40.158.2.0/28 is directly connected, Vlan998
+L        40.158.2.14/32 is directly connected, Vlan998
+O        40.158.2.16/28 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.0.11/32 [110/152] via 40.199.45.149, 3w5d, Vlan4028
+O        40.199.0.12/32 [110/84] via 40.199.45.149, 3w5d, Vlan4028
+C        40.199.4.0/27 is directly connected, Vlan4020
+L        40.199.4.30/32 is directly connected, Vlan4020
+O        40.199.4.32/27 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.4.64/27 is directly connected, Vlan4022
+L        40.199.4.94/32 is directly connected, Vlan4022
+O        40.199.9.0/25 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.9.128/25 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.10.0/25 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.15.0/24 is directly connected, Vlan3010
+L        40.199.15.254/32 is directly connected, Vlan3010
+O        40.199.16.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.20.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.21.128/25 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.22.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.26.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.28.0/23 is directly connected, Vlan2079
+L        40.199.29.254/32 is directly connected, Vlan2079
+O        40.199.30.0/25 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.30.128/25 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.32.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.33.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.34.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.35.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.36.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.37.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.39.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.40.0/25 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.40.128/25 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.42.0/23 is directly connected, Vlan4038
+L        40.199.42.10/32 is directly connected, Vlan4038
+O        40.199.44.0/24 [110/3] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.45.0/25 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.45.140/30 [110/3] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.45.148/30 is directly connected, Vlan4028
+L        40.199.45.150/32 is directly connected, Vlan4028
+C        40.199.46.0/23 is directly connected, Vlan4079
+L        40.199.47.254/32 is directly connected, Vlan4079
+O        40.199.49.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.52.0/24 is directly connected, Vlan4052
+L        40.199.52.254/32 is directly connected, Vlan4052
+C        40.199.53.0/24 is directly connected, Vlan4053
+L        40.199.53.254/32 is directly connected, Vlan4053
+C        40.199.54.0/24 is directly connected, Vlan4054
+L        40.199.54.254/32 is directly connected, Vlan4054
+C        40.199.56.0/24 is directly connected, Vlan4056
+L        40.199.56.254/32 is directly connected, Vlan4056
+C        40.199.57.0/24 is directly connected, Vlan4057
+L        40.199.57.254/32 is directly connected, Vlan4057
+C        40.199.58.0/24 is directly connected, Vlan4058
+L        40.199.58.254/32 is directly connected, Vlan4058
+C        40.199.59.0/24 is directly connected, Vlan4051
+L        40.199.59.254/32 is directly connected, Vlan4051
+O        40.199.60.0/26 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.61.0/24 is directly connected, Vlan4009
+L        40.199.61.254/32 is directly connected, Vlan4009
+C        40.199.62.0/26 is directly connected, Vlan4060
+L        40.199.62.62/32 is directly connected, Vlan4060
+C        40.199.63.0/24 is directly connected, Vlan4059
+L        40.199.63.254/32 is directly connected, Vlan4059
+C        40.199.65.0/24 is directly connected, Vlan4010
+L        40.199.65.254/32 is directly connected, Vlan4010
+C        40.199.66.0/24 is directly connected, Vlan3500
+L        40.199.66.254/32 is directly connected, Vlan3500
+O        40.199.67.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.68.0/24 is directly connected, Vlan4055
+L        40.199.68.254/32 is directly connected, Vlan4055
+C        40.199.69.0/28 is directly connected, Vlan4011
+L        40.199.69.14/32 is directly connected, Vlan4011
+O        40.199.71.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.75.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.77.128/25 is directly connected, Vlan4029
+L        40.199.77.254/32 is directly connected, Vlan4029
+O        40.199.78.192/28 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.78.240/28 [110/2] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.79.0/24 is directly connected, Vlan2010
+L        40.199.79.254/32 is directly connected, Vlan2010
+O        40.199.80.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.81.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.82.0/24 is directly connected, Vlan4070
+L        40.199.82.254/32 is directly connected, Vlan4070
+C        40.199.83.0/25 is directly connected, Vlan3080
+L        40.199.83.126/32 is directly connected, Vlan3080
+C        40.199.83.128/25 is directly connected, Vlan3081
+L        40.199.83.254/32 is directly connected, Vlan3081
+O        40.199.84.0/25 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.84.128/25 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.86.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.88.2/32 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.89.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.96.0/25 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O N2     40.199.96.128/25 [110/20] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.98.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.99.0/25 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O N2     40.199.99.128/25 [110/20] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.100.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.101.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O N2     40.199.102.0/24 [110/20] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.109.128/29 [110/2] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.109.144/29 [110/2] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.109.152/29 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.109.184/29 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.109.192/28 [110/141] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.110.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.111.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.112.0/22 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.116.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.117.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.118.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.119.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.120.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.121.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.123.0/24 [110/84] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.124.0/23 is directly connected, Vlan296
+L        40.199.125.254/32 is directly connected, Vlan296
+C        40.199.128.0/28 is directly connected, Vlan128
+L        40.199.128.14/32 is directly connected, Vlan128
+O        40.199.128.16/28 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.131.0/25 is directly connected, Vlan4017
+L        40.199.131.126/32 is directly connected, Vlan4017
+O        40.199.131.128/25 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+C        40.199.132.0/22 is directly connected, Vlan25
+L        40.199.135.254/32 is directly connected, Vlan25
+O        40.199.140.0/26 [110/83] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.140.64/26 [110/83] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.140.128/26 [110/83] via 40.199.45.149, 7w0d, Vlan4028
+O N2     40.199.140.192/26 [110/20] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.141.0/30 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.141.4/30 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.141.8/30 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.141.12/30 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O N1     40.199.141.64/27 [110/172] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.0/29 [110/73] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.8/29 [110/83] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.16/29 [110/73] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.24/29 [110/73] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.32/29 [110/151] via 40.199.45.149, 7w0d, Vlan4028
+O N1     40.199.142.64/27 [110/173] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.96/29 [110/73] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.104/29 [110/73] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.112/29 [110/83] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.142.252/30 [110/142] via 40.199.45.149, 7w0d, Vlan4028
+O IA     40.199.143.0/30 [110/71] via 40.199.45.149, 1w1d, Vlan4028
+O IA     40.199.143.4/30 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O IA     40.199.143.8/30 [110/71] via 40.199.45.149, 1w1d, Vlan4028
+O IA     40.199.143.12/30 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.143.36/30 [110/71] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.143.240/30 [110/71] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.143.244/30 [110/71] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.143.248/30 [110/71] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.143.252/30 [110/71] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.144.0/29 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.144.8/29 [110/151] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.144.16/29 [110/141] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.144.24/29 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.144.32/29 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.144.40/29 [110/72] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.144.252/30 [110/141] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.145.0/26 [110/151] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.145.64/26 [110/151] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.145.128/26 [110/151] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.146.0/24 [110/4] via 40.199.45.149, 7w0d, Vlan4028
+O        40.199.147.0/24 [110/152] via 40.199.45.149, 7w0d, Vlan4028
+O N2     40.199.148.0/24 [110/20] via 40.199.45.149, 7w0d, Vlan4028
+      192.168.35.0/24 is variably subnetted, 2 subnets, 2 masks
+C        192.168.35.0/24 is directly connected, VirtualPortGroup0
+L        192.168.35.1/32 is directly connected, VirtualPortGroup0
+SPC02TCa19-DB1#sh os
+SPC02TCa19-DB1#sh ospfv3 ?
+  <1-65535>            Process ID number
+  bad-checksum         Packets received with a bad checksum
+  border-routers       Border and Boundary Router Information
+  database             Database summary
+  events               Event log
+  flood-list           Link state flood list
+  graceful-restart     Graceful restart information
+  interface            Interface information
+  ipv4                 Address family
+  ipv6                 Address family
+  max-metric           Max-metric origination information
+  multi-area           Multi-area interfaces information
+  neighbor             Neighbor list
+  nsr                  Non-stop routing information
+  request-list         Link state request list
+  retransmission-list  Link state retransmission list
+  rib                  Routing Information Base (RIB)
+  sham-links           Sham link information
+  statistic            Statistics
+  summary-prefix       Summary-prefix redistribution Information
+  timers               Timer lists
+  traffic              Traffic statistics
+  virtual-links        Virtual link information
+  vrf                  VPN Routing/Forwarding instance
+  |                    Output modifiers
+  <cr>                 <cr>
+
+SPC02TCa19-DB1#sh ospfv3 ne
+SPC02TCa19-DB1#sh ospfv3 neighbor ?
+  ANI                   Autonomic-Networking virtual interface
+  AccessTunnel          Access Tunnel interface
+  Auto-Template         Auto-Template interface
+  BDI                   Bridge-Domain interface
+  Bluetooth             Bluetooth interface
+  CEM-PG                Circuit Emulation interface with Protection group
+  FortyGigabitEthernet  Forty Gigabit Ethernet
+  GMPLS                 MPLS interface
+  GigabitEthernet       GigabitEthernet IEEE 802.3z
+  Hostname or A.B.C.D   Neighbor ID
+  InternalInterface     Internal Interface
+  LISP                  Locator/ID Separation Protocol Virtual Interface
+  Loopback              Loopback interface
+  Null                  Null interface
+  PROTECTION_GROUP      Protection-group controller
+  Port-channel          Ethernet Channel of interfaces
+  SDH_ACR               Virtual SDH-ACR controller
+  SERIAL-ACR            Serial interface with ACR
+  Serial-PG             Serial interface with Protection Group
+  TLS-VIF               TLS Virtual Interface
+  TenGigabitEthernet    Ten Gigabit Ethernet
+  Tunnel                Tunnel interface
+  Tunnel-tp             MPLS Transport Profile interface
+  VirtualPortGroup      Virtual Port Group
+  Vlan                  Catalyst Vlans
+  detail                Detailed neighbor information
+  nve                   Network virtualization endpoint interface
+  sorted                Sorted based on interface order
+  summary               Summary of all neighbors
+  |                     Output modifiers
+  <cr>                  <cr>
+
+SPC02TCa19-DB1#sh ospfv3 neighbor su
+SPC02TCa19-DB1#sh ospfv3 neighbor summary
+
+          Neighbor summary for selected OSPFv3 processes
+
+DOWN         0
+ATTEMPT      0
+INIT         0
+2WAY         0
+EXSTART      0
+EXCHANGE     0
+LOADING      0
+FULL         0
+Total count  0    (Undergoing GR 0)
+
+SPC02TCa19-DB1#sh ospfv3 neighbo
+SPC02TCa19-DB1#sh ip os
+SPC02TCa19-DB1#sh ip ospf ?
+  <1-65535>            Process ID number
+  border-routers       Border and Boundary Router Information
+  database             Database summary
+  events               OSPF event information
+  fast-reroute         LFA FastReroute information
+  flood-list           Link state flood list
+  interface            Interface information
+  max-metric           Max-metric origination information
+  mpls                 MPLS related information
+  multi-area           Multi-area interfaces information
+  neighbor             Neighbor list
+  nsf                  Non-stop forwarding state information
+  nsr                  Non-stop routing information
+  request-list         Link state request list
+  retransmission-list  Link state retransmission list
+  rib                  Routing Information Base (RIB)
+  sham-links           Sham link information
+  statistics           Various OSPF Statistics
+  summary-address      Summary-address redistribution Information
+  timers               OSPF timers information
+  topology-info        Topology Info
+  traffic              Traffic related statistics
+  virtual-links        Virtual link information
+  |                    Output modifiers
+  <cr>                 <cr>
+
+SPC02TCa19-DB1#sh ip ospf top
+SPC02TCa19-DB1#sh ip ospf topology-info ?
+  multicast  Multicast Topology
+  topology   Unicast Topology
+  |          Output modifiers
+  <cr>       <cr>
+
+SPC02TCa19-DB1#sh ip ospf topology-info
+
+            OSPF Router with ID (40.199.42.10) (Process ID 105)
+
+
+                Base Topology (MTID 0)
+
+ Topology priority is 64
+ Redistributing External Routes from,
+    static, includes subnets in redistribution
+ Router is not originating router-LSAs with maximum metric
+ Number of areas transit capable is 0
+ Initial SPF schedule delay 50 msecs
+ Minimum hold time between two consecutive SPFs 200 msecs
+ Maximum wait time between two consecutive SPFs 5000 msecs
+    Area 787
+        It is a NSSA area
+        SPF algorithm last executed 1w1d ago
+        SPF algorithm executed 960 times
+        Area ranges are
+SPC02TCa19-DB1#sh ip os
+SPC02TCa19-DB1#sh ip ospf vir
+SPC02TCa19-DB1#sh ip ospf virtual-links ?
+  multicast  Multicast Topology
+  topology   Unicast Topology
+  |          Output modifiers
+  <cr>       <cr>
+
+SPC02TCa19-DB1#sh ip ospf virtual-links
+SPC02TCa19-DB1#

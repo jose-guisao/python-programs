@@ -1,0 +1,2685 @@
+login as: v4x7209
+Keyboard-interactive authentication prompts from server:
+| Password:
+End of keyboard-interactive prompts from server
+
+     **************************
+     *  Private Network       *
+     * Authorized Access Only *
+     **************************
+
+
+SPC12TCa19-AB1#term len 0
+SPC12TCa19-AB1#sh lo
+SPC12TCa19-AB1#sh log
+Syslog logging: enabled (0 messages dropped, 2 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 193492 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 26 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 193493 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    File logging: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 193488 message lines logged
+        Logging to 40.199.57.100  (Mgmt-vrf) (udp port 514, audit disabled,
+              link up),
+              193487 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging to 40.199.61.121  (Mgmt-vrf) (udp port 514, audit disabled,
+              link up),
+              193488 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging to 40.199.61.147  (Mgmt-vrf) (udp port 514, audit disabled,
+              link up),
+              193488 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging to 40.199.61.82  (Mgmt-vrf) (udp port 514, audit disabled,
+              link up),
+              193488 message lines logged,
+              0 message lines rate-limited,
+              0 message lines dropped-by-MD,
+              xml disabled, sequence number disabled
+              filtering disabled
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (102400 bytes):
+T: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 12:27:52.057: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 12:27:52 AST Mon Nov 20 2023
+*Nov 20 12:30:04.945: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 12:37:33.117: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 12:37:34.115: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 12:37:43.098: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 12:37:44.099: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 13:13:40.278: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 13:13:41.279: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 13:13:51.029: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 13:13:52.070: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 13:22:57.690: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 13:22:58.692: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 13:23:08.207: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 13:23:09.250: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 13:39:21.083: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 13:39:22.084: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 13:39:31.912: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 13:39:33.266: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 14:16:40.299: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 14:16:41.300: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 14:16:51.053: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 14:16:52.093: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 14:24:41.993: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 14:24:42.996: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 14:24:53.213: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 14:24:54.802: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 14:42:23.699: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 14:42:24.700: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 14:42:33.919: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 14:42:34.920: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 15:19:45.157: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 15:19:46.158: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 15:19:54.984: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 15:19:55.984: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 15:26:20.368: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 15:26:20 AST Mon Nov 20 2023
+*Nov 20 15:26:21.828: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 15:26:22.700: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 15:26:22 AST Mon Nov 20 2023
+*Nov 20 15:27:34.928: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 15:27:35.929: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 15:27:45.382: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 15:27:46.383: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 15:28:54.397: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 15:29:00.698: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 15:29:00 AST Mon Nov 20 2023
+*Nov 20 15:29:02.786: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 15:29:02 AST Mon Nov 20 2023
+*Nov 20 15:31:14.658: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 15:45:16.973: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 15:45:17.975: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 15:45:26.802: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 15:45:27.802: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 16:21:33.776: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 16:21:34.776: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 16:21:43.917: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 16:21:44.917: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 16:30:38.751: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 16:30:39.752: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 16:30:48.193: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 16:30:49.193: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 16:47:06.151: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 16:47:07.152: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 16:47:15.741: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 16:47:16.741: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 16:49:48.104: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to up
+*Nov 20 16:49:49.104: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to up
+*Nov 20 16:50:07.592: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to down
+*Nov 20 16:50:08.593: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to down
+*Nov 20 16:50:11.561: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to up
+*Nov 20 16:50:12.562: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to up
+*Nov 20 16:56:26.177: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 16:56:26 AST Mon Nov 20 2023
+*Nov 20 16:56:27.538: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 16:56:28.528: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 16:56:28 AST Mon Nov 20 2023
+*Nov 20 16:57:57.758: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 16:57:57.950: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 16:57:57 AST Mon Nov 20 2023
+*Nov 20 17:00:07.772: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 17:23:18.003: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 17:23:19.004: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 17:23:28.990: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 17:23:30.033: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 17:32:29.589: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 17:32:30.590: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 17:32:39.109: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 17:32:40.109: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 17:50:00.859: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 17:50:01.860: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 17:50:11.765: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 17:50:12.963: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 18:25:48.934: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 18:25:49.935: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 18:25:58.921: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 18:25:59.921: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 18:34:13.834: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 18:34:14.835: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 18:34:24.131: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 18:34:25.131: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 18:51:46.529: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 18:51:47.529: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 18:51:57.748: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 18:51:58.791: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 19:27:34.655: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 19:27:35.656: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 19:27:45.875: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 19:27:47.776: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 19:36:01.986: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 19:36:02.988: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 19:36:12.050: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 19:36:13.050: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 19:53:37.693: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 19:53:38.694: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 19:53:47.677: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 19:53:48.677: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 20:30:23.217: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 20:30:24.218: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 20:30:32.813: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 20:30:33.813: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 20:37:57.157: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 20:37:58.158: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 20:38:07.140: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 20:38:08.139: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 20:56:38.553: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 20:56:39.553: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 20:56:48.620: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 20:56:49.620: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 21:33:24.221: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 21:33:25.222: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 21:33:34.817: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 21:33:36.173: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 21:39:42.274: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 21:39:43.275: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 21:39:51.942: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 21:39:52.943: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 21:57:32.381: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:57:32 AST Mon Nov 20 2023
+*Nov 20 21:57:33.765: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 21:57:34.793: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:57:34 AST Mon Nov 20 2023
+*Nov 20 21:58:22.285: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 21:58:23.286: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 21:58:32.645: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 21:58:34.313: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 21:59:49.964: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 21:59:50.155: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:59:50 AST Mon Nov 20 2023
+*Nov 20 22:02:00.828: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 20 22:36:17.718: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 22:36:18.720: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 22:36:27.858: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 22:36:28.858: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 22:42:36.955: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 22:42:37.956: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 22:42:47.941: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 22:42:49.294: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 23:01:14.224: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 23:01:15.225: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 20 23:01:24.585: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 23:01:26.173: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 20 23:38:11.164: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 23:38:12.164: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 20 23:38:20.680: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 23:38:21.680: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 20 23:45:19.299: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 23:45:20.300: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 20 23:45:29.049: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 20 23:45:30.049: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 00:04:14.129: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 00:04:15.130: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 00:04:24.645: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 00:04:26.156: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 00:41:05.889: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 00:41:06.889: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 00:41:16.716: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 00:41:18.618: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 00:48:12.657: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 00:48:13.657: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 00:48:22.876: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 00:48:23.876: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 00:55:58.132: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 00:55:58 AST Tue Nov 21 2023
+*Nov 21 00:55:59.489: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 00:56:00.665: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 00:56:00 AST Tue Nov 21 2023
+*Nov 21 00:57:30.898: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 00:57:31.090: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 00:57:31 AST Tue Nov 21 2023
+*Nov 21 00:59:39.708: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 01:06:07.508: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 01:06:08.509: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 01:06:17.570: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 01:06:18.570: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 01:44:00.946: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 01:44:01.947: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 01:44:10.774: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 01:44:11.775: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 01:50:08.612: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 01:50:09.613: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 01:50:18.832: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 01:50:19.832: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 01:55:59.527: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 01:55:59 AST Tue Nov 21 2023
+*Nov 21 01:56:00.893: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 01:56:02.037: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 01:56:02 AST Tue Nov 21 2023
+*Nov 21 01:57:29.893: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 01:57:30.090: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 01:57:30 AST Tue Nov 21 2023
+*Nov 21 01:59:40.507: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 02:08:57.049: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 02:08:58.050: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 02:09:07.570: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 02:09:08.920: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 02:46:48.633: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 02:46:49.634: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 02:46:59.617: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 02:47:00.898: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 02:52:04.023: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 02:52:05.024: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 02:52:13.773: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 02:52:14.773: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 03:12:01.633: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 03:12:02.634: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 03:12:12.465: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 03:12:13.818: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 03:48:34.904: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 03:48:35.905: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 03:48:44.653: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 03:48:45.653: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 03:54:52.238: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 03:54:53.238: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 03:55:01.832: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 03:55:02.832: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 04:13:56.932: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 04:13:57.933: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 04:14:06.372: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 04:14:07.372: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 04:36:17.646: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to down
+*Nov 21 04:36:18.647: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to down
+*Nov 21 04:51:32.168: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 04:51:33.169: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 04:51:41.528: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 04:51:42.528: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 04:57:54.348: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 04:57:55.349: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 04:58:03.941: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 04:58:04.941: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 04:58:32.110: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 04:58:32 AST Tue Nov 21 2023
+*Nov 21 04:58:33.882: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 04:58:34.755: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 04:58:34 AST Tue Nov 21 2023
+*Nov 21 05:00:04.292: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 05:00:04.490: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 05:00:04 AST Tue Nov 21 2023
+*Nov 21 05:02:14.934: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 05:15:49.934: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 05:15:50.935: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 05:15:59.370: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 05:16:00.370: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 05:53:20.057: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 05:53:21.059: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 05:53:29.497: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 05:53:30.497: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 05:59:40.233: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 05:59:41.235: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 05:59:49.671: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 05:59:50.671: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 06:18:47.494: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 06:18:48.496: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 06:18:57.330: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 06:18:58.329: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 06:56:12.542: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 06:56:13.544: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 06:56:22.528: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 06:56:23.528: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 07:01:27.532: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 07:01:28.535: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 07:01:38.677: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 07:01:40.110: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 07:20:31.690: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 07:20:32.691: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 07:20:42.362: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 07:20:43.484: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 07:26:21.520: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 07:26:21 AST Tue Nov 21 2023
+*Nov 21 07:26:22.872: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 07:26:23.741: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 07:26:23 AST Tue Nov 21 2023
+*Nov 21 07:27:54.591: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 07:27:54.782: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 07:27:54 AST Tue Nov 21 2023
+*Nov 21 07:30:05.390: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 07:59:11.309: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 07:59:12.310: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 07:59:21.450: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 07:59:22.451: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 08:03:12.053: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 08:03:13.054: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 08:03:22.725: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 08:03:23.845: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 08:22:19.945: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 08:22:20.946: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 08:22:29.224: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 08:22:30.225: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 08:43:54.963: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to up
+*Nov 21 08:43:57.400: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to down
+*Nov 21 08:44:00.444: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to up
+*Nov 21 08:44:01.444: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to up
+*Nov 21 09:01:55.058: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 09:01:56.060: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 09:02:04.417: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 09:02:05.417: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 09:05:09.368: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 09:05:10.369: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 09:05:19.742: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 09:05:20.742: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 09:25:07.413: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 09:25:08.414: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 09:25:18.322: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 09:25:19.911: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 09:50:31.161: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/48, changed state to up
+*Nov 21 09:50:32.162: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/48, changed state to up
+*Nov 21 09:55:59.185: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 09:55:59 AST Tue Nov 21 2023
+*Nov 21 09:56:00.547: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 09:56:01.492: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 09:56:01 AST Tue Nov 21 2023
+*Nov 21 09:57:31.186: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 09:57:31.376: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 09:57:31 AST Tue Nov 21 2023
+*Nov 21 09:59:41.606: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 10:04:54.268: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 10:04:55.269: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 10:05:04.410: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 10:05:05.410: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 10:07:01.523: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 10:07:02.524: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 10:07:11.742: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 10:07:12.742: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 10:26:57.380: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 10:26:58.381: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 10:27:07.210: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 10:27:08.210: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 10:43:48.746: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to down
+*Nov 21 10:43:49.747: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to down
+*Nov 21 11:07:45.077: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 11:07:46.078: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 11:07:56.373: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 11:07:57.650: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 11:09:56.038: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 11:09:57.040: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 11:10:06.553: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 11:10:07.907: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 11:28:47.390: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 11:28:48.391: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 11:28:57.140: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 11:28:58.140: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 12:10:31.744: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 12:10:32.746: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 12:10:41.338: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 12:10:42.338: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 12:11:48.990: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 12:11:49.991: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 12:11:58.506: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 12:11:59.506: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 12:30:37.495: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 12:30:38.497: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 12:30:48.167: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 12:30:49.758: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 13:13:23.046: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 13:13:24.047: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 13:13:33.265: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 13:13:34.265: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 13:14:44.822: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 13:14:45.823: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 13:14:54.495: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 13:14:55.495: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 13:33:35.084: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 13:33:36.086: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 13:33:46.074: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 13:33:47.736: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 14:15:13.730: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 14:15:14.732: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 14:15:23.406: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 14:15:24.405: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 14:16:31.124: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 14:16:32.125: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 14:16:40.405: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 14:16:41.404: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 14:35:27.834: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 14:35:28.835: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 14:35:38.052: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 14:35:39.052: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 15:18:17.000: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 15:18:18.002: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 15:18:27.176: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 15:18:28.176: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 15:19:28.099: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 15:19:29.100: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 15:19:38.380: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 15:19:39.735: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 15:27:51.896: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 15:27:51 AST Tue Nov 21 2023
+*Nov 21 15:27:54.399: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 15:27:55.289: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 15:27:55 AST Tue Nov 21 2023
+*Nov 21 15:29:26.046: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 15:29:26.238: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 15:29:26 AST Tue Nov 21 2023
+*Nov 21 15:31:36.176: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 15:38:24.281: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 15:38:25.281: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 15:38:34.029: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 15:38:35.029: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 16:20:05.035: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 16:20:06.037: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 16:20:16.177: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 16:20:17.454: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 16:21:14.919: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 16:21:15.920: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 16:21:24.513: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 16:21:25.513: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 16:22:39.866: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to up
+*Nov 21 16:22:40.866: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to up
+*Nov 21 16:22:58.809: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to down
+*Nov 21 16:22:59.810: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to down
+*Nov 21 16:23:03.090: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to up
+*Nov 21 16:23:04.090: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to up
+*Nov 21 16:25:58.338: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 16:25:58 AST Tue Nov 21 2023
+*Nov 21 16:25:59.720: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 16:26:00.605: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 16:26:00 AST Tue Nov 21 2023
+*Nov 21 16:27:29.137: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 16:27:29.329: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 16:27:29 AST Tue Nov 21 2023
+*Nov 21 16:29:37.434: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 16:41:13.910: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 16:41:14.911: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 16:41:23.972: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 16:41:24.972: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 17:21:56.234: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 17:21:57.236: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 17:22:06.222: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 17:22:07.222: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 17:23:00.733: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 17:23:01.734: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 17:23:10.327: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 17:23:11.328: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 17:44:14.919: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 17:44:15.921: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 17:44:25.980: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 17:44:27.103: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 18:24:42.117: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 18:24:43.118: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 18:24:52.105: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 18:24:53.105: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 18:25:59.123: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 18:26:00.124: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 18:26:09.342: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 18:26:10.343: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 18:46:09.052: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 18:46:10.053: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 18:46:18.883: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 18:46:19.883: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 19:26:32.400: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 19:26:33.401: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 19:26:42.071: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 19:26:43.071: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 19:27:59.640: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 19:28:00.641: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 19:28:09.234: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 19:28:10.234: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 19:49:11.706: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 19:49:12.708: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 19:49:21.849: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 19:49:22.849: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 20:29:30.226: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 20:29:31.227: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 20:29:40.137: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 20:29:41.137: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 20:30:04.400: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 20:30:05.402: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 20:30:14.306: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 20:30:15.306: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 20:51:58.666: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 20:51:59.668: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 20:52:09.962: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 20:52:11.784: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 21:32:16.142: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 21:32:17.142: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 21:32:26.973: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 21:32:28.329: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 21:32:49.535: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 21:32:50.536: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 21:32:59.204: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 21:33:00.204: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 21:53:57.004: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 21:53:58.006: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 21:54:07.832: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 21:54:09.187: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 21:56:54.044: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:56:54 AST Tue Nov 21 2023
+*Nov 21 21:56:55.803: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 21:56:56.856: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:56:56 AST Tue Nov 21 2023
+*Nov 21 21:58:27.694: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 21:58:27.892: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:58:27 AST Tue Nov 21 2023
+*Nov 21 22:00:41.843: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 22:35:13.995: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 22:35:14.995: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 22:35:23.979: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 22:35:24.979: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 22:35:32.147: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 22:35:33.148: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 22:35:42.133: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 22:35:43.133: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 22:57:01.502: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 22:57:02.503: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 22:57:11.783: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 22:57:13.451: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 23:27:13.602: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 23:27:13 AST Tue Nov 21 2023
+*Nov 21 23:27:14.960: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 23:27:15.962: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 23:27:15 AST Tue Nov 21 2023
+*Nov 21 23:28:53.627: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 23:28:53.817: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 23:28:53 AST Tue Nov 21 2023
+*Nov 21 23:31:06.885: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 21 23:37:19.894: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 23:37:20.895: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 21 23:37:31.112: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 23:37:32.467: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 21 23:37:54.689: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 23:37:55.690: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 21 23:38:05.986: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 23:38:07.967: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 21 23:58:54.797: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 23:58:55.798: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 21 23:59:05.706: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 21 23:59:07.372: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 00:40:02.983: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 00:40:03.984: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 00:40:13.125: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 00:40:14.125: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 00:41:00.765: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 00:41:01.766: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 00:41:11.904: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 00:41:13.259: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 01:00:59.221: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 01:01:00.221: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 01:01:09.739: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 01:01:11.093: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 01:42:52.522: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 01:42:53.523: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 01:43:03.037: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 01:43:04.627: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 01:43:58.272: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 01:43:59.274: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 01:44:08.024: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 01:44:09.024: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 02:04:00.155: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 02:04:01.158: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 02:04:10.674: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 02:04:11.872: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 02:44:50.265: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 02:44:51.265: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 02:45:00.017: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 02:45:01.017: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 02:45:44.762: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 02:45:45.763: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 02:45:55.825: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 02:45:57.102: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 03:07:01.264: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 03:07:02.264: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 03:07:10.702: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 03:07:11.702: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 03:47:35.465: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 03:47:36.466: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 03:47:45.823: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 03:47:46.190: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 03:47:47.177: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 03:47:47.191: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 03:47:56.018: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 03:47:57.019: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 04:09:42.898: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 04:09:43.899: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 04:09:52.569: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 04:09:53.569: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 04:50:39.088: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 04:50:40.088: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 04:50:48.640: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 04:50:48.760: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 04:50:49.641: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 04:50:49.760: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 04:50:57.926: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 04:50:58.926: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 05:04:58.481: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to down
+*Nov 22 05:04:59.482: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to down
+*Nov 22 05:11:43.820: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 05:11:44.821: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 05:11:54.569: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 05:11:56.236: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 05:52:37.464: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 05:52:38.465: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 05:52:46.901: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 05:52:47.901: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 05:53:37.503: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 05:53:38.504: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 05:53:48.801: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 05:53:50.781: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 06:14:33.086: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 06:14:34.087: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 06:14:43.525: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 06:14:44.722: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 06:55:26.977: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 06:55:27.978: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 06:55:36.218: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 06:55:37.220: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 06:55:37.651: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 06:55:39.013: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 06:55:46.895: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 06:55:48.014: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 07:06:08.389: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to up
+*Nov 22 07:06:09.389: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to up
+*Nov 22 07:06:27.723: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to down
+*Nov 22 07:06:28.724: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to down
+*Nov 22 07:06:31.691: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to up
+*Nov 22 07:06:32.691: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to up
+*Nov 22 07:17:24.364: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 07:17:25.365: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 07:17:35.582: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 07:17:37.170: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 07:58:30.884: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 07:58:31.885: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 07:58:34.409: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 07:58:35.410: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 07:58:41.640: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 07:58:42.995: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 07:58:43.858: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 07:58:44.859: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 08:20:27.533: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 08:20:28.533: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 08:20:38.442: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 08:20:39.876: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 08:26:02.391: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 08:26:02 AST Wed Nov 22 2023
+*Nov 22 08:26:03.768: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 22 08:26:04.661: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 08:26:04 AST Wed Nov 22 2023
+*Nov 22 08:27:32.738: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 22 08:27:32.934: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 08:27:32 AST Wed Nov 22 2023
+*Nov 22 08:29:52.289: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 22 09:01:10.881: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 09:01:11.882: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 09:01:20.632: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 09:01:21.633: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 09:01:25.987: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 09:01:26.988: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 09:01:35.817: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 09:01:36.818: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 09:23:29.564: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 09:23:30.565: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 09:23:39.393: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 09:23:40.393: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 10:03:19.601: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 10:03:20.601: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 10:03:30.742: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 10:03:32.407: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 10:03:52.051: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 10:03:53.053: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 10:04:01.645: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 10:04:02.645: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 10:26:23.590: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 10:26:24.591: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 10:26:33.496: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 10:26:34.496: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 11:05:05.120: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 11:05:06.121: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 11:05:14.791: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 11:05:15.791: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 11:05:45.863: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 11:05:46.864: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 11:05:56.535: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 11:05:58.516: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 11:29:10.310: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 11:29:11.311: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 11:29:21.372: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 11:29:22.725: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 12:08:02.270: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 12:08:03.271: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 12:08:11.942: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 12:08:12.942: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 12:08:44.665: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 12:08:45.667: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 12:08:55.496: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 12:08:56.850: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 12:32:03.916: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 12:32:04.918: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 12:32:13.353: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 12:32:14.353: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 13:10:03.552: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 13:10:04.553: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 13:10:13.692: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 13:10:14.692: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 13:11:25.558: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 13:11:26.559: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 13:11:35.541: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 13:11:36.540: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 13:34:52.026: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 13:34:53.027: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 13:35:02.323: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 13:35:03.324: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 14:12:54.210: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 14:12:55.211: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 14:13:03.646: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 14:13:04.647: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 14:14:29.887: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 14:14:30.887: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 14:14:40.637: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 14:14:41.915: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 14:37:50.661: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 14:37:51.662: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 14:38:00.332: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 14:38:01.332: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 15:14:42.097: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 15:14:43.097: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 15:14:52.614: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 15:14:54.202: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 15:17:28.825: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 15:17:29.826: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 15:17:38.423: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 15:17:39.423: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 15:39:41.043: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to up
+*Nov 22 15:39:42.043: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to up
+*Nov 22 15:40:53.127: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 15:40:54.128: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 15:41:03.192: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 15:41:04.192: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 16:17:31.599: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 16:17:32.601: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 16:17:41.659: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 16:17:42.660: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 16:19:29.413: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 16:19:30.414: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 16:19:39.402: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 16:19:40.402: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 16:28:07.268: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to down
+*Nov 22 16:28:08.269: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to down
+*Nov 22 16:43:57.831: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 16:43:58.831: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 16:44:08.356: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 16:44:09.779: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 17:12:19.138: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to down
+*Nov 22 17:12:20.139: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to down
+*Nov 22 17:20:25.407: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 17:20:26.409: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 17:20:35.625: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 17:20:36.625: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 17:22:27.271: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 17:22:28.272: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 17:22:37.335: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 17:22:38.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 17:46:40.377: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 17:46:41.378: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 17:46:50.361: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 17:46:51.362: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 18:23:16.077: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 18:23:17.077: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 18:23:25.515: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 18:23:26.515: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 18:25:30.128: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 18:25:31.129: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 18:25:40.425: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 18:25:41.425: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 18:49:30.902: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 18:49:31.903: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 18:49:41.122: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 18:49:42.122: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 19:26:18.972: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 19:26:19.974: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 19:26:28.490: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 19:26:29.490: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 19:28:26.924: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 19:28:27.925: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 19:28:37.409: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 19:28:38.764: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 19:52:36.020: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 19:52:37.021: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 19:52:47.081: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 19:52:48.202: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 20:29:13.181: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 20:29:14.182: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 20:29:22.465: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 20:29:23.465: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 20:31:26.609: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 20:31:27.611: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 20:31:37.211: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 20:31:38.565: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 20:54:21.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 20:54:22.336: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 20:54:32.085: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 20:54:33.439: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 21:30:55.441: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 21:30:56.442: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 21:31:06.428: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 21:31:07.940: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 21:34:17.088: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 21:34:18.088: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 21:34:28.232: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 21:34:29.510: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 21:56:18.481: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 21:56:19.482: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 21:56:28.996: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 21:56:30.279: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 21:57:02.156: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:57:02 AST Wed Nov 22 2023
+*Nov 22 21:57:03.527: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 22 21:57:04.641: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:57:04 AST Wed Nov 22 2023
+*Nov 22 21:58:34.908: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 22 21:58:35.106: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 21:58:35 AST Wed Nov 22 2023
+*Nov 22 22:00:47.089: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 22 22:32:52.740: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 22:32:53.740: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 22:33:02.416: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 22:33:03.416: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 22:36:09.543: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 22:36:10.544: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 22:36:19.137: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 22:36:20.137: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 22:58:08.181: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 22:58:09.182: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 22:58:18.088: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 22:58:19.088: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 22 23:35:40.662: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 23:35:41.663: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 22 23:35:50.336: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 23:35:51.336: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 22 23:39:06.966: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 23:39:07.967: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 22 23:39:17.191: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 23:39:18.191: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 22 23:59:58.977: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 22 23:59:59.979: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 00:00:08.968: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 00:00:09.968: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 00:38:39.833: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 00:38:40.834: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 00:38:49.270: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 00:38:50.269: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 00:41:00.592: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 00:41:01.594: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 00:41:10.111: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 00:41:11.111: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 01:01:55.933: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 01:01:56.934: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 01:02:05.923: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 01:02:06.923: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 01:41:33.754: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 01:41:34.756: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 01:41:43.268: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 01:41:44.268: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 01:43:56.792: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 01:43:57.793: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 01:44:07.087: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 01:44:08.088: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 02:04:51.261: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 02:04:52.262: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 02:05:01.934: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 02:05:03.524: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 02:43:24.113: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 02:43:25.115: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 02:43:34.253: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 02:43:35.253: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 02:45:38.545: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 02:45:39.546: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 02:45:49.060: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 02:45:50.180: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 03:06:37.009: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 03:06:38.011: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 03:06:47.071: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 03:06:48.071: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 03:46:29.353: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 03:46:30.354: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 03:46:39.183: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 03:46:40.183: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 03:48:22.460: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 03:48:23.461: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 03:48:31.974: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 03:48:32.974: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 04:08:29.889: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 04:08:30.891: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 04:08:39.796: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 04:08:40.796: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 04:49:21.761: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 04:49:22.763: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 04:49:31.277: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 04:49:32.277: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 04:50:12.031: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 04:50:13.033: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 04:50:22.016: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 04:50:23.017: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 05:11:27.153: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 05:11:28.155: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 05:11:36.752: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 05:11:37.752: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 05:52:06.824: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 05:52:07.825: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 05:52:17.886: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 05:52:19.318: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 05:52:25.445: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 05:52:26.446: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 05:52:36.121: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 05:52:37.713: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 06:14:28.931: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 06:14:29.931: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 06:14:39.916: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 06:14:40.958: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 06:48:39.406: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to up
+*Nov 23 06:48:40.406: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to up
+*Nov 23 06:49:22.519: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to down
+*Nov 23 06:49:23.520: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to down
+*Nov 23 06:49:26.564: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/5, changed state to up
+*Nov 23 06:49:27.564: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to up
+*Nov 23 06:55:03.356: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 06:55:04.357: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 06:55:05.238: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 06:55:06.239: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 06:55:13.031: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 06:55:14.032: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 06:55:15.159: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 06:55:16.159: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 07:16:23.412: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 07:16:24.413: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 07:16:33.771: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 07:16:35.127: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 07:22:43.179: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to up
+*Nov 23 07:22:44.179: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to up
+*Nov 23 07:52:21.808: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/30, changed state to down
+*Nov 23 07:52:22.809: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/30, changed state to down
+*Nov 23 07:56:50.332: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 07:56:51.334: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 07:56:57.220: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 07:56:58.221: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 07:56:59.854: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 07:57:00.854: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 07:57:07.058: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 07:57:08.059: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 08:18:24.844: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 08:18:25.845: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 08:18:34.670: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 08:18:35.670: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 08:59:46.203: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 08:59:47.204: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 08:59:55.872: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 08:59:56.872: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 09:00:01.929: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 09:00:02.930: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 09:00:12.071: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 09:00:13.071: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 09:20:13.893: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 09:20:14.895: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 09:20:23.645: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 09:20:24.645: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 09:26:29.525: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 09:26:29 AST Thu Nov 23 2023
+*Nov 23 09:26:30.981: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 23 09:26:31.857: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 09:26:31 AST Thu Nov 23 2023
+*Nov 23 09:28:01.985: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 23 09:28:02.179: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 09:28:02 AST Thu Nov 23 2023
+*Nov 23 09:30:13.810: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 23 10:01:45.276: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 10:01:46.277: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 10:01:51.848: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 10:01:52.849: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 10:01:55.033: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 10:01:56.034: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 10:02:03.003: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 10:02:04.358: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 10:22:10.067: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 10:22:11.069: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 10:22:19.663: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 10:22:20.663: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 10:27:41.640: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 10:27:41 AST Thu Nov 23 2023
+*Nov 23 10:27:49.610: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 23 10:27:50.828: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 10:27:50 AST Thu Nov 23 2023
+*Nov 23 10:29:20.486: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 23 10:29:20.676: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: solarwinds] [Source: 40.199.61.52] [localport: 22] at 10:29:20 AST Thu Nov 23 2023
+*Nov 23 10:31:30.695: %SYS-6-LOGOUT: User solarwinds has exited tty session 1(40.199.61.52)
+*Nov 23 11:04:44.815: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 11:04:45.817: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 11:04:53.421: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 11:04:54.422: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 11:04:54.730: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 11:04:55.730: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 11:05:02.955: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 11:05:03.955: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 11:24:04.367: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 11:24:05.368: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to down
+*Nov 23 11:24:14.667: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 11:24:15.667: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+*Nov 23 12:06:40.951: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 12:06:41.951: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to down
+*Nov 23 12:06:50.935: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 12:06:51.935: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/27, changed state to up
+*Nov 23 12:07:41.698: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 12:07:42.700: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to down
+*Nov 23 12:07:51.762: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 12:07:52.761: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/26, changed state to up
+*Nov 23 12:23:42.649: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: v4x7209] [Source: 10.129.145.135] [localport: 22] at 12:23:42 AST Thu Nov 23 2023
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#sh cdp ne
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SPC12TCa19-AA1   Gig 1/0/40        127              S I   C9300-48U Gig 0/0
+SPC12TCa19-AB1   Gig 0/0           148              S I   C9300-48U Gig 1/0/43
+SPC12TCa19-AB1   Gig 1/0/43        163              S I   C9300-48U Gig 0/0
+SPC12TCa19-AC1   Gig 1/0/42        137              S I   C9300-48U Gig 0/0
+SPC02TCa19-DB1   Gig 1/1/1         128             R S I  C9407R    Ten 1/1/0/8
+SPC02TCa19-DB1   Gig 1/1/2         168             R S I  C9407R    Ten 2/1/0/8
+WPC08N-OUT-WWa   Gig 1/0/13        169             T B I  AIR-CAP37 Gig 0
+SPC12TCa19-AO1   Gig 1/0/41        156              S I   C9300-48U Gig 0/0
+WPC12N-OUT-NWa   Gig 1/0/47        123             T B I  AIR-CAP37 Gig 0
+
+Total cdp entries displayed : 9
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#sh run
+Building configuration...
+
+Current configuration : 32623 bytes
+!
+! Last configuration change at 11:00:22 AST Tue Jan 31 2023 by c191341
+!
+version 17.3
+service timestamps debug datetime msec
+service timestamps log datetime msec localtime
+service password-encryption
+service call-home
+no platform punt-keepalive disable-kernel-core
+!
+hostname SPC12TCa19-AB1
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+!
+aaa new-model
+!
+!
+aaa group server tacacs+ PRTacServers
+ server name 40.199.61.73
+ server name 40.199.30.141
+ ip vrf forwarding Mgmt-vrf
+ ip tacacs source-interface GigabitEthernet0/0
+!
+aaa authentication password-prompt LOCAL-PASSWORD:
+aaa authentication username-prompt LOCAL-USERNAME:
+aaa authentication login default group PRTacServers local
+aaa authentication enable default group PRTacServers enable
+aaa authorization exec default group PRTacServers local
+aaa authorization commands 0 default group PRTacServers local
+aaa authorization commands 1 default group PRTacServers local
+aaa authorization commands 15 default group PRTacServers local
+aaa accounting exec default start-stop group PRTacServers
+!
+aaa common-criteria policy Lilly1
+ min-length 16
+ max-length 30
+ numeric-count 1
+ upper-case 1
+ special-case 1
+ char-changes 4
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone AST -4 0
+switch 1 provision c9300-48u
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip name-server 40.199.61.32
+ip name-server vrf Mgmt-vrf 40.199.61.32
+!
+!
+!
+login on-success log
+!
+!
+!
+!
+!
+!
+!
+vtp domain lilly
+vtp mode transparent
+no device-tracking logging theft
+scripting tcl init flash:basic-confg.tcl
+!
+crypto pki trustpoint TP-self-signed-2609938824
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-2609938824
+ revocation-check none
+ rsakeypair TP-self-signed-2609938824
+!
+crypto pki trustpoint SLA-TrustPoint
+ enrollment terminal
+ revocation-check crl
+!
+!
+crypto pki certificate chain TP-self-signed-2609938824
+ certificate self-signed 01
+  30820330 30820218 A0030201 02020101 300D0609 2A864886 F70D0101 05050030
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274
+  69666963 6174652D 32363039 39333838 3234301E 170D3139 30363131 31383436
+  35345A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D32 36303939
+  33383832 34308201 22300D06 092A8648 86F70D01 01010500 0382010F 00308201
+  0A028201 0100DD81 0805A881 83784E06 EDDB2B06 34F98740 504E6F78 906D1784
+  81283E6A 917E1E53 758D24F2 4F0AD60D 12E0DB67 8241DB4A B426D23D 2A644FE0
+  D0DE1425 D42DF67F D68A71B3 ECA7F1E7 38DDDBB4 8CEC24F7 F73CC3DE 860AF4DB
+  72D29749 F9162F34 0B685CCB 9D343286 DC68A2CD 240620CD 4723D9A6 74324378
+  94B2B817 6A6AB5B9 B33DE8A5 EDF62735 B6635D5C 23C33296 1FBC6D6D 1BB8526B
+  FBD5D69C 0E8347A4 835FB419 0659FFC1 A2ACE880 1AC2B873 867AEB99 0F75C79C
+  23110C17 00E3EF4E AB3CDDBF 2BF23E1D 9C8692A2 8BC07231 354B029A 6B93167A
+  DE64568F 2F0C96A2 C81F5AAE 786D4BC8 B7FDADE7 4E566B1A D8AF0E2A 68FB1811
+  58C3798B 9B950203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF
+  301F0603 551D2304 18301680 14A82D1E 894CA43D 9C177356 C916B969 C944A5B3
+  70301D06 03551D0E 04160414 A82D1E89 4CA43D9C 177356C9 16B969C9 44A5B370
+  300D0609 2A864886 F70D0101 05050003 82010100 28A7F0A1 FDA144EF 52D924E3
+  8C4EBD45 B2CC069E ED0EDFB8 B41BEE77 3C298136 700276FB B949F364 6723EA3B
+  0F57A0E7 6999CC18 28BA2780 5119BD94 81480309 3C27B007 BDA82FBE 66415C10
+  9FAA7802 F6192157 3D5B16EB 3F4F8E70 8C8E080D 22071EC6 60A04E84 D3542CCC
+  9DB3CB66 336DB263 8D242E64 6E39818C 38B88982 4D45FDCE 3E074D99 E8FC4E1B
+  E964DD54 FA6DA596 C3E14A69 61632477 CAD9E2C9 BA878A9E 5FC5C0FE 23F0F17F
+  771E13F7 6AB07E40 1B7581BC 52638FE6 E4070CD3 F826BA73 E676CD95 3E8EC599
+  0BD36BD6 58114DD7 E0B83A3C DE20B3D9 5A8D7836 003C766A CBE3185B 516545A7
+  E9048923 FEE3774A 5257F401 B1C42140 237B200A
+        quit
+crypto pki certificate chain SLA-TrustPoint
+ certificate ca 01
+  30820321 30820209 A0030201 02020101 300D0609 2A864886 F70D0101 0B050030
+  32310E30 0C060355 040A1305 43697363 6F312030 1E060355 04031317 43697363
+  6F204C69 63656E73 696E6720 526F6F74 20434130 1E170D31 33303533 30313934
+  3834375A 170D3338 30353330 31393438 34375A30 32310E30 0C060355 040A1305
+  43697363 6F312030 1E060355 04031317 43697363 6F204C69 63656E73 696E6720
+  526F6F74 20434130 82012230 0D06092A 864886F7 0D010101 05000382 010F0030
+  82010A02 82010100 A6BCBD96 131E05F7 145EA72C 2CD686E6 17222EA1 F1EFF64D
+  CBB4C798 212AA147 C655D8D7 9471380D 8711441E 1AAF071A 9CAE6388 8A38E520
+  1C394D78 462EF239 C659F715 B98C0A59 5BBB5CBD 0CFEBEA3 700A8BF7 D8F256EE
+  4AA4E80D DB6FD1C9 60B1FD18 FFC69C96 6FA68957 A2617DE7 104FDC5F EA2956AC
+  7390A3EB 2B5436AD C847A2C5 DAB553EB 69A9A535 58E9F3E3 C0BD23CF 58BD7188
+  68E69491 20F320E7 948E71D7 AE3BCC84 F10684C7 4BC8E00F 539BA42B 42C68BB7
+  C7479096 B4CB2D62 EA2F505D C7B062A4 6811D95B E8250FC4 5D5D5FB8 8F27D191
+  C55F0D76 61F9A4CD 3D992327 A8BB03BD 4E6D7069 7CBADF8B DF5F4368 95135E44
+  DFC7C6CF 04DD7FD1 02030100 01A34230 40300E06 03551D0F 0101FF04 04030201
+  06300F06 03551D13 0101FF04 05300301 01FF301D 0603551D 0E041604 1449DC85
+  4B3D31E5 1B3E6A17 606AF333 3D3B4C73 E8300D06 092A8648 86F70D01 010B0500
+  03820101 00507F24 D3932A66 86025D9F E838AE5C 6D4DF6B0 49631C78 240DA905
+  604EDCDE FF4FED2B 77FC460E CD636FDB DD44681E 3A5673AB 9093D3B1 6C9E3D8B
+  D98987BF E40CBD9E 1AECA0C2 2189BB5C 8FA85686 CD98B646 5575B146 8DFC66A8
+  467A3DF4 4D565700 6ADF0F0D CF835015 3C04FF7C 21E878AC 11BA9CD2 55A9232C
+  7CA7B7E6 C1AF74F6 152E99B7 B1FCF9BB E973DE7F 5BDDEB86 C71E3B49 1765308B
+  5FB0DA06 B92AFE7F 494E8A9E 07B85737 F3A58BE1 1A48A229 C37C1E69 39F08678
+  80DDCD16 D6BACECA EEBC7CF9 8428787B 35202CDC 60E4616A B623CDBD 230E3AFB
+  418616A9 4093E049 4D10AB75 27E86F73 932E35B5 8862FDAE 0275156F 719BB2F0
+  D697DF7F 28
+        quit
+!
+!
+license boot level network-advantage addon dna-advantage
+!
+!
+diagnostic bootup level minimal
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+archive
+ log config
+  logging enable
+memory free low-watermark processor 141154
+!
+username telecom privilege 15 common-criteria-policy Lilly1 secret 9 $9$H8eJ5ofbYQ4.NE$i1JxBQA6vxja/7/lvMZIDJvlhJhWisuBUrm5kVzVO8s
+!
+redundancy
+ mode sso
+!
+!
+!
+!
+!
+!
+transceiver type all
+ monitoring
+!
+vlan 2010
+ name Access_Points
+!
+vlan 2051
+ name Bldg-PC12-Voice
+!
+vlan 2057,3010
+!
+vlan 3500
+ name new_mgmt_vlan
+!
+vlan 4010
+ name Peripherals
+!
+vlan 4011
+ name PR1_Voice_Control_Avaya_Servers
+!
+vlan 4020
+ name Voice_Services
+!
+vlan 4051
+ name Building-PC12-Business-VLAN
+lldp run
+!
+!
+class-map match-any system-cpp-police-ewlc-control
+  description EWLC Control
+class-map match-any system-cpp-police-topology-control
+  description Topology control
+class-map match-any system-cpp-police-sw-forward
+  description Sw forwarding, L2 LVX data packets, LOGGING, Transit Traffic
+class-map match-any CONTROL-MGMT-QUEUE
+ match dscp cs2
+ match dscp cs3
+class-map match-any TRANSACTIONAL-DATA-QUEUE
+ match dscp af21
+class-map match-any system-cpp-default
+  description EWLC Data, Inter FED Traffic
+class-map match-any system-cpp-police-sys-data
+  description Openflow, Exception, EGR Exception, NFL Sampled Data, RPF Failed
+class-map match-any MISSION-CRITICAL-QUEUE
+ match dscp af31
+class-map match-any system-cpp-police-punt-webauth
+  description Punt Webauth
+class-map match-any VVLAN-CALL-SIGNALING
+ match access-group name VVLAN-CALL-SIGNALING
+class-map match-any SCAVENGER-QUEUE
+ match dscp cs1
+class-map match-any STREAMING-VIDEO
+ match access-group name STREAMING-VIDEO
+class-map match-any system-cpp-police-l2lvx-control
+  description L2 LVX control packets
+class-map match-any BEST-EFFORT
+ match access-group name BEST-EFFORT
+class-map match-any system-cpp-police-forus
+  description Forus Address resolution and Forus traffic
+class-map match-any VIDEO-QUEUE
+ match dscp cs4
+ match dscp af41
+class-map match-any BULK-DATA
+ match access-group name BULK-DATA
+class-map match-any system-cpp-police-multicast-end-station
+  description MCAST END STATION
+class-map match-any INTERACTIVE-VIDEO
+ match access-group name INTERACTIVE-VIDEO
+class-map match-any VVLAN-VOICE
+ match access-group name VVLAN-VOICE
+class-map match-any system-cpp-police-high-rate-app
+  description High Rate Applications
+class-map match-any system-cpp-police-multicast
+  description MCAST Data
+class-map match-any system-cpp-police-l2-control
+  description L2 control
+class-map match-any system-cpp-police-dot1x-auth
+  description DOT1X Auth
+class-map match-any system-cpp-police-data
+  description ICMP redirect, ICMP_GEN and BROADCAST
+class-map match-any system-cpp-police-stackwise-virt-control
+  description Stackwise Virtual OOB
+class-map match-any VVLAN-BEST-EFFORT
+ match access-group name VVLAN-BEST-EFFORT
+class-map match-any BULK-DATA-QUEUE
+ match dscp af11
+class-map match-any system-cpp-police-control-low-priority
+  description General punt
+class-map match-any VOICE
+ match access-group name VOICE
+class-map match-any SCAVENGER
+ match access-group name SCAVENGER
+class-map match-any non-client-nrt-class
+class-map match-any NETWORK-MGMT
+ match access-group name NETWORK-MGMT
+class-map match-any system-cpp-police-routing-control
+  description Routing control and Low Latency
+class-map match-any system-cpp-police-protocol-snooping
+  description Protocol snooping
+class-map match-any system-cpp-police-dhcp-snooping
+  description DHCP snooping
+class-map match-any MISSION-CRITICAL
+ match access-group name MISSION-CRITICAL
+class-map match-any PRIORITY-QUEUE
+ match dscp ef
+class-map match-any CALL-SIGNALING
+ match access-group name CALL-SIGNALING
+class-map match-any system-cpp-police-ios-routing
+  description L2 control, Topology control, Routing control, Low Latency
+class-map match-any system-cpp-police-system-critical
+  description System Critical and Gold Pkt
+class-map match-any TRANSACTIONAL-DATA
+ match access-group name TRANSACTIONAL-DATA
+class-map match-any system-cpp-police-ios-feature
+  description ICMPGEN,BROADCAST,ICMP,L2LVXCntrl,ProtoSnoop,PuntWebauth,MCASTData,Transit,DOT1XAuth,Swfwd,LOGGING,L2LVXData,ForusTraffic,ForusARP,McastEndStn,Openflow,Exception,EGRExcption,NflSampled,RpfFailed
+!
+policy-map EGRESS-QUEUING
+ class PRIORITY-QUEUE
+  priority level 1
+ class VIDEO-QUEUE
+  bandwidth remaining percent 25
+  queue-buffers ratio 10
+ class MISSION-CRITICAL-QUEUE
+  bandwidth remaining percent 15
+  queue-buffers ratio 10
+ class TRANSACTIONAL-DATA-QUEUE
+  bandwidth remaining percent 10
+  queue-buffers ratio 10
+ class CONTROL-MGMT-QUEUE
+  bandwidth remaining percent 6
+  queue-buffers ratio 10
+ class BULK-DATA-QUEUE
+  bandwidth remaining percent 3
+  queue-buffers ratio 10
+ class SCAVENGER-QUEUE
+  bandwidth remaining percent 1
+  queue-buffers ratio 10
+  queue-limit dscp values  cs1 percent 80
+  queue-limit dscp values  af11 percent 100
+ class class-default
+  bandwidth remaining percent 20
+  queue-buffers ratio 20
+policy-map system-cpp-policy
+ class system-cpp-police-control-low-priority
+policy-map DVLAN-MARKING
+ class VOICE
+  set dscp ef
+ class CALL-SIGNALING
+  set dscp cs3
+ class INTERACTIVE-VIDEO
+  set dscp af41
+ class STREAMING-VIDEO
+  set dscp cs4
+ class TRANSACTIONAL-DATA
+  set dscp af21
+ class BULK-DATA
+  set dscp af11
+ class NETWORK-MGMT
+  set dscp cs2
+ class SCAVENGER
+  set dscp cs1
+ class MISSION-CRITICAL
+  set dscp af31
+ class BEST-EFFORT
+  set dscp default
+policy-map TRUST-DSCP
+ class class-default
+policy-map port_child_policy
+ class non-client-nrt-class
+  bandwidth remaining ratio 10
+policy-map VVLAN-MARKING
+ class VVLAN-VOICE
+  set dscp ef
+ class VVLAN-CALL-SIGNALING
+  set dscp cs3
+ class VVLAN-BEST-EFFORT
+  set dscp default
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 10.1.1.1 255.255.255.0
+ shutdown
+!
+interface Port-channel1
+ description SPC02TCa19-DB1
+ switchport trunk allowed vlan 2010,2051,3500,4010,4011,4020,4051
+ switchport mode trunk
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ ip address 40.199.66.31 255.255.255.0
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/2
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/3
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/4
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/5
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/6
+ description Peripherals
+ switchport access vlan 4010
+ switchport mode access
+ device-tracking
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/7
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/8
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/9
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/10
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/11
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/12
+ switchport access vlan 4010
+ switchport mode access
+ device-tracking
+ speed 100
+ duplex full
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/13
+ description IWAPS
+ switchport access vlan 2010
+ switchport mode access
+ device-tracking
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/14
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/15
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/16
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/17
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/18
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/19
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/20
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/21
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/22
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/23
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/24
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/25
+ description Masterclock
+ switchport access vlan 3010
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2057
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ speed 100
+ duplex full
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/26
+ description Masterclock
+ switchport access vlan 3010
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2057
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ speed 100
+ duplex full
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/27
+ description Masterclock
+ switchport access vlan 3010
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2057
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ speed 100
+ duplex full
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/28
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/29
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/30
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/31
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/32
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/33
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/34
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/35
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/36
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/37
+ description IP PHONE & HOST PORT
+ switchport access vlan 4051
+ switchport mode access
+ switchport nonegotiate
+ switchport voice vlan 2051
+ switchport port-security maximum 3
+ switchport port-security aging time 2
+ switchport port-security aging type inactivity
+ switchport port-security
+ device-tracking
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree guard root
+ service-policy output EGRESS-QUEUING
+!
+interface GigabitEthernet1/0/38
+ description IWAPS
+ switchport access vlan 2010
+ switchport mode access
+ device-tracking
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/39
+ description Cat9300-Mgmt
+ switchport access vlan 3500
+ switchport mode access
+ device-tracking
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/40
+ description Cat9300-Mgmt
+ switchport access vlan 3500
+ switchport mode access
+ device-tracking
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/41
+ description Cat9300-Mgmt
+ switchport access vlan 3500
+ switchport mode access
+ device-tracking
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/42
+ description Cat9300-Mgmt
+ switchport access vlan 3500
+ switchport mode access
+ device-tracking
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/43
+ description Cat9300-Mgmt
+ switchport access vlan 3500
+ switchport mode access
+ device-tracking
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/44
+ switchport access vlan 4010
+ switchport mode access
+ device-tracking
+ speed 100
+ duplex full
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/45
+ switchport access vlan 4010
+ switchport mode access
+ device-tracking
+ speed 100
+ duplex full
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/46
+ switchport access vlan 4010
+ switchport mode access
+ device-tracking
+ speed 100
+ duplex full
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/47
+ description Access Points
+ switchport access vlan 2010
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/48
+ switchport access vlan 4010
+ switchport mode access
+ device-tracking
+ speed 100
+ duplex full
+ spanning-tree portfast
+!
+interface GigabitEthernet1/1/1
+ description SPC02TCa19-DB1
+ switchport trunk allowed vlan 2010,2051,3500,4010,4011,4020,4051
+ switchport mode trunk
+ channel-group 1 mode desirable non-silent
+ spanning-tree portfast trunk
+!
+interface GigabitEthernet1/1/2
+ description SPC02TCa19-DB1
+ switchport trunk allowed vlan 2010,2051,3500,4010,4011,4020,4051
+ switchport mode trunk
+ channel-group 1 mode desirable non-silent
+ spanning-tree portfast trunk
+!
+interface GigabitEthernet1/1/3
+!
+interface GigabitEthernet1/1/4
+!
+interface TenGigabitEthernet1/1/1
+!
+interface TenGigabitEthernet1/1/2
+!
+interface TenGigabitEthernet1/1/3
+!
+interface TenGigabitEthernet1/1/4
+!
+interface TenGigabitEthernet1/1/5
+!
+interface TenGigabitEthernet1/1/6
+!
+interface TenGigabitEthernet1/1/7
+!
+interface TenGigabitEthernet1/1/8
+!
+interface FortyGigabitEthernet1/1/1
+!
+interface FortyGigabitEthernet1/1/2
+!
+interface TwentyFiveGigE1/1/1
+!
+interface TwentyFiveGigE1/1/2
+!
+interface AppGigabitEthernet1/0/1
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip forward-protocol nd
+no ip http server
+ip http authentication local
+no ip http secure-server
+ip http client source-interface GigabitEthernet0/0
+ip route vrf Mgmt-vrf 0.0.0.0 0.0.0.0 40.199.66.254
+ip tacacs source-interface GigabitEthernet0/0
+ip ssh source-interface GigabitEthernet0/0
+ip scp server enable
+!
+!
+!
+logging facility syslog
+logging host 40.199.57.100 vrf Mgmt-vrf
+logging host 40.199.61.121 vrf Mgmt-vrf
+logging host 40.199.61.147 vrf Mgmt-vrf
+logging host 40.199.61.82 vrf Mgmt-vrf
+!
+!
+snmp-server community lilly2kr RO
+snmp-server community lilly2kw RW
+snmp-server trap-source GigabitEthernet0/0
+snmp-server source-interface informs GigabitEthernet0/0
+snmp-server contact PR Telecom 787-257-6283
+snmp-server enable traps snmp authentication linkdown linkup coldstart warmstart
+snmp-server enable traps envmon fan shutdown supply temperature status
+snmp-server enable traps config
+snmp-server host 40.199.61.121 lilly2kr
+snmp-server host 40.199.61.147 lilly2kr
+snmp-server host 40.199.61.147 vrf Mgmt-vrf lilly2kr
+snmp-server host 40.199.61.82 lilly2kr
+snmp-server host 40.199.61.82 vrf Mgmt-vrf lilly2kr
+snmp-server host 40.199.61.121 lilly2kw
+snmp-server host 40.199.61.147 lilly2kw
+snmp-server host 40.199.61.147 vrf Mgmt-vrf lilly2kw
+snmp-server host 40.199.61.82 lilly2kw
+snmp-server host 40.199.61.82 vrf Mgmt-vrf lilly2kw
+tacacs server 40.199.61.73
+ address ipv4 40.199.61.73
+ key 7 082359421C1510
+tacacs server 40.199.30.141
+ address ipv4 40.199.30.141
+ key 7 070D34405B050C
+!
+!
+!
+control-plane
+ service-policy input system-cpp-policy
+!
+banner motd ^C
+     **************************
+     *  Private Network       *
+     * Authorized Access Only *
+     **************************
+
+^C
+!
+line con 0
+ exec-timeout 20 0
+ privilege level 15
+ stopbits 1
+line vty 0 4
+ exec-timeout 60 0
+ length 0
+ transport input ssh
+line vty 5 15
+ exec-timeout 20 0
+ transport input ssh
+line vty 16 31
+ transport input ssh
+!
+call-home
+ ! If contact email address in call-home is configured as sch-smart-licensing@cisco.com
+ ! the email address configured in Cisco Smart License Portal will be used as contact email address to send SCH notifications.
+ contact-email-addr sch-smart-licensing@cisco.com
+ http-proxy "40.0.40.10" port 9000
+ profile "CiscoTAC-1"
+  active
+  destination transport-method http
+ntp source GigabitEthernet0/0
+ntp server 40.199.43.253
+ntp server vrf Mgmt-vrf 40.199.43.253
+!
+!
+!
+!
+!
+!
+end
+
+SPC12TCa19-AB1#sh devi
+SPC12TCa19-AB1#sh device-t
+SPC12TCa19-AB1#sh device-tracking da
+SPC12TCa19-AB1#sh device-tracking database
+Binding Table has 39 entries, 39 dynamic (limit 200000)
+Codes: L - Local, S - Static, ND - Neighbor Discovery, ARP - Address Resolution Protocol, DH4 - IPv4 DHCP, DH6 - IPv6 DHCP, PKT - Other Packet, API - API created
+Preflevel flags (prlvl):
+0001:MAC and LLA match     0002:Orig trunk            0004:Orig access
+0008:Orig trusted trunk    0010:Orig trusted access   0020:DHCP assigned
+0040:Cga authenticated     0080:Cert authenticated    0100:Statically assigned
+
+
+    Network Layer Address                   Link Layer Address Interface  vlan  prlvl age    state     Time left
+ARP 169.254.250.241                         a4bb.6d51.a30b     Gi1/0/4    4051  0005  1053mn STALE     try 0 27335 s
+ARP 169.254.242.20                          cc48.3a9f.85de     Gi1/0/33   4051  0005  530mn  STALE     try 0 57262 s
+ARP 169.254.202.204                         0021.3201.cacc     Gi1/0/27   3010  0005  24s    REACHABLE 291 s
+ARP 169.254.202.203                         0021.3201.cacb     Gi1/0/26   3010  0005  36s    REACHABLE 275 s
+ARP 169.254.202.202                         0021.3201.caca     Gi1/0/25   3010  0005  57s    REACHABLE 253 s
+ARP 169.254.183.167                         7478.278e.4e41     Gi1/0/5    4051  0005  335mn  STALE     try 0 68695 s
+ARP 40.199.79.122                           881d.fc0c.52dc     Gi1/0/13   2010  0005  17s    REACHABLE 292 s
+ARP 40.199.66.77                            00b8.b39f.f500     Gi1/0/41   3500  0005  28s    REACHABLE 275 s
+ARP 40.199.66.76                            0cd0.f887.9e80     Gi1/0/40   3500  0005  52s    REACHABLE 261 s
+ARP 40.199.66.31                            0cd0.f89d.9500     Gi1/0/43   3500  0005  2s     REACHABLE 304 s
+ARP 40.199.66.30                            0cd0.f887.9e00     Gi1/0/42   3500  0005  55s    REACHABLE 260 s
+ARP 40.199.65.198                           0006.b400.480f     Gi1/0/6    4010  0005  120mn  STALE     try 0 83428 s
+ARP 40.199.65.197                           0006.b400.47ee     Gi1/0/12   4010  0005  63mn   STALE     try 0 87341 s
+ARP 40.199.65.191                           0006.b400.47e5     Gi1/0/46   4010  0005  89mn   STALE     try 0 83911 s
+ARP 40.199.65.144                           9c93.4e48.5fe7     Gi1/0/45   4010  0005  10mn   STALE     try 0 88810 s
+ARP 40.199.65.116                           9c93.4e48.5fe6     Gi1/0/48   4010  0005  77mn   STALE     try 0 85596 s
+ARP 40.199.59.93                            cc48.3a9f.85de     Gi1/0/33   4051  0005  434mn  STALE     try 0 62705 s
+ARP 40.199.59.82                            7478.278e.4e41     Gi1/0/5    4051  0005  39s    REACHABLE 275 s
+ARP 40.199.59.61                            e454.e86d.1f5f     Gi1/0/35   4051  0005  5s     REACHABLE 310 s
+ARP 40.199.59.55                            a4bb.6d56.ca40     Gi1/0/2    4051  0005  55s    REACHABLE 257 s
+ARP 40.199.59.26                            a4bb.6d51.a30b     Gi1/0/4    4051  0005  3mn    REACHABLE 82 s
+ARP 40.156.45.109                           b0fa.eb2f.f6f4     Gi1/0/3    2051  0005  21s    REACHABLE 290 s
+ARP 40.156.45.93                            547c.6948.c31a     Gi1/0/4    2051  0005  42s    REACHABLE 274 s
+ARP 40.156.45.92                            547c.6942.f498     Gi1/0/33   2051  0005  12s    REACHABLE 295 s
+ARP 40.156.45.75                            547c.6948.12f0     Gi1/0/35   2051  0005  41s    REACHABLE 270 s
+ARP 40.156.45.74                            547c.6942.c2ec     Gi1/0/2    2051  0005  41s    REACHABLE 268 s
+ARP 40.156.45.73                            7081.05b3.872a     Gi1/0/32   2051  0005  6s     REACHABLE 299 s
+ARP 40.156.45.44                            00cc.fcb2.26d0     Gi1/0/37   2051  0005  60s    REACHABLE 255 s
+ND  FE80::EFFD:FE0B:1714:7893               a4bb.6d51.a30b     Gi1/0/4    4051  0005  1053mn STALE     try 0 26366 s
+ND  FE80::4588:935A:5D2:85A4                cc48.3a9f.85de     Gi1/0/33   4051  0005  527mn  STALE     try 0 58165 s
+ND  FE80::11A8:ACF0:5CA:EB8                 7478.278e.4e41     Gi1/0/5    4051  0005  25s    REACHABLE 288 s
+ND  FE80::ED0:F8FF:FE9D:9500                0cd0.f89d.9500     Gi1/0/43   3500  0005  18mn   STALE     try 0 88779 s
+ND  FE80::ED0:F8FF:FE87:9E80                0cd0.f887.9e80     Gi1/0/40   3500  0005  14mn   STALE     try 0 88698 s
+ND  FE80::ED0:F8FF:FE87:9E00                0cd0.f887.9e00     Gi1/0/42   3500  0005  11mn   STALE     try 0 88449 s
+ND  FE80::C4A:2197:C3AE:1483                e454.e86d.1f5f     Gi1/0/35   4051  0005  66s    REACHABLE 247 s
+ND  FE80::2B8:B3FF:FE9F:F500                00b8.b39f.f500     Gi1/0/41   3500  0005  40mn   STALE     try 0 85677 s
+ND  FE80::221:32FF:FE01:CACC                0021.3201.cacc     Gi1/0/27   3010  0005  17mn   STALE     try 0 88957 s
+ND  FE80::221:32FF:FE01:CACB                0021.3201.cacb     Gi1/0/26   3010  0005  16mn   STALE     try 0 89298 s
+ND  FE80::221:32FF:FE01:CACA                0021.3201.caca     Gi1/0/25   3010  0005  60mn   STALE     try 0 84849 s
+
+SPC12TCa19-AB1#sh int statu
+SPC12TCa19-AB1#sh int status
+
+Port         Name               Status       Vlan       Duplex  Speed Type
+Gi1/0/1      IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/2      IP PHONE & HOST PO connected    4051       a-full  a-100 10/100/1000BaseTX
+Gi1/0/3      IP PHONE & HOST PO connected    4051       a-full  a-100 10/100/1000BaseTX
+Gi1/0/4      IP PHONE & HOST PO connected    4051       a-full  a-100 10/100/1000BaseTX
+Gi1/0/5      IP PHONE & HOST PO connected    4051       a-full a-1000 10/100/1000BaseTX
+Gi1/0/6      Peripherals        connected    4010       a-full  a-100 10/100/1000BaseTX
+Gi1/0/7      IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/8      IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/9      IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/10     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/11     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/12                        connected    4010         full    100 10/100/1000BaseTX
+Gi1/0/13     IWAPS              connected    2010       a-full a-1000 10/100/1000BaseTX
+Gi1/0/14     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/15     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/16     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/17     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/18     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/19     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/20     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/21     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/22     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/23     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/24     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/25     Masterclock        connected    3010         full    100 10/100/1000BaseTX
+Gi1/0/26     Masterclock        connected    3010         full    100 10/100/1000BaseTX
+Gi1/0/27     Masterclock        connected    3010         full    100 10/100/1000BaseTX
+Gi1/0/28     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/29     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/30     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/31     IP PHONE & HOST PO notconnect   4051         auto   auto 10/100/1000BaseTX
+Gi1/0/32     IP PHONE & HOST PO connected    4051       a-full  a-100 10/100/1000BaseTX
+Gi1/0/33     IP PHONE & HOST PO connected    4051       a-full  a-100 10/100/1000BaseTX
+Gi1/0/34     IP PHONE & HOST PO err-disabled 4051         auto   auto 10/100/1000BaseTX
+Gi1/0/35     IP PHONE & HOST PO connected    4051       a-full  a-100 10/100/1000BaseTX
+Gi1/0/36     IP PHONE & HOST PO err-disabled 4051         auto   auto 10/100/1000BaseTX
+Gi1/0/37     IP PHONE & HOST PO connected    4051       a-full  a-100 10/100/1000BaseTX
+Gi1/0/38     IWAPS              notconnect   2010         auto   auto 10/100/1000BaseTX
+Gi1/0/39     Cat9300-Mgmt       notconnect   3500         auto   auto 10/100/1000BaseTX
+Gi1/0/40     Cat9300-Mgmt       connected    3500       a-full a-1000 10/100/1000BaseTX
+Gi1/0/41     Cat9300-Mgmt       connected    3500       a-full a-1000 10/100/1000BaseTX
+Gi1/0/42     Cat9300-Mgmt       connected    3500       a-full a-1000 10/100/1000BaseTX
+Gi1/0/43     Cat9300-Mgmt       connected    3500       a-full a-1000 10/100/1000BaseTX
+Gi1/0/44                        notconnect   4010         full    100 10/100/1000BaseTX
+Gi1/0/45                        connected    4010         full    100 10/100/1000BaseTX
+Gi1/0/46                        connected    4010         full    100 10/100/1000BaseTX
+Gi1/0/47     Access Points      connected    2010       a-full a-1000 10/100/1000BaseTX
+Gi1/0/48                        connected    4010         full    100 10/100/1000BaseTX
+Gi1/1/1      SPC02TCa19-DB1     connected    trunk        full   1000 1000BaseSX SFP
+Gi1/1/2      SPC02TCa19-DB1     connected    trunk        full   1000 1000BaseSX SFP
+Gi1/1/3                         notconnect   1            auto   auto unknown
+Gi1/1/4                         notconnect   1            auto   auto unknown
+Ap1/0/1                         connected    1          a-full a-1000 App-hosting port
+Po1          SPC02TCa19-DB1     connected    trunk      a-full a-1000 N/A
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#sh ver
+SPC12TCa19-AB1#sh version
+Cisco IOS XE Software, Version 17.03.04
+Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.4, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Sat 03-Jul-21 01:55 by mcpre
+
+
+Cisco IOS-XE software, Copyright (c) 2005-2021 by cisco Systems, Inc.
+All rights reserved.  Certain components of Cisco IOS-XE software are
+licensed under the GNU General Public License ("GPL") Version 2.0.  The
+software code licensed under GPL Version 2.0 is free software that comes
+with ABSOLUTELY NO WARRANTY.  You can redistribute and/or modify such
+GPL code under the terms of GPL Version 2.0.  For more details, see the
+documentation or "License Notice" file accompanying the IOS-XE software,
+or the applicable URL provided on the flyer accompanying the IOS-XE
+software.
+
+
+ROM: IOS-XE ROMMON
+BOOTLDR: System Bootstrap, Version 17.3.2r, RELEASE SOFTWARE (P)
+
+SPC12TCa19-AB1 uptime is 1 year, 48 weeks, 11 hours, 41 minutes
+Uptime for this control processor is 1 year, 48 weeks, 11 hours, 43 minutes
+System returned to ROM by PowerOn
+System image file is "flash:packages.conf"
+Last reload reason: PowerOn
+
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+
+Technology Package License Information:
+
+------------------------------------------------------------------------------
+Technology-package                                     Technology-package
+Current                        Type                       Next reboot
+------------------------------------------------------------------------------
+network-advantage       Smart License                    network-advantage
+dna-advantage           Subscription Smart License       dna-advantage
+AIR License Level: AIR DNA Advantage
+Next reload AIR license Level: AIR DNA Advantage
+
+
+Smart Licensing Status: Registration Not Applicable/Not Applicable
+
+cisco C9300-48U (X86) processor with 1331366K/6147K bytes of memory.
+Processor board ID FCW2238S00E
+1 Virtual Ethernet interface
+52 Gigabit Ethernet interfaces
+8 Ten Gigabit Ethernet interfaces
+2 TwentyFive Gigabit Ethernet interfaces
+2 Forty Gigabit Ethernet interfaces
+2048K bytes of non-volatile configuration memory.
+8388608K bytes of physical memory.
+1638400K bytes of Crash Files at crashinfo:.
+11264000K bytes of Flash at flash:.
+
+Base Ethernet MAC Address          : 0c:d0:f8:9d:95:00
+Motherboard Assembly Number        : 73-18275-04
+Motherboard Serial Number          : FOC22361KSP
+Model Revision Number              : A0
+Motherboard Revision Number        : A0
+Model Number                       : C9300-48U
+System Serial Number               : FCW2238S00E
+CLEI Code Number                   :
+
+
+Switch Ports Model              SW Version        SW Image              Mode
+------ ----- -----              ----------        ----------            ----
+*    1 65    C9300-48U          17.03.04          CAT9K_IOSXE           INSTALL
+
+
+Configuration register is 0x102
+
+SPC12TCa19-AB1#sh int
+SPC12TCa19-AB1#sh interfaces tra
+SPC12TCa19-AB1#sh interfaces transceiver ?
+  detail          Show interface transceiver detail
+  module          Limit display to interfaces on module
+  properties      Show interface transceiver properties
+  supported-list  Show supported transceivers
+  |               Output modifiers
+  <cr>            <cr>
+
+SPC12TCa19-AB1#sh interfaces transceiver m
+SPC12TCa19-AB1#sh interfaces transceiver module 1
+If device is externally calibrated, only calibrated values are printed.
+++ : high alarm, +  : high warning, -  : low warning, -- : low alarm.
+NA or N/A: not applicable, Tx: transmit, Rx: receive.
+mA: milliamperes, dBm: decibels (milliwatts).
+
+                                             Optical   Optical
+             Temperature  Voltage  Current   Tx Power  Rx Power
+Port         (Celsius)    (Volts)  (mA)      (dBm)     (dBm)
+---------    -----------  -------  --------  --------  --------
+Gi1/1/1      31.1       3.30       3.0      -5.9      -9.3
+Gi1/1/2      30.7       3.30       3.1      -6.4      -9.1
+
+
+SPC12TCa19-AB1#sh cdp ne
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
+                  D - Remote, C - CVTA, M - Two-port Mac Relay
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+SPC12TCa19-AA1   Gig 1/0/40        161              S I   C9300-48U Gig 0/0
+SPC12TCa19-AB1   Gig 0/0           177              S I   C9300-48U Gig 1/0/43
+SPC12TCa19-AB1   Gig 1/0/43        145              S I   C9300-48U Gig 0/0
+SPC12TCa19-AC1   Gig 1/0/42        167              S I   C9300-48U Gig 0/0
+SPC02TCa19-DB1   Gig 1/1/1         154             R S I  C9407R    Ten 1/1/0/8
+SPC02TCa19-DB1   Gig 1/1/2         136             R S I  C9407R    Ten 2/1/0/8
+WPC08N-OUT-WWa   Gig 1/0/13        151             T B I  AIR-CAP37 Gig 0
+SPC12TCa19-AO1   Gig 1/0/41        136              S I   C9300-48U Gig 0/0
+WPC12N-OUT-NWa   Gig 1/0/47        156             T B I  AIR-CAP37 Gig 0
+
+Total cdp entries displayed : 9
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#
+SPC12TCa19-AB1#sh cdp ne de
+SPC12TCa19-AB1#sh cdp ne detail
+-------------------------
+Device ID: SPC12TCa19-AA1
+Entry address(es):
+  IP address: 40.199.66.76
+Platform: cisco C9300-48U,  Capabilities: Switch IGMP
+Interface: GigabitEthernet1/0/40,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 121 sec
+
+Version :
+Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.4, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Sat 03-Jul-21 01:55 by mcpre
+
+advertisement version: 2
+VTP Management Domain: 'lilly'
+Duplex: full
+Management address(es):
+  IP address: 40.199.66.76
+
+-------------------------
+Device ID: SPC12TCa19-AB1
+Entry address(es):
+  IP address: 40.199.66.31
+Platform: cisco C9300-48U,  Capabilities: Switch IGMP
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet1/0/43
+Holdtime : 135 sec
+
+Version :
+Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.4, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Sat 03-Jul-21 01:55 by mcpre
+
+advertisement version: 2
+VTP Management Domain: 'lilly'
+Native VLAN: 3500
+Duplex: full
+Management address(es):
+  IP address: 40.199.66.31
+
+-------------------------
+Device ID: SPC12TCa19-AB1
+Entry address(es):
+  IP address: 40.199.66.31
+Platform: cisco C9300-48U,  Capabilities: Switch IGMP
+Interface: GigabitEthernet1/0/43,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 146 sec
+
+Version :
+Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.4, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Sat 03-Jul-21 01:55 by mcpre
+
+advertisement version: 2
+VTP Management Domain: 'lilly'
+Duplex: full
+Management address(es):
+  IP address: 40.199.66.31
+
+-------------------------
+Device ID: SPC12TCa19-AC1
+Entry address(es):
+  IP address: 40.199.66.30
+Platform: cisco C9300-48U,  Capabilities: Switch IGMP
+Interface: GigabitEthernet1/0/42,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 179 sec
+
+Version :
+Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.4, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Sat 03-Jul-21 01:55 by mcpre
+
+advertisement version: 2
+VTP Management Domain: 'lilly'
+Duplex: full
+Management address(es):
+  IP address: 40.199.66.30
+
+-------------------------
+Device ID: SPC02TCa19-DB1
+Entry address(es):
+  IP address: 40.199.135.254
+Platform: cisco C9407R,  Capabilities: Router Switch IGMP
+Interface: GigabitEthernet1/1/1,  Port ID (outgoing port): TenGigabitEthernet1/1/0/8
+Holdtime : 164 sec
+
+Version :
+Cisco IOS Software [Gibraltar], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.12.4, RELEASE SOFTWARE (fc5)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 09-Jul-20 21:49 by mcpre
+
+advertisement version: 2
+VTP Management Domain: 'lilly'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 40.199.135.254
+
+-------------------------
+Device ID: SPC02TCa19-DB1
+Entry address(es):
+  IP address: 40.199.135.254
+Platform: cisco C9407R,  Capabilities: Router Switch IGMP
+Interface: GigabitEthernet1/1/2,  Port ID (outgoing port): TenGigabitEthernet2/1/0/8
+Holdtime : 144 sec
+
+Version :
+Cisco IOS Software [Gibraltar], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 16.12.4, RELEASE SOFTWARE (fc5)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Thu 09-Jul-20 21:49 by mcpre
+
+advertisement version: 2
+VTP Management Domain: 'lilly'
+Native VLAN: 1
+Duplex: full
+Management address(es):
+  IP address: 40.199.135.254
+
+-------------------------
+Device ID: WPC08N-OUT-WWa
+Entry address(es):
+  IP address: 40.199.79.122
+  IPv6 address: FE80::8A1D:FCFF:FE0C:52DC  (link-local)
+Platform: cisco AIR-CAP3702P-A-K9,  Capabilities: Trans-Bridge Source-Route-Bridge IGMP
+Interface: GigabitEthernet1/0/13,  Port ID (outgoing port): GigabitEthernet0
+Holdtime : 160 sec
+
+Version :
+Cisco IOS Software, C3700 Software (AP3G2-K9W8-M), Version 15.3(3)JPN2, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2023 by Cisco Systems, Inc.
+Compiled Wed 08-Mar-23 00:23 by mcpre
+
+advertisement version: 2
+Duplex: full
+Power drawn: 16.800 Watts
+Power request id: 36913, Power management id: 6
+Power request levels are:16800 15400 13000 0 0
+Management address(es):
+  IP address: 40.199.79.122
+
+-------------------------
+Device ID: SPC12TCa19-AO1
+Entry address(es):
+  IP address: 40.199.66.77
+Platform: cisco C9300-48U,  Capabilities: Switch IGMP
+Interface: GigabitEthernet1/0/41,  Port ID (outgoing port): GigabitEthernet0/0
+Holdtime : 146 sec
+
+Version :
+Cisco IOS Software [Amsterdam], Catalyst L3 Switch Software (CAT9K_IOSXE), Version 17.3.4, RELEASE SOFTWARE (fc3)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Sat 03-Jul-21 01:55 by mcpre
+
+advertisement version: 2
+VTP Management Domain: 'lilly'
+Duplex: full
+Management address(es):
+  IP address: 40.199.66.77
+
+-------------------------
+Device ID: WPC12N-OUT-NWa
+Entry address(es):
+  IP address: 40.199.79.117
+  IPv6 address: FE80::8A1D:FCFF:FE03:C40C  (link-local)
+Platform: cisco AIR-CAP3702P-A-K9,  Capabilities: Trans-Bridge Source-Route-Bridge IGMP
+Interface: GigabitEthernet1/0/47,  Port ID (outgoing port): GigabitEthernet0
+Holdtime : 162 sec
+
+Version :
+Cisco IOS Software, C3700 Software (AP3G2-K9W8-M), Version 15.3(3)JPN2, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2023 by Cisco Systems, Inc.
+Compiled Wed 08-Mar-23 00:23 by mcpre
+
+advertisement version: 2
+Duplex: full
+Power drawn: 16.800 Watts
+Power request id: 49225, Power management id: 6
+Power request levels are:16800 15400 13000 0 0
+Management address(es):
+  IP address: 40.199.79.117
+
+
+Total cdp entries displayed : 9
+SPC12TCa19-AB1#

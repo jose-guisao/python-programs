@@ -25,13 +25,17 @@ def web_scrape(url):
     fname_stamp = datetime.datetime.now().strftime("_%d%b%Y-%H%M")
     # use page title for db name and file name
     fname = bs_obj.title
+    #print(fname) ## DEBUG   
     # # removing special characters from a list of items in python
     fname = ([re.sub('[^a-zA-Z]+', '', _) for _ in fname])
-    print(fname, fname_stamp)
+    #nombre_de_archivo = ''.join(fname) # convert list to string
+    print(fname[0]+fname_stamp) #debugging
     # convert list to string
+    ## ESTE DIRECTORIO c:/Users/admin/OneDrive/Documents/python-programs/images/ no existe en esta PC
+    ## y da error, tuve que cambiarlo a jguis
     f = open(
-        "c:/Users/admin/OneDrive/Documents/python-programs/images/"+''.join(fname), "w")
-    db_name = "c:/Users/admin/OneDrive/Documents/python-programs/images/" + \
+        "c:/Users/jguis/OneDrive/Documents/python-programs/images/"+''.join(fname), "w")
+    db_name = "c:/Users/jguis/OneDrive/Documents/python-programs/images/" + \
         ''.join(fname) + '.db'
     photos = []  # list to save links
     names = []

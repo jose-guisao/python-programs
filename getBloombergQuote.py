@@ -58,7 +58,7 @@ name_box = soup.findAll('div', attrs={'class': regex})
 #name = name_box[0].text.strip() # strip() is used to remove starting and trailing
 #print(name_box)
 
-regex = re.compile(r'Price\B')
+#regex = re.compile(r'Price\B')
 # get the index price
 price_box = soup.findAll('div', attrs={'class':regex})
 

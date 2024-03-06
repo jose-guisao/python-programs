@@ -57,12 +57,12 @@ names=[]
 ##    time.sleep(3)
 ## Move to next page
 ## Search for images links
-    try:
+try:
 ##        next_pag = driver.find_element_by_xpath("//*/div/div[3]/a")
 ##        # next_pag = driver.find_element_by_xpath("//*[contains(text(), 'next page')]")
 ##        next_pag.click()
         bs_obj = BSoup(driver.page_source, 'html.parser')
-    except (ElementNotVisibleException, ElementClickInterceptedException) as exception:
+except (ElementNotVisibleException, ElementClickInterceptedException) as exception:
 ##        print("Element is no visible Message: element not interactable")
 ##        popup_close = driver.find_element_by_xpath("//*[@id='revexitcloseme']")
 ##        popup_close.click()
