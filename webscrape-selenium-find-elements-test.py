@@ -20,6 +20,7 @@ query = input("Enter search entries separeted by space: ")
 url2='https://duckduckgo.com/?q=tech+magazine+covers&t=chromentp&iar=images&iax=images&ia=images'
 url1='https://duckduckgo.com/?t=h_&q=Positive+Quotes&iax=images&ia=images'
 url3='https://duckduckgo.com/?q=mensajes+positivos+cristianos&t=h_&iax=images&ia=images'
+url4='https://duckduckgo.com/?q=mensajes+cristianos+cortos&t=newext&atb=v284-1&iar=images&iax=images&ia=images'
 driver.get(url3)
 time.sleep(10)
 driver.implicitly_wait(0.5)
