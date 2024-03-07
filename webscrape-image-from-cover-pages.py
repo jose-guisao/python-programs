@@ -27,9 +27,9 @@ url1='https://www.google.com/search?q=tech+magazine+covers&sca_esv=482705d0823fd
 url3='https://www.google.com/search?q=time+magazine+covers&tbm=isch&ved=2ahUKEwiP2O6Vp9WEAxV4mbAFHcIQDK0Q2-cCegQIABAA&oq=time+magazine+covers&gs_lp=EgNpbWciFHRpbWUgbWFnYXppbmUgY292ZXJzMgoQABiABBiKBRhDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYigUYQzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI2m5Q0xlY5TVwAHgAkAEAmAGjAaAB5AqqAQMzLjm4AQPIAQD4AQGKAgtnd3Mtd2l6LWltZ8ICBhAAGAcYHsICBBAAGB7CAgYQABgIGB7CAggQABgIGAcYHogGAQ&sclient=img&ei=0vbiZY-nN_iywt0PwqGw6Ao&bih=569&biw=1280#imgrc=0XF2AkGmE9b0AM'
 urlz='https://duckduckgo.com/?q=mens+magazine+covers&t=chromentp&iar=images&iax=images&ia=images'
 urlw='https://duckduckgo.com/?q=newspaper+front+pages+today&t=chromentp&iar=images&iax=images&ia=images'
-
+urlv='https://duckduckgo.com/?t=h_&q=Positive+Quotes&iax=images&ia=images'
 #driver.get("https://www.selenium.dev/selenium/web/web-form.html")
-driver.get(urlw)
+driver.get(urlv)
 time.sleep(10)
 driver.implicitly_wait(0.5)
 
@@ -67,8 +67,8 @@ for fn in range(1,len(imgUrls)+1):
     extension = imghdr.what(file=None, h=response.content)
     save_file = ffname+f"-{fn}.{extension}"
     print(datafilepath+save_file,"","https://"+imgUrls[fn])
-    with open(datafilepath+save_file,'wb') as f:
-      f.write(response.content)
+    # with open(datafilepath+save_file,'wb') as f:
+      # f.write(response.content)
   except:
     print('error in url')
     
